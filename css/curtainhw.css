@@ -1,0 +1,633 @@
+@charset "UTF-8";
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 11, 2018, 12:36:15 AM
+    Author     : Norm
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 10, 2018, 10:07:22 PM
+    Author     : Norm
+*/
+@import url("https://fonts.googleapis.com/css?family=IM+Fell+English+SC|Italianno|Roboto:300,300i,400,500,700");
+/*
+font-family: 'IM Fell English SC', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Italianno', cursive;
+*/
+@import url("https://fonts.googleapis.com/css?family=IM+Fell+English+SC|Italianno|Roboto:300,300i,400,500,700");
+@font-face {
+  font-family: Andulus;
+  src: local("D:ÞvelopmentScottishWroughtIronpublic_html\fonts\andalus\2.ttf");
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-size: calc(16px + (24 - 14) * ((100vw - 300px) / (1200 - 300)));
+}
+
+.block-id-letter {
+  /*display: inline;*/
+  display: none;
+  border: 2px solid black;
+  font-size: 1em;
+}
+
+.spacer30 {
+  height: 30px;
+}
+
+.spacer20 {
+  height: 20px;
+}
+
+.spacer10 {
+  height: 10px;
+}
+
+.signature .signature-block {
+  /* Terms */
+  font-family: "IM Fell English SC", serif;
+  font-size: 28px;
+  color: #000000;
+}
+
+.heading {
+  text-align: center;
+  /* Headlines */
+  font-family: "IM Fell English SC", serif;
+  font-size: 32px;
+  /*  @if $fontUsePercent == true {
+      font-size: calc(16px + (32 - 16) * ((1200px - 300px) / (1200 - 300)));
+    } @else {
+      font-size: 32px;
+    }*/
+  color: #000000;
+  font-weight: bold;
+}
+
+.sub-heading {
+  text-align: center;
+  /* Headlines */
+  font-family: "IM Fell English SC", serif;
+  font-size: 32px;
+  /*  @if $fontUsePercent == true {
+      font-size: calc(16px + (32 - 16) * ((1200px - 300px) / (1200 - 300)));
+    } @else {
+      font-size: 32px;
+    }*/
+  color: #000000;
+  font-weight: bold;
+}
+
+.small-sub-heading {
+  text-align: center;
+  /* Navigation Menu */
+  font-family: "IM Fell English SC", serif;
+  font-size: 19px;
+  color: #000000;
+  font-weight: bold;
+}
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 11, 2018, 10:50:08 PM
+    Author     : Norm
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 10, 2018, 10:07:22 PM
+    Author     : Norm
+*/
+/*
+font-family: 'IM Fell English SC', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Italianno', cursive;
+*/
+@font-face {
+  font-family: Andulus;
+  src: local("D:ÞvelopmentScottishWroughtIronpublic_html\fonts\andalus\2.ttf");
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-size: calc(16px + (24 - 14) * ((100vw - 300px) / (1200 - 300)));
+}
+
+.block-id-letter {
+  /*display: inline;*/
+  display: none;
+  border: 2px solid black;
+  font-size: 1em;
+}
+
+.spacer30 {
+  height: 30px;
+}
+
+.spacer20 {
+  height: 20px;
+}
+
+.spacer10 {
+  height: 10px;
+}
+
+.signature .signature-block {
+  /* Terms */
+  font-family: "IM Fell English SC", serif;
+  font-size: 28px;
+  color: #000000;
+}
+
+.heading {
+  text-align: center;
+  /* Headlines */
+  font-family: "IM Fell English SC", serif;
+  font-size: 32px;
+  /*  @if $fontUsePercent == true {
+      font-size: calc(16px + (32 - 16) * ((1200px - 300px) / (1200 - 300)));
+    } @else {
+      font-size: 32px;
+    }*/
+  color: #000000;
+  font-weight: bold;
+}
+
+.sub-heading {
+  text-align: center;
+  /* Headlines */
+  font-family: "IM Fell English SC", serif;
+  font-size: 32px;
+  /*  @if $fontUsePercent == true {
+      font-size: calc(16px + (32 - 16) * ((1200px - 300px) / (1200 - 300)));
+    } @else {
+      font-size: 32px;
+    }*/
+  color: #000000;
+  font-weight: bold;
+}
+
+.small-sub-heading {
+  text-align: center;
+  /* Navigation Menu */
+  font-family: "IM Fell English SC", serif;
+  font-size: 19px;
+  color: #000000;
+  font-weight: bold;
+}
+
+/*@import "header.scss";*/
+.back-to-top {
+  text-align: right;
+}
+
+#footer {
+  /*border: 3px solid red;*/
+}
+#footer .footer-block {
+  padding-top: 15px;
+  width: 100%;
+  /*height: 300px;*/
+  background-color: #EDEDED;
+  grid-template: 60px 100px 30px 150px 30px/1fr 1.5fr 1fr;
+}
+@media screen and (min-width: 400px) {
+  #footer .footer-block {
+    display: grid;
+  }
+}
+@media screen and (min-width: 400px) {
+  #footer .footer-block {
+    grid-template: 100px 30px 150px 30px/1fr 1.5fr 1fr;
+    grid-template-areas: "a a a" "aa aa aa" "b c d" "e f g";
+  }
+}
+@media screen and (max-width: 650px) {
+  #footer .footer-block {
+    grid-template: 60px 100px 30px 150px 30px/1fr 1.5fr 1fr;
+    grid-template-areas: "h h h" "a a a" "aa aa aa" "b c d" "e f g";
+  }
+}
+#footer .footer-block .block-id-letter {
+  display: none;
+}
+#footer .footer-block .box {
+  /*border: solid 3px blue;*/
+}
+#footer .footer-block .h {
+  /*border: 3px solid red;*/
+  grid-area: h;
+}
+#footer .footer-block .h img {
+  margin: 0 auto;
+  /*padding-left: 35px;*/
+  display: none;
+}
+@media screen and (max-width: 649px) {
+  #footer .footer-block .h img {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 650px) {
+  #footer .footer-block .h img {
+    display: none;
+  }
+}
+#footer .footer-block .a {
+  /*@include font1;*/
+  /*border: 3px solid red;*/
+  height: auto;
+  /*padding-top: 10px;*/
+  grid-area: a;
+  display: flex;
+  justify-content: center;
+  /*      .image-small {
+          display: none;
+          @include max-mixin(625px) {
+            display: inherit;
+          }
+        }*/
+}
+#footer .footer-block .a .wide-footer h1 {
+  font-family: "IM Fell English SC", serif;
+  color: #000000;
+  font-weight: bold;
+}
+@media screen and (max-width: 620px) {
+  #footer .footer-block .a .wide-footer h1 {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 620px) and (max-width: 901px) {
+  #footer .footer-block .a .wide-footer h1 {
+    font-size: 38px;
+  }
+}
+@media screen and (min-width: 901px) {
+  #footer .footer-block .a .wide-footer h1 {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 649px) {
+  #footer .footer-block .a .wide-footer h1 {
+    /* Headlines */
+    font-family: "IM Fell English SC", serif;
+    font-size: 32px;
+    /*  @if $fontUsePercent == true {
+        font-size: calc(16px + (32 - 16) * ((1200px - 300px) / (1200 - 300)));
+      } @else {
+        font-size: 32px;
+      }*/
+    color: #000000;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 450px) {
+  #footer .footer-block .a .wide-footer h1 {
+    display: none;
+  }
+}
+#footer .footer-block .a .narrow-footer h1 {
+  display: none;
+  font-family: "IM Fell English SC", serif;
+  color: #000000;
+  font-weight: bold;
+}
+@media screen and (max-width: 620px) {
+  #footer .footer-block .a .narrow-footer h1 {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 620px) and (max-width: 901px) {
+  #footer .footer-block .a .narrow-footer h1 {
+    font-size: 38px;
+  }
+}
+@media screen and (min-width: 901px) {
+  #footer .footer-block .a .narrow-footer h1 {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #footer .footer-block .a .narrow-footer h1 {
+    /*border: 3px solid blue;*/
+    display: inherit;
+    text-align: center;
+  }
+}
+#footer .footer-block .a .image-big {
+  display: inherit;
+}
+@media screen and (max-width: 650px) {
+  #footer .footer-block .a .image-big {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  #footer .footer-block .a img {
+    display: none;
+  }
+}
+#footer .footer-block .aa {
+  /*border: 3px solid red;*/
+  grid-area: aa;
+  margin: 0 auto;
+  /*padding-top: 20px;*/
+  /* ORDER */
+  font-family: "Roboto Medium", sans-serif;
+  font-size: 19px;
+  color: #000000;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+#footer .footer-block .aa .one-line {
+  display: flex;
+  justify-content: center;
+}
+#footer .footer-block .aa .two-lines {
+  display: none;
+}
+@media screen and (max-width: 400px) {
+  #footer .footer-block .aa .one-line {
+    display: none;
+  }
+  #footer .footer-block .aa .two-lines {
+    display: flex;
+    justify-content: center;
+  }
+}
+#footer .footer-block .b {
+  grid-area: b;
+  /* ORDER */
+  font-family: "Roboto Medium", sans-serif;
+  font-size: 19px;
+  color: #000000;
+  /*      display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;*/
+  text-align: center;
+}
+#footer .footer-block .b h3 {
+  line-height: 0.75;
+}
+#footer .footer-block .b .map {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#footer .footer-block .c {
+  grid-area: c;
+  /* ORDER */
+  font-family: "Roboto Medium", sans-serif;
+  font-size: 19px;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#footer .footer-block .c .detail-block .details .name-address {
+  /* Paragraph M */
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 16px;
+  color: #000000;
+}
+@media screen and (max-width: 450px) {
+  #footer .footer-block .c .detail-block .details .name-address {
+    font-size: 12px;
+  }
+}
+#footer .footer-block .d {
+  grid-area: d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+#footer .footer-block .d .facebook {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#footer .footer-block .e {
+  grid-area: e;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+#footer .footer-block .f {
+  grid-area: f;
+  text-align: center;
+  /*padding-bottom: 20px;*/
+  /* Credit */
+  font-family: "Andulus", serif;
+  font-size: 19px;
+  color: #000000;
+  font-size: 14px;
+  /*line-height: 0.75;*/
+  /*      display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-end;*/
+}
+#footer .footer-block .g {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  grid-area: g;
+}
+#footer .footer-block .g .facebook {
+  padding-left: 10px;
+}
+
+.main {
+  /*padding-left: 25px;*/
+  margin: 0 auto;
+  /*  .heading {
+      @include font2;
+      text-align: center;
+      maxwidth: 400px;
+    }*/
+}
+.main .big-heading {
+  font-family: "IM Fell English SC", serif;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+  maxwidth: 400px;
+}
+@media screen and (max-width: 620px) {
+  .main .big-heading {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 620px) and (max-width: 901px) {
+  .main .big-heading {
+    font-size: 38px;
+  }
+}
+@media screen and (min-width: 901px) {
+  .main .big-heading {
+    font-size: 48px;
+  }
+}
+.main .forged-rods, .main .curtain-rings, .main .large-brackets, .main .small-brackets, .main .shelf-brackets, .main .star-shelf-bracket {
+  margin: 0 auto;
+  display: grid;
+  grid-template: 1fr 3fr 3fr/1fr 1fr;
+  /*grid-template-areas: "image copy";*/
+  grid-template-areas: "heading heading" "image copy" "image copy";
+  width: 80%;
+  text-align: center;
+  /*margin: 0 auto;*/
+  /*    .heading {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        @include font2;
+      }*/
+  /* control narrow version here */
+  background-color: #EDEDED;
+}
+.main .forged-rods .copy, .main .curtain-rings .copy, .main .large-brackets .copy, .main .small-brackets .copy, .main .shelf-brackets .copy, .main .star-shelf-bracket .copy {
+  text-align: left;
+  font-size: 14px;
+  display: block;
+  float: left;
+  padding: 20px;
+  padding: 10px 20px 10px 20px;
+  /* Paragraphs */
+  font-family: "Roboto Light", sans-serif;
+  font-size: 19px;
+  /*font-size: 119%;*/
+  color: #000000;
+  /*      .line1 {
+          color: red;
+        }*/
+  /*      .order-link {
+          font-weight: bold;
+          font-size: 20px;
+          text-align: center;
+        }*/
+}
+.main .forged-rods .copy .bold, .main .curtain-rings .copy .bold, .main .large-brackets .copy .bold, .main .small-brackets .copy .bold, .main .shelf-brackets .copy .bold, .main .star-shelf-bracket .copy .bold {
+  font-weight: bold;
+}
+.main .forged-rods .copy .red-words, .main .curtain-rings .copy .red-words, .main .large-brackets .copy .red-words, .main .small-brackets .copy .red-words, .main .shelf-brackets .copy .red-words, .main .star-shelf-bracket .copy .red-words {
+  /* Red Words */
+  font-family: "Roboto Bold", sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  color: #700707;
+  font-weight: bold;
+}
+.main .forged-rods .copy .item-name, .main .curtain-rings .copy .item-name, .main .large-brackets .copy .item-name, .main .small-brackets .copy .item-name, .main .shelf-brackets .copy .item-name, .main .star-shelf-bracket .copy .item-name {
+  /* Item Name */
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 24px;
+  color: #000000;
+  font-weight: bold;
+}
+@media screen and (max-width: 700px) {
+  .main .forged-rods, .main .curtain-rings, .main .large-brackets, .main .small-brackets, .main .shelf-brackets, .main .star-shelf-bracket {
+    /*display: block;*/
+    grid-template: 3fr/1fr;
+    grid-template-areas: "heading" "image" "copy";
+  }
+}
+.main .forged-rods .box, .main .curtain-rings .box, .main .large-brackets .box, .main .small-brackets .box, .main .shelf-brackets .box, .main .star-shelf-bracket .box {
+  background-color: #EDEDED;
+  color: black;
+  /*border: 3px solid red;*/
+  /*height: 100px;*/
+}
+.main .forged-rods .box .item-name, .main .curtain-rings .box .item-name, .main .large-brackets .box .item-name, .main .small-brackets .box .item-name, .main .shelf-brackets .box .item-name, .main .star-shelf-bracket .box .item-name {
+  /* Item Name */
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 24px;
+  color: #000000;
+}
+.main .forged-rods .box .paragraph, .main .curtain-rings .box .paragraph, .main .large-brackets .box .paragraph, .main .small-brackets .box .paragraph, .main .shelf-brackets .box .paragraph, .main .star-shelf-bracket .box .paragraph {
+  /* Paragraphs */
+  font-family: "Roboto Light", sans-serif;
+  font-size: 19px;
+  /*font-size: 119%;*/
+  color: #000000;
+}
+.main .forged-rods .box .paragraph .red-words, .main .curtain-rings .box .paragraph .red-words, .main .large-brackets .box .paragraph .red-words, .main .small-brackets .box .paragraph .red-words, .main .shelf-brackets .box .paragraph .red-words, .main .star-shelf-bracket .box .paragraph .red-words {
+  /* Red Words */
+  font-family: "Roboto Bold", sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  color: #700707;
+}
+.main .forged-rods .box .order, .main .curtain-rings .box .order, .main .large-brackets .box .order, .main .small-brackets .box .order, .main .shelf-brackets .box .order, .main .star-shelf-bracket .box .order {
+  /* ORDER */
+  font-family: "Roboto Medium", sans-serif;
+  font-size: 19px;
+  color: #000000;
+  font-weight: bold;
+}
+.main .forged-rods .box .item-name, .main .curtain-rings .box .item-name, .main .large-brackets .box .item-name, .main .small-brackets .box .item-name, .main .shelf-brackets .box .item-name, .main .star-shelf-bracket .box .item-name {
+  /* Item Name */
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 24px;
+  color: #000000;
+  font-weight: bold;
+}
+.main .forged-rods .a, .main .curtain-rings .a, .main .large-brackets .a, .main .small-brackets .a, .main .shelf-brackets .a, .main .star-shelf-bracket .a {
+  /*border: 3px solid red;*/
+  grid-area: copy;
+}
+.main .forged-rods .b, .main .curtain-rings .b, .main .large-brackets .b, .main .small-brackets .b, .main .shelf-brackets .b, .main .star-shelf-bracket .b {
+  /*border: 3px solid red;*/
+  grid-area: image;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*justify-content: flex-start;*/
+  padding-left: 40px;
+}
+@media screen and (max-width: 700px) {
+  .main .forged-rods .b, .main .curtain-rings .b, .main .large-brackets .b, .main .small-brackets .b, .main .shelf-brackets .b, .main .star-shelf-bracket .b {
+    padding-left: 0;
+  }
+}
+.main .forged-rods .c, .main .curtain-rings .c, .main .large-brackets .c, .main .small-brackets .c, .main .shelf-brackets .c, .main .star-shelf-bracket .c {
+  grid-area: heading;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=curtainhw.css.map */

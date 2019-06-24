@@ -1,0 +1,610 @@
+@charset "UTF-8";
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 10, 2018, 11:41:16 AM
+    Author     : Norm
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 10, 2018, 10:07:22 PM
+    Author     : Norm
+*/
+@import url("https://fonts.googleapis.com/css?family=IM+Fell+English+SC|Italianno|Roboto:300,300i,400,500,700");
+/*
+font-family: 'IM Fell English SC', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Italianno', cursive;
+*/
+@import url("https://fonts.googleapis.com/css?family=IM+Fell+English+SC|Italianno|Roboto:300,300i,400,500,700");
+@font-face {
+  font-family: Andulus;
+  src: local("D:ÞvelopmentScottishWroughtIronpublic_html\fonts\andalus\2.ttf");
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-size: calc(16px + (24 - 14) * ((100vw - 300px) / (1200 - 300)));
+}
+
+.block-id-letter {
+  /*display: inline;*/
+  display: none;
+  border: 2px solid black;
+  font-size: 1em;
+}
+
+.spacer30 {
+  height: 30px;
+}
+
+.spacer20 {
+  height: 20px;
+}
+
+.spacer10 {
+  height: 10px;
+}
+
+.signature .signature-block {
+  /* Terms */
+  font-family: "IM Fell English SC", serif;
+  font-size: 28px;
+  color: #000000;
+}
+
+.heading {
+  text-align: center;
+  /* Headlines */
+  font-family: "IM Fell English SC", serif;
+  font-size: 32px;
+  /*  @if $fontUsePercent == true {
+      font-size: calc(16px + (32 - 16) * ((1200px - 300px) / (1200 - 300)));
+    } @else {
+      font-size: 32px;
+    }*/
+  color: #000000;
+  font-weight: bold;
+}
+
+.sub-heading {
+  text-align: center;
+  /* Headlines */
+  font-family: "IM Fell English SC", serif;
+  font-size: 32px;
+  /*  @if $fontUsePercent == true {
+      font-size: calc(16px + (32 - 16) * ((1200px - 300px) / (1200 - 300)));
+    } @else {
+      font-size: 32px;
+    }*/
+  color: #000000;
+  font-weight: bold;
+}
+
+.small-sub-heading {
+  text-align: center;
+  /* Navigation Menu */
+  font-family: "IM Fell English SC", serif;
+  font-size: 19px;
+  color: #000000;
+  font-weight: bold;
+}
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 11, 2018, 10:50:08 PM
+    Author     : Norm
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 10, 2018, 10:07:22 PM
+    Author     : Norm
+*/
+/*
+font-family: 'IM Fell English SC', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Italianno', cursive;
+*/
+@font-face {
+  font-family: Andulus;
+  src: local("D:ÞvelopmentScottishWroughtIronpublic_html\fonts\andalus\2.ttf");
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-size: calc(16px + (24 - 14) * ((100vw - 300px) / (1200 - 300)));
+}
+
+.block-id-letter {
+  /*display: inline;*/
+  display: none;
+  border: 2px solid black;
+  font-size: 1em;
+}
+
+.spacer30 {
+  height: 30px;
+}
+
+.spacer20 {
+  height: 20px;
+}
+
+.spacer10 {
+  height: 10px;
+}
+
+.signature .signature-block {
+  /* Terms */
+  font-family: "IM Fell English SC", serif;
+  font-size: 28px;
+  color: #000000;
+}
+
+.heading {
+  text-align: center;
+  /* Headlines */
+  font-family: "IM Fell English SC", serif;
+  font-size: 32px;
+  /*  @if $fontUsePercent == true {
+      font-size: calc(16px + (32 - 16) * ((1200px - 300px) / (1200 - 300)));
+    } @else {
+      font-size: 32px;
+    }*/
+  color: #000000;
+  font-weight: bold;
+}
+
+.sub-heading {
+  text-align: center;
+  /* Headlines */
+  font-family: "IM Fell English SC", serif;
+  font-size: 32px;
+  /*  @if $fontUsePercent == true {
+      font-size: calc(16px + (32 - 16) * ((1200px - 300px) / (1200 - 300)));
+    } @else {
+      font-size: 32px;
+    }*/
+  color: #000000;
+  font-weight: bold;
+}
+
+.small-sub-heading {
+  text-align: center;
+  /* Navigation Menu */
+  font-family: "IM Fell English SC", serif;
+  font-size: 19px;
+  color: #000000;
+  font-weight: bold;
+}
+
+/*@import "header.scss";*/
+.back-to-top {
+  text-align: right;
+}
+
+#footer {
+  /*border: 3px solid red;*/
+}
+#footer .footer-block {
+  padding-top: 15px;
+  width: 100%;
+  /*height: 300px;*/
+  background-color: #EDEDED;
+  grid-template: 60px 100px 30px 150px 30px/1fr 1.5fr 1fr;
+}
+@media screen and (min-width: 400px) {
+  #footer .footer-block {
+    display: grid;
+  }
+}
+@media screen and (min-width: 400px) {
+  #footer .footer-block {
+    grid-template: 100px 30px 150px 30px/1fr 1.5fr 1fr;
+    grid-template-areas: "a a a" "aa aa aa" "b c d" "e f g";
+  }
+}
+@media screen and (max-width: 650px) {
+  #footer .footer-block {
+    grid-template: 60px 100px 30px 150px 30px/1fr 1.5fr 1fr;
+    grid-template-areas: "h h h" "a a a" "aa aa aa" "b c d" "e f g";
+  }
+}
+#footer .footer-block .block-id-letter {
+  display: none;
+}
+#footer .footer-block .box {
+  /*border: solid 3px blue;*/
+}
+#footer .footer-block .h {
+  /*border: 3px solid red;*/
+  grid-area: h;
+}
+#footer .footer-block .h img {
+  margin: 0 auto;
+  /*padding-left: 35px;*/
+  display: none;
+}
+@media screen and (max-width: 649px) {
+  #footer .footer-block .h img {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 650px) {
+  #footer .footer-block .h img {
+    display: none;
+  }
+}
+#footer .footer-block .a {
+  /*@include font1;*/
+  /*border: 3px solid red;*/
+  height: auto;
+  /*padding-top: 10px;*/
+  grid-area: a;
+  display: flex;
+  justify-content: center;
+  /*      .image-small {
+          display: none;
+          @include max-mixin(625px) {
+            display: inherit;
+          }
+        }*/
+}
+#footer .footer-block .a .wide-footer h1 {
+  font-family: "IM Fell English SC", serif;
+  color: #000000;
+  font-weight: bold;
+}
+@media screen and (max-width: 620px) {
+  #footer .footer-block .a .wide-footer h1 {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 620px) and (max-width: 901px) {
+  #footer .footer-block .a .wide-footer h1 {
+    font-size: 38px;
+  }
+}
+@media screen and (min-width: 901px) {
+  #footer .footer-block .a .wide-footer h1 {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 649px) {
+  #footer .footer-block .a .wide-footer h1 {
+    /* Headlines */
+    font-family: "IM Fell English SC", serif;
+    font-size: 32px;
+    /*  @if $fontUsePercent == true {
+        font-size: calc(16px + (32 - 16) * ((1200px - 300px) / (1200 - 300)));
+      } @else {
+        font-size: 32px;
+      }*/
+    color: #000000;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 450px) {
+  #footer .footer-block .a .wide-footer h1 {
+    display: none;
+  }
+}
+#footer .footer-block .a .narrow-footer h1 {
+  display: none;
+  font-family: "IM Fell English SC", serif;
+  color: #000000;
+  font-weight: bold;
+}
+@media screen and (max-width: 620px) {
+  #footer .footer-block .a .narrow-footer h1 {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 620px) and (max-width: 901px) {
+  #footer .footer-block .a .narrow-footer h1 {
+    font-size: 38px;
+  }
+}
+@media screen and (min-width: 901px) {
+  #footer .footer-block .a .narrow-footer h1 {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #footer .footer-block .a .narrow-footer h1 {
+    /*border: 3px solid blue;*/
+    display: inherit;
+    text-align: center;
+  }
+}
+#footer .footer-block .a .image-big {
+  display: inherit;
+}
+@media screen and (max-width: 650px) {
+  #footer .footer-block .a .image-big {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  #footer .footer-block .a img {
+    display: none;
+  }
+}
+#footer .footer-block .aa {
+  /*border: 3px solid red;*/
+  grid-area: aa;
+  margin: 0 auto;
+  /*padding-top: 20px;*/
+  /* ORDER */
+  font-family: "Roboto Medium", sans-serif;
+  font-size: 19px;
+  color: #000000;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+#footer .footer-block .aa .one-line {
+  display: flex;
+  justify-content: center;
+}
+#footer .footer-block .aa .two-lines {
+  display: none;
+}
+@media screen and (max-width: 400px) {
+  #footer .footer-block .aa .one-line {
+    display: none;
+  }
+  #footer .footer-block .aa .two-lines {
+    display: flex;
+    justify-content: center;
+  }
+}
+#footer .footer-block .b {
+  grid-area: b;
+  /* ORDER */
+  font-family: "Roboto Medium", sans-serif;
+  font-size: 19px;
+  color: #000000;
+  /*      display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;*/
+  text-align: center;
+}
+#footer .footer-block .b h3 {
+  line-height: 0.75;
+}
+#footer .footer-block .b .map {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#footer .footer-block .c {
+  grid-area: c;
+  /* ORDER */
+  font-family: "Roboto Medium", sans-serif;
+  font-size: 19px;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#footer .footer-block .c .detail-block .details .name-address {
+  /* Paragraph M */
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 16px;
+  color: #000000;
+}
+@media screen and (max-width: 450px) {
+  #footer .footer-block .c .detail-block .details .name-address {
+    font-size: 12px;
+  }
+}
+#footer .footer-block .d {
+  grid-area: d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+#footer .footer-block .d .facebook {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#footer .footer-block .e {
+  grid-area: e;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+#footer .footer-block .f {
+  grid-area: f;
+  text-align: center;
+  /*padding-bottom: 20px;*/
+  /* Credit */
+  font-family: "Andulus", serif;
+  font-size: 19px;
+  color: #000000;
+  font-size: 14px;
+  /*line-height: 0.75;*/
+  /*      display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-end;*/
+}
+#footer .footer-block .g {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  grid-area: g;
+}
+#footer .footer-block .g .facebook {
+  padding-left: 10px;
+}
+
+.index-container {
+  /*border: 3px solid red;*/
+  width: 50%;
+  margin: 0 auto;
+  /*padding-left: 25px;*/
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  justify-content: center;
+  /*align-items: end;*/
+}
+@media screen and (max-width: 500px) {
+  .index-container {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 650px) {
+  .index-container {
+    grid-template-columns: 1fr;
+  }
+}
+.index-container .box {
+  text-align: center;
+}
+.index-container .box img {
+  width: 400px;
+  height: 400px;
+  width: 35vw;
+  height: auto;
+}
+.index-container .h .hcontent {
+  text-align: left;
+  /* Paragraphs */
+  font-family: "Roboto Light", sans-serif;
+  font-size: 19px;
+  /*font-size: 119%;*/
+  color: #000000;
+}
+@media screen and (max-width: 500px) {
+  .index-container .h .hcontent {
+    font-size: 16px;
+    /* Paragraph M */
+    font-family: "Roboto Regular", sans-serif;
+    font-size: 16px;
+    color: #000000;
+  }
+}
+@media screen and (min-width: 600px) {
+  .index-container .h .hcontent {
+    padding-top: 25px;
+  }
+  .index-container .h .hcontent .upper-paragraph .brand-block {
+    /* Terms */
+    font-family: "IM Fell English SC", serif;
+    font-size: 28px;
+    color: #000000;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 700px) {
+  .index-container .h .hcontent .upper-paragraph .brand-block {
+    font-size: 16px;
+    /* Navigation Menu */
+    font-family: "IM Fell English SC", serif;
+    font-size: 19px;
+    color: #000000;
+  }
+}
+@media screen and (max-width: 599px) {
+  .index-container .h .hcontent .upper-paragraph {
+    /*display: none;*/
+  }
+}
+.index-container .h .hcontent .lion-image {
+  /*border: 3px solid red;*/
+  padding-left: 25px;
+  padding-top: 25px;
+  width: 200px;
+  height: 200px;
+  height: auto;
+}
+.index-container .h .hcontent .lion-image img {
+  width: 150px;
+  height: 150px;
+  /*min-width: 150px;*/
+  height: auto;
+}
+@media screen and (max-width: 950px) {
+  .index-container .h .hcontent .lion-image img {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .index-container .h .hcontent .lion-image img {
+    display: none;
+  }
+}
+
+.sayings {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+.sayings .centered-paragraph {
+  width: 60%;
+  /* Paragraphs */
+  font-family: "Roboto Light", sans-serif;
+  font-size: 19px;
+  /*font-size: 119%;*/
+  color: #000000;
+}
+@media screen and (max-width: 700px) {
+  .sayings .centered-paragraph {
+    /* Paragraph M */
+    font-family: "Roboto Regular", sans-serif;
+    font-size: 16px;
+    color: #000000;
+  }
+}
+.sayings .centered-paragraph .brand-block {
+  /* Terms */
+  font-family: "IM Fell English SC", serif;
+  font-size: 28px;
+  color: #000000;
+}
+@media screen and (max-width: 700px) {
+  .sayings .centered-paragraph .brand-block {
+    /* Navigation Menu */
+    font-family: "IM Fell English SC", serif;
+    font-size: 19px;
+    color: #000000;
+  }
+}
+
+.garden-col {
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=index.css.map */

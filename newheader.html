@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+  <head>
+    <title>New Header</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC" rel="stylesheet">
+    <link href="./css/newheader.css" media="screen" rel="stylesheet" type="text/css">
+    <link rel="icon" href="./images/favicon.png">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    
+    <script>
+            $(window).resize(function () {
+        console.log('window was resized');
+      });
+
+      </script>
+  </head>
+  <body>
+
+    <header id="header" onload="fixWidth()">
+
+      <!-- topnambar #navbar -->
+      <nav class="topnavbar">
+        <!--<button id="fixer">Fix</button>-->
+        <span class="menu-item"><a href="index.php">Home</a></span>
+        <div class="dropdown">
+          <span class="menu-item"><a href="index.php">Gallery</a></span>
+          <div class="dropdown-content">
+            <a href="gatesRailings.php"><span class="dropdown-item">Gates / Railings</span></a>
+            <a href="gardenArt.php"><span class="dropdown-item">Garden Art</span></a>
+            <a href="plateHangers.php"><span class="dropdown-item">Plate Hangers</span></a>
+            <a href="curtainhw.php"><span class="dropdown-item">Curtain Hardware</span></a>
+            <a href="signs.php"><span class="dropdown-item">Signs / Brackets</span></a>
+            <a href="commissions.php"><span class="dropdown-item">Commissions</span></a>
+            <a href="https://www.etsy.com/shop/scottishlion"><span class="dropdown-item">Shop Etsy</span></a>
+            <a href="terms.php"><span class="dropdown-item">Terms</span></a>
+          </div>
+        </div> 
+        <span class="menu-item"><a href="about.php">About</a></span>
+        <span class="menu-item"><a href="contact.php" target="_blank">Contact</a></span>
+        <span class="menu-item"><a href="subscribe.php" target="_blank">Subscribe</a></span>
+        <div class="shopping-cart">
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----                   ">
+            <input type="image" src="./images/headerV5.png" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
+        </div>
+      </nav>
+
+<!-- ************************************************************************************* -->      
+      <!-- sticky  menubar mobile -->
+      <!-- condensed #navbar navbar-mobile -->
+      <div class="topnavbar navbar-mobile">
+        <div class="logo-inline-mobile menu-box">
+          <!--Icon-->
+          <img src="./images/logo_40_trans.png">
+        </div>
+
+        <div class="dropdown menu-box">
+          <!--Menu-->
+          <a href="index.php">Menu</a>
+          <div class="dropdown-content">
+        
+            <a href="index.php">Home</a>
+            <a href="gatesRailings.php">Gates / Railings</a>
+            <a href="gardenArt.php">Garden Art</a>
+            <a href="plateHangers.php">Plate Hangers</a>
+            <a href="curtainhw.php">Curtain Hardware</a>
+            <a href="signs.php">Signs / Brackets</a>
+            <a href="commissions.php"><span class="dropdown-item">Commissions</span></a>
+            <a href="https://www.etsy.com/shop/scottishlion">Shop Etsy</a>
+            <a href="terms.php"><span class="dropdown-item">Terms</span></a>
+            <a href="about.php">About</a>
+            <a href="contact.php" target="_blank">Contact</a>
+            <a href="subscribe.php" target="_blank">Subscribe</a>
+          </div>          
+        </div> <!-- outer drop down -->
+        
+        <div class="shopping-cart-mobile menu-box">
+          <!--Cart-->
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----                   ">
+            <input type="image" src="./images/headerV5.png" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
+        </div>
+       
+      </div>
+
+      <!-- *************************************************************************** -->
+      <!-- the banner and header image -->
+      <div class="banner-upper">
+        <div class="banner-block">
+          Scottish Lion
+          <span class="logo-inline"><img src="./images/lion_50_trans.png"></span>
+          Wrought Iron
+        </div>
+      </div>
+
+      <div id="header-image"></div>
+
+      <a name="top"></a>
+
+      <!-- ******************************************************************************** -->
+      <!-- lower #navbar navbar-wide -->
+      <nav id="navbar" class="navbar-wide">
+        <!--<button id="fixer">Fix</button>-->
+        <span class="menu-item"><a href="index.php">Home</a></span>
+        <div class="dropdown">
+          <span class="menu-item"><a href="index.php">Gallery</a></span>
+          <div class="dropdown-content">
+            <a href="gatesRailings.php"><span class="dropdown-item">Gates / Railings</span></a>
+            <a href="gardenArt.php"><span class="dropdown-item">Garden Art</span></a>
+            <a href="plateHangers.php"><span class="dropdown-item">Plate Hangers</span></a>
+            <a href="curtainhw.php"><span class="dropdown-item">Curtain Hardware</span></a>
+            <a href="signs.php"><span class="dropdown-item">Signs / Brackets</span></a>
+            <a href="commissions.php"><span class="dropdown-item">Commissions</span></a>
+            <a href="https://www.etsy.com/shop/scottishlion"><span class="dropdown-item">Shop Etsy</span></a>
+            <a href="terms.php"><span class="dropdown-item">Terms</span></a>
+          </div>
+        </div> 
+        <span class="menu-item"><a href="about.php">About</a></span>
+        <span class="menu-item"><a href="contact.php" target="_blank">Contact</a></span>
+        <span class="menu-item"><a href="subscribe.php" target="_blank">Subscribe</a></span>
+        <div class="shopping-cart">
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIG1QYJKoZIhvcNAQcEoIIGxjCCBsICAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYBY0G8Q28Bhj+6QdR54KN2iUz8ocDs0dvMgN3MHEB+L8FxKUCbfnTWJcX2dnBFi7FGkUZxOrWgsgm65dNiBT6/3ccuTfTUzwR0Qzrr2tDhjxDUXy0GyHNUxXo3pzzvB8BRcVfNfj6onzOJfMRVuNICuFjpcd9AEFC+6URPOcmz2QTELMAkGBSsOAwIaBQAwUwYJKoZIhvcNAQcBMBQGCCqGSIb3DQMHBAhxHUBJIU5UfoAwwkzPt7zU0m5OkopJrV9Iu1Y/zJiMGwtGlLB1zdkK9a40HdQ6EQ8ESrzASoO2xHwroIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTgwNjI1MTY1OTU1WjAjBgkqhkiG9w0BCQQxFgQUIueXAKWCWU9Y+mDt01IL0qsFz9UwDQYJKoZIhvcNAQEBBQAEgYA7BwugN/DapITw9v8TZpb2Cgk7oX0J++28x9Q0ZYM2zaWD/j17X3uliSuGBII1iW+SDF4fs/cX8L0p0jjeIow2rLYd3SgQyFO/eF7Xb/XcZdFhrHRShY5foldTT5Ub37J6VGhK+O8caGHmLJ2fijuGEF5UALuVcXnoUYItOrLYGg==-----END PKCS7-----                   ">
+            <input type="image" src="./images/headerV5.png" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
+        </div>
+      </nav>
+      
+      <!-- ******************************************************************* -->
+      <!-- condensed #navbar navbar-mobile -->
+      <div id="navbar" class="navbar-mobile">
+        <div class="logo-inline-mobile menu-box">
+          <!--Icon-->
+          <img src="./images/logo_40_trans.png">
+        </div>
+
+        <div class="dropdown menu-box">
+          <!--Menu-->
+          <a href="index.php"><span class="menu-item">Menu</span></a>
+          <div class="dropdown-content">
+        
+            <a href="index.php">Home</a>
+            <a href="gatesRailings.php">Gates / Railings</a>
+            <a href="gardenArt.php">Garden Art</a>
+            <a href="plateHangers.php">Plate Hangers</a>
+            <a href="curtainhw.php">Curtain Hardware</a>
+            <a href="signs.php">Signs / Brackets</a>
+            <a href="commissions.php"><span class="dropdown-item">Commissions</span></a>
+            <a href="https://www.etsy.com/shop/scottishlion">Shop Etsy</a>
+            <a href="about.php">About</a>
+            <a href="contact.php" target="_blank">Contact</a>
+            <a href="subscribe.php" target="_blank">Subscribe</a>
+          </div>          
+        </div> <!-- outer drop down -->
+        
+        <div class="shopping-cart-mobile menu-box">
+          <!--Cart-->
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----                   ">
+            <input type="image" src="./images/headerV5.png" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
+        </div>
+        
+      </div>
+      <br>
+
+    </header>
+
+
+    <script>
+      
+      window.addEventListener("resize", function(event) 
+      {
+        fixWidth();
+      })
+
+      function fixWidth()
+      {
+        var parentwidth = $("header").width();
+        $(".topnavbar").width(parentwidth);
+      }
+
+    </script>
+
+
+  </body>
+</html>

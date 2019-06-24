@@ -1,0 +1,271 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 24, 2019, 9:45:24 AM
+    Author     : Norm
+*/
+
+
+@mixin hideAll {
+  .block-id-a { display: none; }
+  .block-id-b { display: none; }
+  .block-id-c { display: none; }
+  .block-id-d { display: none; }
+  .block-id-e { display: none; }
+  .block-id-f { display: none; }
+  .block-id-g { display: none; }
+  .block-id-g1 { display: none; }
+  .block-id-g2 { display: none; }
+  .block-id-g3 { display: none; }
+  .block-id-h { display: none; }
+  .block-id-i { display: none; }
+  .block-id-j { display: none; }
+  .block-id-k { display: none; }
+  .block-id-l { display: none; }
+  .block-id-m { display: none; }
+  .block-id-n { display: none; }
+  .block-id-o { display: none; }
+  .block-id-p { display: none; }
+  .block-id-q { display: none; }
+  .block-id-r { display: none; }
+  .block-id-s { display: none; }
+  .block-id-t { display: none; }
+  .block-id-u { display: none; }
+  .block-id-v { display: none; }
+  .block-id-w { display: none; }
+  .block-id-x { display: none; }
+  .block-id-y { display: none; }
+  .block-id-z { display: none; }
+  .block-id-aa { display: none; }
+  .block-id-ab { display: none; }
+  .block-id-ac { display: none; }
+  .block-id-ad { display: none; }
+  .block-id-ae { display: none; }
+  .block-id-af { display: none; }
+  .block-id-ag { display: none; }
+}
+
+@mixin showAll {
+  $letter: '*';
+  @if $letter != 'a' {
+    .block-id-a { display: inline; }
+  } @if $letter != 'b' {
+    .block-id-b { display: inline; }
+  } @if $letter != 'c' {
+    .block-id-c { display: inline; }
+  } @if $letter != 'd' {
+    .block-id-d { display: inline; }
+  } @if $letter != 'e' {
+    .block-id-e { display: inline; }
+  } @if $letter != 'f' {
+    .block-id-f { display: inline; }
+  } @if $letter != 'g' {
+    .block-id-g { display: inline; }
+    .block-id-g1 { display: inline; }
+    .block-id-g2 { display: inline; }
+    .block-id-g3 { display: inline; }
+  } @if $letter != 'h' {
+    .block-id-h { display: inline; }
+  } @if $letter != 'i' {
+    .block-id-i { display: inline; }
+  } @if $letter != 'j' {
+    .block-id-j { display: inline; }
+  } @if $letter != 'k' {
+    .block-id-k { display: inline; }
+  } @if $letter != 'l' {
+    .block-id-l { display: inline; }
+  } @if $letter != 'm' {
+    .block-id-m { display: inline; }
+  } @if $letter != 'n' {
+    .block-id-n { display: inline; }
+  } @if $letter != 'o' {
+    .block-id-o { display: inline; }
+  } @if $letter != 'p' {
+    .block-id-p { display: inline; }
+  } @if $letter != 'q' {
+    .block-id-q { display: inline; }
+  } @if $letter != 'r' {
+    .block-id-r { display: inline; }
+  } @if $letter != 's' {
+    .block-id-s { display: inline; }
+  } @if $letter != 't' {
+    .block-id-t { display: inline; }
+  } @if $letter != 'u' {
+    .block-id-u { display: inline; }
+  } @if $letter != 'v' {
+    .block-id-v { display: inline; }
+  } @if $letter != 'w' {
+    .block-id-w { display: inline; }
+  } @if $letter != 'x' {
+    .block-id-x { display: inline; }
+  } @if $letter != 'y' {
+    .block-id-y { display: inline; }
+  } @if $letter != 'z' {
+    .block-id-z { display: inline; }
+  } @if $letter != 'aa' {
+    .block-id-aa { display: inline; }
+  } @if $letter != 'ab' {
+    .block-id-ab { display: inline; }
+  } @if $letter != 'ac' {
+    .block-id-ac { display: inline; }
+  } @if $letter != 'ad' {
+    .block-id-ad { display: inline; }
+  } @if $letter != 'ae' {
+    .block-id-ae { display: inline; }
+  } @if $letter != 'af' {
+    .block-id-af { display: inline; }
+  } @if $letter != 'ag' {
+    .block-id-ag { display: inline; }
+  }
+}
+
+@mixin hide($letter) {
+  @if $letter == 'a' {
+    .block-id-a { display: none; }
+  } @else if $letter == 'b' {
+    .block-id-b { display: none; }
+  } @else if $letter == 'c' {
+    .block-id-c { display: none; }
+  } @else if $letter == 'd' {
+    .block-id-d { display: none; }
+  } @else if $letter == 'e' {
+    .block-id-e { display: none; }
+  } @else if $letter == 'f' {
+    .block-id-f { display: none; }
+  } @else if $letter == 'g' {
+    .block-id-g { display: none; }
+    .block-id-g1 { display: none; }
+    .block-id-g2 { display: none; }
+    .block-id-g3 { display: none; }
+  } @else if $letter == 'h' {
+    .block-id-h { display: none; }
+  } @else if $letter == 'i' {
+    .block-id-i { display: none; }
+  } @else if $letter == 'j' {
+    .block-id-j { display: none; }
+  } @else if $letter == 'k' {
+    .block-id-k { display: none; }
+  } @else if $letter == 'l' {
+    .block-id-l { display: none; }
+  } @else if $letter == 'm' {
+    .block-id-m { display: none; }
+  } @else if $letter == 'n' {
+    .block-id-n { display: none; }
+  } @else if $letter == 'o' {
+    .block-id-o { display: none; }
+  } @else if $letter == 'p' {
+    .block-id-p { display: none; }
+  } @else if $letter == 'q' {
+    .block-id-q { display: none; }
+  } @else if $letter == 'r' {
+    .block-id-r { display: none; }
+  } @else if $letter == 's' {
+    .block-id-s { display: none; }
+  } @else if $letter == 't' {
+    .block-id-t { display: none; }
+  } @else if $letter == 'u' {
+    .block-id-u { display: none; }
+  } @else if $letter == 'v' {
+    .block-id-v { display: none; }
+  } @else if $letter == 'w' {
+    .block-id-w { display: none; }
+  } @else if $letter == 'x' {
+    .block-id-x { display: none; }
+  } @else if $letter == 'y' {
+    .block-id-y { display: none; }
+  } @else if $letter == 'z' {
+    .block-id-z { display: none; }
+  } @else if $letter == 'aa' {
+    .block-id-aa { display: none; }
+  } @else if $letter == 'ab' {
+    .block-id-ab { display: none; }
+  } @else if $letter == 'ac' {
+    .block-id-ac { display: none; }
+  } @else if $letter == 'ad' {
+    .block-id-ad { display: none; }
+  } @else if $letter == 'ae' {
+    .block-id-ae { display: none; }
+  } @else if $letter == 'af' {
+    .block-id-af { display: none; }
+  } @else if $letter == 'ag' {
+    .block-id-ag { display: none; }
+  }
+
+}
+
+@mixin show($letter) {
+  @if $letter == 'a' {
+    .block-id-a { display: inline; }
+  } @else if $letter == 'b' {
+    .block-id-b { display: inline; }
+  } @else if $letter == 'c' {
+    .block-id-c { display: inline; }
+  } @else if $letter == 'd' {
+    .block-id-d { display: inline; }
+  } @else if $letter == 'e' {
+    .block-id-e { display: inline; }
+  } @else if $letter == 'f' {
+    .block-id-f { display: inline; }
+  } @else if $letter == 'g' {
+    .block-id-g { display: inline; }
+    .block-id-g1 { display: inline; }
+    .block-id-g2 { display: inline; }
+    .block-id-g3 { display: inline; }
+  } @else if $letter == 'h' {
+    .block-id-h { display: inline; }
+  } @else if $letter == 'i' {
+    .block-id-i { display: inline; }
+  } @else if $letter == 'j' {
+    .block-id-j { display: inline; }
+  } @else if $letter == 'k' {
+    .block-id-k { display: inline; }
+  } @else if $letter == 'l' {
+    .block-id-l { display: inline; }
+  } @else if $letter == 'm' {
+    .block-id-m { display: inline; }
+  } @else if $letter == 'n' {
+    .block-id-n { display: inline; }
+  } @else if $letter == 'o' {
+    .block-id-o { display: inline; }
+  } @else if $letter == 'p' {
+    .block-id-p { display: inline; }
+  } @else if $letter == 'q' {
+    .block-id-q { display: inline; }
+  } @else if $letter == 'r' {
+    .block-id-r { display: inline; }
+  } @else if $letter == 's' {
+    .block-id-s { display: inline; }
+  } @else if $letter == 't' {
+    .block-id-t { display: inline; }
+  } @else if $letter == 'u' {
+    .block-id-u { display: inline; }
+  } @else if $letter == 'v' {
+    .block-id-v { display: inline; }
+  } @else if $letter == 'w' {
+    .block-id-w { display: inline; }
+  } @else if $letter == 'x' {
+    .block-id-x { display: inline; }
+  } @else if $letter == 'y' {
+    .block-id-y { display: inline; }
+  } @else if $letter == 'z' {
+    .block-id-z { display: inline; }
+  } @else if $letter == 'aa' {
+    .block-id-aa { display: inline; }
+  } @else if $letter == 'ab' {
+    .block-id-ab { display: inline; }
+  } @else if $letter == 'ac' {
+    .block-id-ac { display: inline; }
+  } @else if $letter == 'ad' {
+    .block-id-ad { display: inline; }
+  } @else if $letter == 'ae' {
+    .block-id-ae { display: inline; }
+  } @else if $letter == 'af' {
+    .block-id-af { display: inline; }
+  } @else if $letter == 'ag' {
+    .block-id-ag { display: inline; }
+  }
+}
+

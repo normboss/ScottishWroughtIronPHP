@@ -1,0 +1,222 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 11, 2018, 10:50:08 PM
+    Author     : Norm
+*/
+
+@import "variables";
+
+.back-to-top {
+  text-align: right;
+}
+
+#footer {
+  /*border: 3px solid red;*/
+  .footer-block {
+    padding-top: 15px;
+    @include min-mixin(400px) {
+      display: grid;
+    }
+    width: 100%;
+    /*height: 300px;*/
+    background-color: #EDEDED;
+    grid-template: 60px 100px 30px 150px 30px / 1fr 1.5fr 1fr;
+    
+    @include min-mixin(400px) {
+      grid-template: 100px 30px 150px 30px / 1fr 1.5fr 1fr;
+      grid-template-areas: "a a a"  "aa aa aa"  "b c d"  "e f g";
+    }
+    @include max-mixin(650px) {
+      grid-template: 60px 100px 30px 150px 30px / 1fr 1.5fr 1fr;
+      grid-template-areas: "h h h" "a a a"  "aa aa aa"  "b c d"  "e f g";
+    }
+
+    .block-id-letter {
+      display: none;
+    }
+    .box {
+      /*border: solid 3px blue;*/
+    }
+    .h {
+      /*border: 3px solid red;*/
+      grid-area: h;
+      img {
+        margin: 0 auto;
+        /*padding-left: 35px;*/
+        display: none;
+        @include max-mixin(649px) {
+          display: flex;
+          justify-content: center;
+        }
+        @include min-mixin(650px) {
+          display: none;
+        }
+      }
+    }
+    .a {
+      /*@include font1;*/
+      /*border: 3px solid red;*/
+      height: auto;
+      /*padding-top: 10px;*/
+      grid-area: a;
+      display: flex;
+      justify-content: center;
+      .wide-footer {
+        h1 {
+          @include font1;
+          @include max-mixin(649px) {
+            @include font2;
+          }
+          @include max-mixin(450px) {
+            display: none;
+          }
+        }
+      }
+      .narrow-footer {
+        h1 {
+          display: none;
+          @include font1;
+          @include max-mixin(450px) {
+            /*border: 3px solid blue;*/
+            display: inherit;
+            text-align: center;
+          }
+        }
+      }
+      .image-big {
+        display: inherit;
+        @include max-mixin(650px) {
+          display: none;
+        }
+      }
+/*      .image-small {
+        display: none;
+        @include max-mixin(625px) {
+          display: inherit;
+        }
+      }*/
+      img {
+        @include max-mixin(625px) {
+          
+        }
+        @include max-mixin(500px) {
+          display: none;
+        }
+      }
+    }
+    .aa {
+      /*border: 3px solid red;*/
+      grid-area: aa;
+      margin: 0 auto;
+      /*padding-top: 20px;*/
+      @include font9;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 1.5;
+      .one-line {
+        display: flex;
+        justify-content: center;
+      }
+      .two-lines {
+        display: none;
+      }
+      @include max-mixin(400px) {
+        .one-line {
+          display: none;
+        }
+        .two-lines {
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+    .b {
+      grid-area: b;
+      @include font9;
+/*      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;*/
+      text-align: center;
+      h3 {
+        line-height: 0.75;
+      }
+      .map {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    .c {
+      grid-area: c;
+      @include font9;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .detail-block {
+        .details {
+          .name-address {
+            @include font15;
+            
+            @include max-mixin(450px) {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+    .d {
+      grid-area: d;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: flex-end;
+      .facebook {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    
+    .e {
+      grid-area: e;
+      text-align: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: flex-end;
+    }
+    .f {
+      grid-area: f;
+      text-align: center;
+      /*padding-bottom: 20px;*/
+      @include font16;
+      font-size: 14px;
+      /*line-height: 0.75;*/
+
+/*      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: flex-end;*/
+    }
+    .g {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: flex-end;
+      grid-area: g;
+      .facebook {
+        padding-left: 10px;
+      }
+    }
+
+
+  }
+}

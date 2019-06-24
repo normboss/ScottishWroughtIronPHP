@@ -1,0 +1,522 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 11, 2018, 12:36:25 AM
+    Author     : Norm
+*/
+
+@import "variables";
+@import "footer";
+
+.hardware-container {
+    padding-left: 25px;
+
+    /*  .heading {
+        @include font2;
+        text-align: center;
+        width: 90%;
+      }*/
+
+    .big-heading {
+        @include font1;
+        text-align: center;
+        width: 90%;
+    }
+
+    .plate-holders, .one-plate-hanger, .two-plate-hanger, .five-plate-hanger, .bowl-holders 
+    {
+        // border: 3px solid red;
+        display: grid;
+        width: 90%;
+        text-align: center;
+        /*margin: 0 auto;*/
+        .heading {
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            @include font2;
+        }
+        .copy {
+            text-align: left;
+            font-size: 14px;
+            display: block;
+            float: left;
+            padding: 20px;
+            padding: 10px 20px 10px 20px;
+            @include font7;
+            /*      .line1 {
+                    color: red;
+                  }*/
+            .bold {
+                font-weight: bold;
+            }
+            .red-words {
+                @include font17;
+                font-weight: bold;
+            }
+            /*      .order-link {
+                    font-weight: bold;
+                    font-size: 20px;
+                    text-align: center;
+                  }*/
+            .item-name {
+                @include font14;
+                font-weight: bold;
+            }
+        }
+
+        @include max-mixin(700px) {
+            display: block;
+        }
+        background-color: #EDEDED;
+
+        .box {
+            background-color: #EDEDED;
+            color: black;
+            /*border: 3px solid red;*/
+            /*height: 100px;*/
+            .item-name {
+                @include font14;
+            }
+            .paragraph {
+                @include font7;
+                .red-words {
+                    @include font17;
+                }
+            }
+            .order {
+                @include font9;
+                font-weight: bold;
+            }
+            .item-name {
+                @include font14;
+                font-weight: bold;
+            }
+            form {
+                justify-self: end;
+                text-align: right;
+                color: red;
+            }
+        }
+
+    }
+
+    .one-plate-hanger, .two-plate-hanger, .five-plate-hanger {
+        .e .f, .g, .h, .i {
+            /*border: 3px solid red;*/
+            width: 80%;
+            img {
+                /*border: 3px solid red;*/
+                /*padding-top: 15px;*/
+                height: 70px;
+                width: 70%;
+            }
+            display: block;
+            @include max-mixin(700px) {
+                /*width: 15%;*/
+                /*height: 35%;*/
+                display: inline;
+            }
+            img {
+                @include max-mixin(700px) {
+                    width: 10%;
+                    height: 10%;
+                }
+            }
+
+        }
+        .f {
+            grid-area: heart;
+        }
+        .g {
+            grid-area: ram;
+        }
+        .h {
+            grid-area: scroll;
+        }
+        .i {
+            grid-area: tear;
+        }
+    }
+
+
+    /******************************************
+      plate-holders
+    *******************************************/
+    .plate-holders {
+        /*border: 3px solid red;*/
+        min-height: 550px;
+        /*height: 525px;*/
+        /*grid-template: repeat(4, 90px)  / 55% 1fr 1fr 1fr 1fr 1fr;*/
+        grid-template: 1.5fr 1fr 1fr 1fr / 55% 1fr 1fr 1fr 1fr;
+        grid-template-areas:  
+            "text text text text text"
+            "plates cart cart cart blank"
+            "plates cart cart cart blank"
+            "plates cart cart cart blank"
+            "plates heart ram scroll blank";
+        .a {
+            /*height: 400px;*/
+            grid-area: plates;
+            align-self: center;
+        }
+        .b {
+            /*border: 3px  solid red;*/
+            grid-area: text;
+            font-size: 14px;
+            text-align: center;
+            padding-top: 40px;
+            padding-left: 20px;
+            @include max-mixin(500px) {
+                padding-left: 0;
+            }
+            .p {
+                /*border: 3px  solid red;*/
+                padding-left: 20px;
+            }
+        }
+        .c,.d,.e {
+            /*border: 3px  solid red;*/
+            justify-items: start;
+            /*align-self: center;*/
+            /*height: 40px;*/
+            display: block;
+            img {
+                @include max-mixin(700px) {
+                    /*width: 20%;*/
+                    width: 10%;
+                    height: 10%;
+                }
+            }
+        }
+        .c {
+            grid-area: heart;
+        }
+        .d {
+            grid-area: ram;
+            img {
+                padding-top: 5px;
+            }
+        }
+        .e {
+            grid-area: scroll;
+            img {
+                /*padding-top: 5px;*/
+            }
+        }
+        .f {
+            /*border: 4px  solid red;*/
+            grid-area: cart;
+            padding-left: 15px;
+            height: 75%;
+            text-align: left;
+            @include font7;
+            table {
+                /*border: 1px solid black;*/
+                tr {
+                    td {
+                        /*border: 1px solid black;*/
+                    }
+                }
+            }
+        }
+    }
+
+    /******************************************
+     one-plate-hanger
+    *******************************************/
+    .one-plate-hanger {
+        /*border: 3px solid blue;*/
+        grid-template: .6fr 1fr 1fr 1fr .5fr / repeat(6, 1fr);
+        grid-template-areas:  
+            "heading heading heading heading heading heading heading "
+            "plate1    plate1    plate1    text       text        cart      cart" 
+            "plate1 plate1 plate1 text text cart cart" 
+            "plate1 plate1 plate1 text text cart cart" 
+            "plate1 plate1 plate1 heart ram scroll tear" 
+            ;
+        .box {
+            background-color: #EDEDED;
+            color: black;
+            /*border: 3px solid blue;*/
+        }  
+
+        .aa {
+            grid-area: heading;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .a {
+            /*border: 3px solid red;*/
+            grid-area: plate1;
+            img {
+            }
+        }
+        .b {
+            grid-area: text;
+        }
+        .c {
+            grid-area: cart;
+            @include font7;
+            text-align: left;
+            padding-left: 20px;
+        }
+        .d {
+            grid-area: plate5;
+        }
+        .e {
+        }
+    }
+
+    /******************************************
+      two-plate-hanger
+    *******************************************/
+    .two-plate-hanger {
+        /*border: 3px blue solid;*/
+        /*grid-template: .7fr 1fr 1fr 1.5fr 1fr / repeat(8, 1fr);*/
+        grid-template: .7fr 1fr 1fr 1fr 1fr / repeat(8, 1fr);
+        grid-template-areas:  
+            "heading heading heading heading heading heading heading heading"
+            "text text text cart cart plates plates plates" 
+            "text text text cart cart plates plates plates" 
+            /*"text text text cart cart plates plates plates"*/ 
+            "text text text ram heart scroll tear blank " 
+            ;
+
+
+        .box {
+            /*background-color: #EDEDED;*/
+            color: black;
+            /*border-radius: 5px;*/
+            /*border: 3px solid red;*/
+
+            .block-id-letter {
+                display: none;
+            }
+            .item-name {
+                /*@include font9;*/
+            }
+        }  
+        .aa {
+            grid-area: heading;
+            padding-top: 3%;
+            .paragraph {
+                @include font7;
+                .red-words {
+                    /*color: red;*/
+                    @include font17;
+                }
+            }
+        }
+        .a {
+            /*border: 3px solid red;*/
+            width: auto;
+            height: auto;
+            grid-area: text;
+            .copy {
+                @include font7;
+                .item-name {
+                    @include font9;
+                    font-weight: bold;
+                }
+            }
+        }
+        .b {
+        }
+        .c {
+            grid-area: plates;
+        }
+        .d {
+            grid-area: cart;
+            text-align: left;
+            /*padding-left: 8%;*/
+            padding-left: 15px;
+        }
+
+        /*        <div class="box f"><span class="block-id-letter">F</span>
+                  Heart
+                  <img src="./images/style_heart1sm.jpg">
+                </div>
+                <div class="box g"><span class="block-id-letter">G</span>
+                  Ram
+                  <img src="./images/style_ram2.jpg">
+                </div>
+                <div class="box h"><span class="block-id-letter">H</span>
+                  Scroll
+                  <img src="./images/style_scroll2.jpg">
+                </div>
+                <div class="box i"><span class="block-id-letter">I</span>
+                  Spade
+                  <img src="./images/style_plain2.jpg">
+                </div>*/
+        .fghi {
+            display: flex;
+            img {
+                width: 100%;
+                height: auto;
+                flex-shrink: 0;
+            }
+        }
+        /*    .f {    
+              background-image: url("../images/style_heart1sm.jpg");
+              background-size: cover;
+              height: 90px;
+              width: 100px 
+            }
+            .g {    
+              background-image: url("../images/style_ram2.jpg");
+              background-size: cover;
+              height: 90px;
+            }
+            .h {    
+              background-image: url("../images/style_scroll2.jpg");
+              background-size: cover;
+              height: 90px;
+            }
+            .i {    
+              background-image: url("../images/style_plain2.jpg");
+              background-size: cover;
+              height: 90px;
+            }*/
+
+
+    }
+
+
+
+    /******************************************
+      five-plate-hanger
+    *******************************************/
+    .five-plate-hanger {
+        /*border: 3px blue solid;*/
+        grid-template: 1fr 1fr 1fr 1fr 1fr 1fr / repeat(7, 1fr);
+        grid-template-areas:  "heading heading heading heading heading plates plates" 
+            "text    text    text    text    text    plates plates" 
+            "text    text    text    text    text    plates plates" 
+            "text    text    text    text    text    plates plates" 
+            "text    text    text    text    text    plates plates" 
+            "blank    heart   ram     scroll  tear    plates plates" 
+            ;
+        .box {
+            /*background-color: #EDEDED;*/
+            /*border: 3px solid red;*/
+            .block-id-letter {
+                display: none;
+            }
+        }  
+
+        .aa {
+            grid-area: heading;
+            padding-top: 5%;
+            padding-left: 7%;
+        }
+        /*    .a {
+            }*/
+        .b {
+            /*border: 3px solid red;*/
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            grid-area: text;
+            .paragraph {
+                padding-left: 25px;
+            }
+            form {
+                padding-left: 50px;
+                table {
+                    /*border: 3px solid red;*/
+                    tr {
+                        /*border: 3px solid red;*/
+                        td {
+                            /*border: 3px solid red;*/
+                            padding-right: 25px;
+                            text-align: left;
+                        }
+                    }
+                }
+                .button1 {
+                    /*border: 3px solid red;*/
+                    display: flex;
+                }
+            }
+        }
+        .d {
+            grid-area: plates;
+            /*border: 3px solid red;*/
+        }
+    }
+
+
+    /******************************************
+      bowl-holders
+    *******************************************/
+    .bowl-holders {
+        /*    display: grid;
+            border: 3px solid red;*/
+        /*height: 600px;*/
+        /*    width: 90%;
+            text-align: center;
+            margin: 0 auto;*/
+        grid-template: .3fr 4fr / 40% 40% 20%;
+        grid-template-areas:  "head head head"
+            "col1 col2 col3";
+
+        /*grid-row-gap: 10px;*/
+
+        /*      "head head"
+                               "nav nav" 
+                               "info services"
+                               "footer footer";*/
+
+        background-color: #EDEDED;
+        .box {
+            background-color: #EDEDED;
+            color: black;
+            .heading {
+                @include font2;
+
+            }
+        }  
+
+        .aa {
+            /*border: 3px solid red;*/
+            grid-area: head;
+            @include font14;
+            font-weight: bold;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .a {
+            grid-area: col1;
+            padding-top: 50px;
+        }
+        .b {
+            grid-area: col2;
+            @include font7;
+            text-align: left;
+            padding-left: 10%;
+            form {
+                padding-left: 5%;
+            }
+        }
+        .c {
+            grid-area: col3;
+            /*align-self: center;*/
+            @include min-mixin(700px) {
+                padding-top: 40%;
+            }
+            img {
+                /*border: 2px solid red;*/
+            }
+        }
+    } /* hw-block3 */
+
+
+
+}
+

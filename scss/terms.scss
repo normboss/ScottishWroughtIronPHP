@@ -1,0 +1,135 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 17, 2018, 11:14:30 AM
+    Author     : Norm
+*/
+@import "variables";
+@import "footer";
+
+
+$mobile-screen-width: 60%;
+
+main {
+  
+  width: 60%;
+  min-width: 550px;
+  /*margin: 0 auto;*/
+  border: 2px solid black;
+  /*background-color: lightblue;*/
+  display: grid;
+/*  grid-template-columns: 1fr 1fr; */
+  grid-template-rows: 90px 120px 150px 220px;
+  grid-auto-rows: auto;
+  grid-template-areas: 
+    "header header"
+    "payment shipping"
+    "special shipping"
+    "image image";  
+  @include max-mixin(500px) {
+    grid-template-areas: 
+      "header"
+      "payment"
+      "special"
+      "shipping"
+      "image";  
+  }
+  
+  
+  /*gridi-gap: 10px;*/
+  text-align: center;
+  
+  .box {
+/*    width: 100%;
+    height: 100px;*/
+    text-align: left;
+    
+  }
+  
+  div {
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .header {
+    /*border: 2px solid red;*/
+    /*background-color: pink;*/
+    /*grid-area: 1 / 1 / 2 / span 2;*/
+    grid-area: header;
+    @include font2;
+    font-size: 48px;
+    padding: 0 50px 0 50px;
+    @include max-mixin(500px) {
+      width: $mobile-screen-width;
+    }
+  }
+  
+  .payment {
+    /*border: 2px solid red;*/
+    /*background-color: lightgreen;*/
+    /*grid-area: 2 / 1 / 2 / 1;*/
+/*    position: absolute;*/
+    
+    grid-area: payment;
+    @include font4;
+    .sub-heading {
+      /*position: relative;*/
+    }
+    padding: 0 50px 0 50px;
+    @include max-mixin(500px) {
+      width: $mobile-screen-width;
+    }
+  }
+  
+  .special {
+    /*border: 2px solid red;*/
+    /*background-color: lightgrey;*/
+    /*grid-area: 3 / 1 / 3 / 2;*/
+    grid-area: special;
+    padding: 0 50px 0 50px;
+    @include max-mixin(500px) {
+      width: $mobile-screen-width;
+    }
+  }
+  
+  .shipping {
+    /*border: 2px solid red;*/
+    /*background-color: lightyellow;*/
+    /*grid-area: 2 / 2 / span 2 / span 1;*/
+    grid-area: shipping;
+    padding-right: 50px;
+    @include max-mixin(500px) {
+      padding: 0 50px 0 50px;
+      width: $mobile-screen-width;
+    }
+  }
+  
+  .image {
+    /*border: 2px solid red;*/
+    /*background-color: lightslategray;*/
+    /*grid-area: 4 / 1 / 4 / span 2;*/
+    grid-area: image;
+    margin: 0 auto;
+    padding-top: 10px;
+    @include max-mixin(500px) {
+      margin: 0 0;
+    }
+  }
+  .sub-heading {
+    @include font4;
+  }
+  .text {
+    text-align: left;
+    @include font7;
+    text-align: left;
+    position: relative;
+    top: -25px;
+ }
+ 
+  
+}

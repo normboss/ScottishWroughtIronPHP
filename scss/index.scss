@@ -1,0 +1,115 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 10, 2018, 11:41:16 AM
+    Author     : Norm
+*/
+
+@import "variables";
+@import "footer";
+
+.index-container {
+    /*border: 3px solid red;*/
+    width: 50%;
+    margin: 0 auto;
+    /*padding-left: 25px;*/
+    @include max-mixin(500px) {
+        padding-left: 0;
+    }
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    @include max-mixin(650px) {
+        grid-template-columns: 1fr;
+    }
+    grid-gap: 50px;
+    justify-content: center;;
+    /*align-items: end;*/
+
+    .box {
+        text-align: center;
+        img {
+            width: 400px;
+            height: 400px;
+            width: 35vw;
+            height: auto;
+        }
+    }
+
+    .h {
+        .hcontent {
+            text-align: left;
+            @include font7;
+            @include max-mixin(500px) {
+                font-size: 16px;
+                @include font15;
+            }
+            @include min-mixin(600px) {
+                padding-top: 25px;
+                .upper-paragraph {
+                    .brand-block {
+                        @include font4;
+                        @include max-mixin(700px) {
+                            font-size: 16px;
+                            @include font3;
+                        }
+                    }
+                }
+            }
+            @include max-mixin(599px) {
+                .upper-paragraph {
+                    /*display: none;*/
+                }
+            }
+            .lion-image {
+                /*border: 3px solid red;*/
+                padding-left: 25px;
+                padding-top: 25px;
+                width: 200px;
+                height: 200px;
+                height: auto;
+                img {
+                    width: 150px;
+                    height: 150px;
+                    /*min-width: 150px;*/
+                    @include max-mixin(950px) {
+                        width: 100px;
+                    }
+                    @include max-mixin(850px) {
+                        display: none;
+                    }
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+.sayings {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+
+    .centered-paragraph {
+        width: 60%;
+        @include font7;
+        @include max-mixin(700px) {
+            @include font15;
+        }
+
+        .brand-block {
+            @include font4;
+            @include max-mixin(700px) {
+                @include font3;
+            }
+        }
+    }
+}
+
+.garden-col {
+    box-sizing: border-box;
+}
+
