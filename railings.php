@@ -94,8 +94,8 @@ and open the template in the editor.
             </div>
 
             <div class="box w"><span class="block-id-image">W</span>
-                <img src="./images/gates and railings V1.png">
-                <div class="image-text">Rocks are wrapped in curves of iron for this custom stairway </div>
+                <img src="./images/thistle_railing.jpg">
+                <div class="image-text">Andy's graceful thistle motif enhances the entrance to this lovely home </div>
             </div>
 
             <div class="box y"><span class="block-id-image">Y</span>

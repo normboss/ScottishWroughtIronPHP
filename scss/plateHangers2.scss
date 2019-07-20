@@ -158,9 +158,9 @@ and open the template in the editor.
             text-align: center;
             padding-top: 40px;
             // padding-left: 20px;
-            // img {
-            //     z-index: 10;
-            // }
+            img {
+                z-index: 10;
+            }
             @include max-mixin(500px) {
                 padding-left: 0;
             }
@@ -194,7 +194,7 @@ and open the template in the editor.
         .g {
             // border: 3px solid red;
             padding-left: 25px;
-            // z-index: 10;
+            z-index: 10;
             padding-right: 15px;
             margin: 15px;
             grid-row: 5 / span 1;
@@ -293,6 +293,7 @@ and open the template in the editor.
         .models {
             // border: 3px solid red;
             // padding-left: 25px;
+            z-index: 10;
             // padding-right: 15px;
             // margin: 15px;
             grid-row: 3 / span 1;
@@ -303,7 +304,6 @@ and open the template in the editor.
             color: red;
             display: flex;
             flex-direction: column;
-            z-index: 1;
             @include max-mixin(500px) {
                 grid-row: 5 / span 1;
                 grid-column: 1 / span 2;
@@ -347,7 +347,95 @@ and open the template in the editor.
         padding-bottom: 25px;
     }
 
+    .x-plate-hanger {
+        // width: 80%;
+        display: grid;
+        grid-row-gap: 20px;
+        padding-top: 25px;
 
+        .aa {
+            grid-row: 1 / span 1;
+            grid-column: 1 / span 4;
+        }
+        .a {
+            grid-row: 2 / span 1;
+            grid-column: 1 / span 4;
+        }
+        .b {
+            grid-row: 3 / span 2;
+            grid-column: 1 / span 2;
+        }
+
+        .f,
+        .g,
+        .h,
+        .i {
+            // border: 3px  solid red;
+            justify-items: start;
+            display: inline-block;
+            align-self: center;
+            justify-items: left;
+            height: 60px;
+            width: 80px;
+            @include max-mixin(400px) {
+                width: 50px;
+            }
+            img {
+                width: 60%;
+                height: 60%;
+                // @include max-mixin($breakpt1) {
+                //     width: 10%;
+                //     height: 10%;
+                // }
+            }
+            padding-bottom: 25px;
+        }
+        .fghi {
+            // border: 3px solid red;
+            // padding-left: 25px;
+            z-index: 10;
+            // padding-right: 15px;
+            // margin: 15px;
+            grid-row: 3 / span 1;
+            grid-column: 3 / span 2;
+            align-self: center;
+            width: 100%;
+            height: auto;
+            color: red;
+            display: flex;
+            flex-direction: column;
+        }
+        .e {
+            grid-row: 5 / span 1;
+            grid-column: 1 / span 4;
+        }
+        .x {
+            // border: 3px  solid red;
+            padding-left: 15px;
+            // grid-area: cart;
+            padding-left: 50px;
+            grid-row: 6 / span 1;
+            grid-column: 1 / span 4;
+            width: auto;
+            text-align: center;
+            justify-self: center;
+            width: 30vw;
+            height: auto;
+            // @include font7;
+            @include max-mixin(360px) {
+                font-size: 16px;
+            }
+            table {
+                /*border: 1px solid black;*/
+                tr {
+                    td {
+                        /*border: 1px solid black;*/
+                    }
+                }
+            }
+        }
+        padding-bottom: 25px;
+    }
 
     /******************************************
       bowl-holders

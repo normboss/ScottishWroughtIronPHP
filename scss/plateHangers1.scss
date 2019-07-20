@@ -30,7 +30,8 @@ and open the template in the editor.
     }
 
     .plate-holders,
-    .plate-hangers {
+    .one-plate-hanger,
+    .two-plate-hanger {
         // border: 3px solid red;
         display: grid;
         // grid-column-gap: 25px;
@@ -44,15 +45,17 @@ and open the template in the editor.
             text-align: center;
             @include font2;
         }
-        .copy1,
-        .copy2 {
+        .copy {
             text-align: left;
             font-size: 14px;
             display: block;
-            // float: left;
+            float: left;
             padding: 20px;
-            // padding: 10px 20px 10px 20px;
+            padding: 10px 20px 10px 20px;
             @include font7;
+            /*      .line1 {
+                    color: red;
+                  }*/
             .bold {
                 font-weight: bold;
             }
@@ -60,19 +63,20 @@ and open the template in the editor.
                 @include font17;
                 font-weight: bold;
             }
+            /*      .order-link {
+                    font-weight: bold;
+                    font-size: 20px;
+                    text-align: center;
+                  }*/
             .item-name {
                 @include font14;
                 font-weight: bold;
             }
-            @include max-mixin(500px) {
-                width: 100%;
-                // padding-left: 0;
-            }
         }
 
-        // @include max-mixin(700px) {
-        //     display: block;
-        // }
+        @include max-mixin(700px) {
+            display: block;
+        }
         background-color: #ededed;
 
         .box {
@@ -80,7 +84,7 @@ and open the template in the editor.
             color: black;
             /*border: 3px solid red;*/
             /*height: 100px;*/
-            width: 80%;
+            width: 100%;
             height: auto;
             .item-name {
                 @include font14;
@@ -120,7 +124,7 @@ and open the template in the editor.
         /*border: 3px solid red;*/
         width: 80%;
         @include max-mixin(550px) {
-            width: 100%;
+            width: 95%;
         }
         // min-height: 550px;
         /*height: 525px;*/
@@ -158,9 +162,9 @@ and open the template in the editor.
             text-align: center;
             padding-top: 40px;
             // padding-left: 20px;
-            // img {
-            //     z-index: 10;
-            // }
+            img {
+                z-index: 10;
+            }
             @include max-mixin(500px) {
                 padding-left: 0;
             }
@@ -194,7 +198,7 @@ and open the template in the editor.
         .g {
             // border: 3px solid red;
             padding-left: 25px;
-            // z-index: 10;
+            z-index: 10;
             padding-right: 15px;
             margin: 15px;
             grid-row: 5 / span 1;
@@ -229,47 +233,30 @@ and open the template in the editor.
     /******************************************
      one-plate-hanger
     *******************************************/
-    .plate-hangers {
-        @include max-mixin(500px) {
-            width: 100%;
-        }
+    .one-plate-hanger {
+        // width: 100%;
         display: grid;
         grid-row-gap: 10px;
         padding-top: 25px;
 
-        .heading {
+        .aa {
             grid-row: 1 / span 1;
             grid-column: 1 / span 3;
         }
-        .copy1 {
+        .b {
             grid-row: 2 / span 1;
             grid-column: 1 / span 3;
         }
-
-        .picture {
+        .a {
             grid-row: 3 / span 2;
             grid-column: 1 / span 2;
         }
-        .picture2 {
-            grid-row: 3 / span 2;
-            grid-column: 3 / span 1;
-            @include max-mixin(500px) {
-                grid-row: 5 / span 2;
-                grid-column: 1 / span 2;
-                }
-        }
-        // .pictures {
-        //     display: flex;
-        //     justify-content: space-around;
-        //     @include max-mixin(550px) {
-        //         flex-direction: column;
-        //     }
-        // }
 
-        .heart,
-        .ram,
-        .scroll,
-        .spade {
+        .f,
+        .g,
+        .h,
+        .i
+         {
             // border: 3px  solid red;
             justify-items: start;
             display: inline-block;
@@ -290,9 +277,10 @@ and open the template in the editor.
             }
             padding-bottom: 25px;
         }
-        .models {
+        .d {
             // border: 3px solid red;
             // padding-left: 25px;
+            z-index: 10;
             // padding-right: 15px;
             // margin: 15px;
             grid-row: 3 / span 1;
@@ -303,20 +291,13 @@ and open the template in the editor.
             color: red;
             display: flex;
             flex-direction: column;
-            z-index: 1;
-            @include max-mixin(500px) {
-                grid-row: 5 / span 1;
-                grid-column: 1 / span 2;
-                flex-direction: row;
-            }
         }
-        .copy2 {
+        .e {
             grid-row: 5 / span 1;
-            grid-column: 1 / span 3;
+            grid-column: 1 / span 4;
         }
-
-        .buy-it {
-            // border: 3px solid red;
+        .c {
+            // border: 3px  solid red;
             padding-left: 15px;
             // grid-area: cart;
             padding-left: 50px;
@@ -325,10 +306,6 @@ and open the template in the editor.
             width: auto;
             text-align: center;
             justify-self: center;
-            @include max-mixin(500px) {
-                grid-row: 7 / span 1;
-                justify-self: left;
-            }
             width: 30vw;
             height: auto;
             // @include font7;
@@ -347,12 +324,104 @@ and open the template in the editor.
         padding-bottom: 25px;
     }
 
+    .two-plate-hanger {
+        // width: 80%;
+        display: grid;
+        grid-row-gap: 20px;
+        padding-top: 25px;
 
+        .aa {
+            grid-row: 1 / span 1;
+            grid-column: 1 / span 4;
+        }
+        .a {
+            grid-row: 2 / span 1;
+            grid-column: 1 / span 4;
+        }
+        .b {
+            grid-row: 3 / span 2;
+            grid-column: 1 / span 2;
+        }
 
+        .f,
+        .g,
+        .h,
+        .i
+         {
+            // border: 3px  solid red;
+            justify-items: start;
+            display: inline-block;
+            align-self: center;
+            justify-items: left;
+            height: 60px;
+            width: 80px;
+            @include max-mixin(400px) {
+                width: 50px;
+            }
+            img {
+                width: 60%;
+                height: 60%;
+                // @include max-mixin($breakpt1) {
+                //     width: 10%;
+                //     height: 10%;
+                // }
+            }
+            padding-bottom: 25px;
+        }
+        .fghi {
+            // border: 3px solid red;
+            // padding-left: 25px;
+            z-index: 10;
+            // padding-right: 15px;
+            // margin: 15px;
+            grid-row: 3 / span 1;
+            grid-column: 3 / span 2;
+            align-self: center;
+            width: 100%;
+            height: auto;
+            color: red;
+            display: flex;
+            flex-direction: column;
+        }
+        .e {
+            grid-row: 5 / span 1;
+            grid-column: 1 / span 4;
+        }
+        .x {
+            // border: 3px  solid red;
+            padding-left: 15px;
+            // grid-area: cart;
+            padding-left: 50px;
+            grid-row: 6 / span 1;
+            grid-column: 1 / span 4;
+            width: auto;
+            text-align: center;
+            justify-self: center;
+            width: 30vw;
+            height: auto;
+            // @include font7;
+            @include max-mixin(360px) {
+                font-size: 16px;
+            }
+            table {
+                /*border: 1px solid black;*/
+                tr {
+                    td {
+                        /*border: 1px solid black;*/
+                    }
+                }
+            }
+        }
+        padding-bottom: 25px;
+    }
+
+    .five-plate-hanger {
+        display: none;
+    }
     /******************************************
       bowl-holders
     *******************************************/
     .bowl-holders {
-        display: block;
-    }
+        display: none;
+    } /* hw-block3 */
 }

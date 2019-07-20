@@ -18,7 +18,7 @@ and open the template in the editor.
 
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i" rel="stylesheet">
-    <link href="./css/plateHangers.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="./css/plateHangers1a.css" media="screen" rel="stylesheet" type="text/css">
     <link rel="icon" href="./images/favicon.png">
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script>
@@ -147,42 +147,64 @@ and open the template in the editor.
 
         <br><br><br>
         <div class="spacer30"></div>
-
+        <div class="spacer30"></div>
         <!--****************************************
             one-plate-hanger
             *****************************************-->
-        <div class="plate-hangers">
+        <div class="one-plate-hanger">
 
-            <div class="box heading">
+            <div class="box aa">
                 <div class="item-name">Custom Forged
                     Single Wall Plate Holder</div>
             </div>
             <br>
-            <div class="box copy1">
-                <div class="line2">Display a 14 inch pie plate
-                    or shallow bowl beautifully.
-                    Your choice of black or oil
-                    rubbed bronze finish and one
-                    of the four styles shown below.
+            <div class="box b">
+                <!--TEXT-->
+                <div class="copy">
+                    <div class="line2">Display a 14 inch pie plate
+                        or shallow bowl beautifully.
+                        Your choice of black or oil
+                        rubbed bronze finish and one
+                        of the four styles shown below.
+                    </div>
+                    <br>
+                    <div class="item-name">
+                        Single wall Plate Holder $40
+                    </div>
+                    <br>
+                    <div>Plus 10% shipping</div>
+                    <br>
+
                 </div>
-                <br>
-                <div class="item-name">
-                    Single wall Plate Holder $40
-                </div>
-                <br>
-                <div>Plus 10% shipping</div>
             </div>
 
-            <div class="box picture">
+            <div class="box a">
                 <!--1PLATE-->
                 <a href="1plateholder.html">
                     <img src="./images/plate_holder.jpg">
                 </a>
             </div>
 
-            <?php require './includes/models.php'; ?>
+            <div class="box d">
+                <div class="box f">
+                    Heart
+                    <img src="./images/style_heart1sm.jpg">
+                </div>
+                <div class="box g">
+                    Ram
+                    <img src="./images/style_ram2.jpg">
+                </div>
+                <div class="box h">
+                    Scroll
+                    <img src="./images/style_scroll2.jpg">
+                </div>
+                <div class="box i">
+                    Spade
+                    <img src="./images/style_plain2.jpg">
+                </div>
+            </div>
 
-            <div class="box copy2">
+            <div class="box e">
                 <div class="paragraph">
                     Custom Holders are made to fit your plates
                     <div class="red-words">at no extra charge!</div>
@@ -190,7 +212,7 @@ and open the template in the editor.
                 </div>
             </div>
 
-            <div class="box buy-it">
+            <div class="box c">
                 <br>
 
                 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -255,7 +277,8 @@ and open the template in the editor.
                 <!--K-->
             </div>
 
-        </div>
+        </div> 
+        <div class="spacer30"></div>
         <div class="spacer30"></div>
 
         <br><br><br>
@@ -263,9 +286,9 @@ and open the template in the editor.
         <!--****************************************
             two-plate-hanger
             *****************************************-->
-        <div class="plate-hangers">
+        <div class="two-plate-hanger">
             <br><br>
-            <div class="box heading">
+            <div class="box aa">
                 <div class="item-name">Hand Forged Double Wall Plate Holder</div>
                 <div class="spacer20"></div>
                 <div class="paragraph">Custom Holders made to fit your plates
@@ -273,28 +296,47 @@ and open the template in the editor.
                 </div>
             </div>
 
-            <div class="box copy1">
-                Wonderful way to feature special pieces.
-                Supports up to 14 inch plates, pie plates
-                or shallow bowls.
-                Your choice of black or oil
-                rubbed bronze finish in one
-                of the four styles shown below.
+            <div class="box a">
+                <div class="copy">
+                    Wonderful way to feature special pieces.
+                    Supports up to 14 inch plates, pie plates
+                    or shallow bowls.
+                    Your choice of black or oil
+                    rubbed bronze finish in one
+                    of the four styles shown below.
 
-                <br>
-                <div>(Shipped in two pieces.)</div>
-                <br>
-                <div class="item-name">Double Wall Plate Holder $65.</div>
-                <div>Shipping for each item $18.</div>
+                    <br>
+                    <div>(Shipped in two pieces.)</div>
+                    <br>
+                    <div class="item-name">Double Wall Plate Holder $65.</div>
+                    <div>Shipping for each item $18.</div>
+                </div>
             </div>
 
-            <div class="box picture">
+            <div class="box b">
                 <img src="./images/2_plate_holder_c.jpg">
             </div>
 
-            <?php require './includes/models.php'; ?>
+            <div class="fghi">
+                <div class="box f"><span class="block-id-letter">F</span>
+                    Heart
+                    <img src="./images/style_heart1sm.jpg">
+                </div>
+                <div class="box g"><span class="block-id-letter">G</span>
+                    Ram
+                    <img src="./images/style_ram2.jpg">
+                </div>
+                <div class="box h"><span class="block-id-letter">H</span>
+                    Scroll
+                    <img src="./images/style_scroll2.jpg">
+                </div>
+                <div class="box i"><span class="block-id-letter">I</span>
+                    Spade
+                    <img src="./images/style_plain2.jpg">
+                </div>
+            </div>
 
-            <div class="box buy-it">
+            <div class="box x">
                 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                     <input type="hidden" name="cmd" value="_s-xclick">
                     <input type="hidden" name="hosted_button_id" value="Z2U2W3JF585V4">
@@ -325,7 +367,7 @@ and open the template in the editor.
                         <tr>
                         </tr>
                         <tr>
-                            <td>
+                        <td>
                                 <!--<input type="hidden" name="on2" value="Plate diameter" size="4">Plate diameter up to 18 inches-->
                                 <input type="hidden" name="on2" value="Plate size">Plate size:
                             </td>
@@ -348,7 +390,8 @@ and open the template in the editor.
                 </form>
             </div>
 
-        </div>
+        </div> 
+        <div class="spacer30"></div>
         <div class="spacer30"></div>
 
         <br><br><br>
@@ -358,9 +401,9 @@ and open the template in the editor.
         <!--****************************************
             five-plate-hanger
             *****************************************-->
-        <div class="plate-hangers">
+        <div class="five-plate-hanger grid">
 
-            <div class="box heading">
+            <div class="box aa"><span class="block-id-letter">AA</span>
                 <div class="item-name">
                     Custom Forged Five Plate Wall Holder
                 </div>
@@ -372,29 +415,37 @@ and open the template in the editor.
             <!--        <div class="box a"><span class="block-id-letter">A</span>
                 </div>-->
 
-            <div class="box copy1">
-                <div class="paragraph">Display your collection with pride. </div>
-                <div class="paragraph">Holds plates, shallow bowls or pie plates up to 14 inches in diameter!</div>
-                <div class="paragraph">Your choice of black or oil </div>
-                <div class="paragraph">rubbed bronze finish and one</div>
-                <div class="paragraph">of the four styles shown below.</div>
+            <div class="box b"><span class="block-id-letter">B</span>
                 <br>
-                <div class="order paragraph">Five Plate Wall Holder $95 <span class="paragraph">plus shipping</span></div>
-                <div class="paragraph">Shipped in two pieces</div>
-                <br>
-            </div>
+                <div class="copy">
+                    <div class="paragraph">Display your collection with pride. </div>
+                    <div class="paragraph">Holds plates, shallow bowls or pie plates up to 14 inches in diameter!</div>
+                    <div class="paragraph">Your choice of black or oil </div>
+                    <div class="paragraph">rubbed bronze finish and one</div>
+                    <div class="paragraph">of the four styles shown below.</div>
+                    <br>
+                    <div class="order paragraph">Five Plate Wall Holder $95 <span class="paragraph">plus shipping</span></div>
+                    <div class="paragraph">Shipped in two pieces</div>
+                    <br>
+                </div>
 
-            <div class="box buy-it">
                 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                     <input type="hidden" name="cmd" value="_s-xclick">
                     <input type="hidden" name="hosted_button_id" value="4YQH2KQG7XX8S">
                     <table>
                         <tr>
+                            <td>
+                                <input type="hidden" name="on0" value="Style">Style
+                            </td>
+                            <td>
+                                <input type="hidden" name="on1" value="Color">Color
+                            </td>
+                            <td>
+                                <!--<input type="hidden" name="on2" value="Plate diameter up to 18 inches">Plate diameter-->
+                                <input type="hidden" name="on2" value="Plate size">Plate size
+                            </td>
                         </tr>
                         <tr>
-                            <td>
-                                <input type="hidden" name="on0" value="Style">Style:
-                            </td>
                             <td>
                                 <select name="os0">
                                     <option value="Heart">Heart </option>
@@ -403,22 +454,12 @@ and open the template in the editor.
                                     <option value="Spade">Spade </option>
                                 </select>
                             </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="hidden" name="on1" value="Color">Color:
-                            </td>
+
                             <td>
                                 <select name="os1">
                                     <option value="Black">Black </option>
                                     <option value="Oil Rubbed Bronze">Oil Rubbed Bronze </option>
                                 </select>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <!--<input type="hidden" name="on2" value="Plate diameter up to 18 inches">Plate diameter-->
-                                <input type="hidden" name="on2" value="Plate size">Plate size:
                             </td>
                             <td>
                                 <!--<input type="text" name="os2" maxlength="200" size="4">-->
@@ -442,63 +483,86 @@ and open the template in the editor.
                     <input class="button1" type="image" src="./images/add_2_cart2.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                 </form>
+
             </div>
 
-            <div class="box picture">
+            <div class="box d"><span class="block-id-letter">D</span>
                 <img src="./images/5_plate_holder.jpg">
             </div>
 
-            <?php require './includes/models.php'; ?>
+            <div class="box f"><span class="block-id-letter">F</span>
+                Heart
+                <img src="./images/style_heart1sm.jpg">
+            </div>
 
-        </div> 
-        <div class="spacer30"></div>
+            <div class="box g"><span class="block-id-letter">G</span>
+                Ram
+                <img src="./images/style_ram2.jpg">
+            </div>
+            <div class="box h"><span class="block-id-letter">H</span>
+                Scroll
+                <img src="./images/style_scroll2.jpg">
+            </div>
+            <div class="box i"><span class="block-id-letter">I</span>
+                Spade
+                <img src="./images/style_plain2.jpg">
+            </div>
+
+        </div> <!-- hw-block2b -->
 
         <br><br><br>
 
         <!--****************************************
             bowl-holders
             *****************************************-->
-        <div class="plate-hangers">
-
-            <div class="box heading">
-                <div class="item-name">Custom Forged Wall Bowl Holders</div>
+        <div class="bowl-holders">
+            <br><br><br>
+            <div class="box aa">
+                <div class="title">Custom Forged Wall Bowl Holders</div>
             </div>
 
-            <div class="box copy1">
-                <div class="paragraph">
-                    Both our single and double wall bowl
-                    holders are custom forged to fit your
-                    bowls at no extra charge (if under 18 inch diameter).
-                    <div class="spacer10"></div>
-                    Single scrolls hold the bowl at a slight angle.
-                    Your choice of either black or oil rubbed bronze finish.
-                    <div class="spacer10"></div>
-                    <div class="order">Single Wall Bowl Holder $40. </div>
-                    <div class="order">Double Wall Bowl Holder $65.</div>
+            <div class="box a">
+                <img src="./images/bowl_holder2.jpg">
+            </div>
+
+            <div class="box b">
+                <div class="copy">
                     <br>
+                    <!--            
+                                    <div class="paragraph">Both our single and double wall bowl </div>
+                                    <div class="paragraph">holders are custom forged  to fit your </div>
+                                    <div class="paragraph">bowls at no extra charge (if under 18 inch diameter).</div>
+                        
+                                    <div class="paragraph">Single scrolls hold the bowl at a slight angle.</div>
+                                    <div class="paragraph">Your choice of either black or oil rubbed bronze finish. </div>
+                                    <br>
+                                    <div class="order">Single Wall Bowl Holder  $40. </div>
+                                    <div class="order">Double Wall Bowl Holder $65.</div>
+                                    <br>
+                        -->
+                    <div class="paragraph">
+                        Both our single and double wall bowl
+                        holders are custom forged to fit your
+                        bowls at no extra charge (if under 18 inch diameter).
+                        <div class="spacer10"></div>
+                        Single scrolls hold the bowl at a slight angle.
+                        Your choice of either black or oil rubbed bronze finish.
+                        <div class="spacer10"></div>
+                        <div class="order">Single Wall Bowl Holder $40. </div>
+                        <div class="order">Double Wall Bowl Holder $65.</div>
+                        <br>
+                    </div>
 
-                </div>
-            </div>
+                </div> <!-- copy -->
 
-            <!-- <div class="box pictures"> -->
-                <div class="box picture">
-                    <img src="./images/bowl_holder2.jpg">
-                </div>
-                <div class="box picture2">
-                    <img src="./images/2_bowl_holder3.jpg">
-                </div>
-            <!-- </div> -->
-
-            <div class="box buy-it">
-                <!-- <div class="spacer30"></div> -->
                 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                     <input type="hidden" name="cmd" value="_s-xclick">
                     <input type="hidden" name="hosted_button_id" value="VCBGJWRXVBR64">
                     <table>
                         <tr>
+                            <td><input type="hidden" name="on0" value="One or two bowls">One or two bowls</td>
                         </tr>
                         <tr>
-                            <td><input type="hidden" name="on0" value="One or bowls">1 or 2 bowls:</td>
                             <td><select name="os0">
                                     <option value="One bowl">One bowl $40.00 USD</option>
                                     <option value="Two bowls">Two bowls $65.00 USD</option>
@@ -508,9 +572,9 @@ and open the template in the editor.
                             <td></td>
                         </tr>
                         <tr>
+                            <td><input type="hidden" name="on1" value="Color">Color</td>
                         </tr>
                         <tr>
-                            <td><input type="hidden" name="on1" value="Color">Color:</td>
                             <td><select name="os1">
                                     <option value="Black">Black </option>
                                     <option value="Oil rubbed bronze">Oil rubbed bronze </option>
@@ -520,9 +584,9 @@ and open the template in the editor.
                             <td></td>
                         </tr>
                         <tr>
+                            <td><input type="hidden" name="on2" value="Bowl diameter">Bowl diameter</td>
                         </tr>
                         <tr>
-                            <td><input type="hidden" name="on2" value="Bowl diameter">Bowl diameter:</td>
                             <td><input type="text" name="os2" maxlength="200" size="4"></td>
                         </tr>
                         <tr class="spacer10">
@@ -533,11 +597,14 @@ and open the template in the editor.
                     <input type="image" src="./images/add_2_cart2.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                 </form>
-            </div>
 
-        </div>
-        <!--</div>-->
-    </div> <!-- hw-block3 -->
+
+            </div>
+            <!--</div>-->
+            <div class="box c">
+                <img src="./images/2_bowl_holder3.jpg">
+            </div>
+        </div> <!-- hw-block3 -->
 
     </div>
 

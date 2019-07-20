@@ -33,10 +33,10 @@ and open the template in the editor.
                 //        $("#new-header").load("newheader.php");
                 $("#footer").load("footer.html");
             });
-            $(document).ready(function () {
-                //        $("#new-header").load("newheader.php");
-                $("#footer").load("footer.html");
-            });
+            // $(document).ready(function () {
+            //     //        $("#new-header").load("newheader.php");
+            //     $("#footer").load("footer.html");
+            // });
         </script> 
 
     </head>
