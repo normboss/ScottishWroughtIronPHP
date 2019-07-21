@@ -54,41 +54,45 @@ and open the template in the editor.
             plate-holders
             *****************************************-->
         <div class="plate-holders">
-            <div class="box b">
+            <div class="box heading">
                 <!--TEXT-->
                 <div class="item-name">Hand Forged Table Top Plate Holders</div>
                 <br>
                 <div class="copy">
                     <div class="paragraph">Choose one of three styles and
-                        display your plate on a table or shelf.
+                    </div>
+                    <div class="paragraph">display your plate on a table or shelf.
+                    </div>
+                    <div class="paragraph">
                         Sizes small, medium or large.
                     </div>
                     <div class="item-name">
                         $35 small $37 medium and $39 large
                     </div>
-                    <div>plus shipping</div>
+                    <div class="paragraph">plus shipping</div>
                 </div>
             </div>
 
-            <div class="box a">
+            <div class="box picture">
                 <!--PLATES-->
                 <img src="./images/plate_holders_wp_left.jpg">
             </div>
-            <span class="box g">
-                <span class="box c">
-                    <span class="box">Heart</span>
+
+            <dev class="box models">
+                <dev class="box heart">
+                    <dev class="box">Heart</dev>
                     <img src="./images/style_heart.jpg">
-                </span>
-                <span class="box d">
-                    <span class="box">Ram</span>
+                </dev>
+                <dev class="box ram">
+                    <dev class="box">Ram</dev>
                     <img src="./images/style_ram.jpg">
-                </span>
-                <span class="box e">
-                    <span class="box">Scroll</span>
+                </dev>
+                <dev class="box scroll">
+                    <dev class="box">Scroll</dev>
                     <img src="./images/style_scroll.jpg">
-                </span>
-            </span>
-            <div class="box f">
+                </dev>
+            </dev>
+            <div class="box buy-it">
                 <!--CART-->
                 <br>
                 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -450,7 +454,7 @@ and open the template in the editor.
 
             <?php require './includes/models.php'; ?>
 
-        </div> 
+        </div>
         <div class="spacer30"></div>
 
         <br><br><br>
@@ -481,12 +485,12 @@ and open the template in the editor.
             </div>
 
             <!-- <div class="box pictures"> -->
-                <div class="box picture">
-                    <img src="./images/bowl_holder2.jpg">
-                </div>
-                <div class="box picture2">
-                    <img src="./images/2_bowl_holder3.jpg">
-                </div>
+            <div class="box picture">
+                <img src="./images/bowl_holder2.jpg">
+            </div>
+            <div class="box picture2">
+                <img src="./images/2_bowl_holder3.jpg">
+            </div>
             <!-- </div> -->
 
             <div class="box buy-it">

@@ -49,9 +49,7 @@ and open the template in the editor.
             text-align: left;
             font-size: 14px;
             display: block;
-            // float: left;
             padding: 20px;
-            // padding: 10px 20px 10px 20px;
             @include font7;
             .bold {
                 font-weight: bold;
@@ -70,9 +68,6 @@ and open the template in the editor.
             }
         }
 
-        // @include max-mixin(700px) {
-        //     display: block;
-        // }
         background-color: #ededed;
 
         .box {
@@ -119,26 +114,17 @@ and open the template in the editor.
     .plate-holders {
         /*border: 3px solid red;*/
         width: 80%;
-        @include max-mixin(550px) {
+        padding-left: 25px;
+        @include max-mixin(500px) {
             width: 100%;
         }
-        // min-height: 550px;
-        /*height: 525px;*/
-        /*grid-template: repeat(4, 90px)  / 55% 1fr 1fr 1fr 1fr 1fr;*/
-        // grid-template: 1.5fr 0.5fr 1fr 1fr / 55% 1fr 1fr 1fr 1fr;
-        // grid-template-areas:
-        //     "text text text text "
-        //     "plates cart cart cart "
-        //     "plates cart cart cart "
-        //     "plates cart cart cart "
-        //     "heart ram scroll blank";
         grid-template-columns: repeat(5, 20%);
 
-        .a {
+        .picture {
             /*height: 400px;*/
             // grid-area: plates;
             width: 70vw;
-            grid-row: 2 / span 3;
+            grid-row: 3 / span 3;
             grid-column: 1 / span 3;
             align-self: center;
             img {
@@ -146,10 +132,11 @@ and open the template in the editor.
                 height: auto;
             }
         }
-        .b {
-            /*border: 3px  solid red;*/
+        .heading {
+            // border: 3px  solid red;
+            width: 100%;
             // grid-area: text;
-            grid-row: 1 / span 1;
+            grid-row: 1 / span 2;
             grid-column: 1 / span 4;
             @include max-mixin($breakpt1) {
                 grid-column: 1 / span 3;
@@ -157,21 +144,13 @@ and open the template in the editor.
             font-size: 14px;
             text-align: center;
             padding-top: 40px;
-            // padding-left: 20px;
-            // img {
-            //     z-index: 10;
-            // }
             @include max-mixin(500px) {
                 padding-left: 0;
             }
-            .p {
-                /*border: 3px  solid red;*/
-                // padding-left: 20px;
-            }
         }
-        .c,
-        .d,
-        .e {
+        .heart,
+        .ram,
+        .scroll {
             // border: 3px  solid red;
             justify-items: start;
             display: inline-block;
@@ -180,7 +159,7 @@ and open the template in the editor.
             height: 50px;
             width: 80px;
             @include max-mixin(400px) {
-                width: 50px;
+                // width: 50px;
             }
             img {
                 width: 60%;
@@ -191,26 +170,43 @@ and open the template in the editor.
                 // }
             }
         }
-        .g {
+        .models {
             // border: 3px solid red;
-            padding-left: 25px;
+            // padding-left: 25px;
+            @include max-mixin(650px) {
+                padding-left: 10px;
+            }
             // z-index: 10;
             padding-right: 15px;
             margin: 15px;
-            grid-row: 5 / span 1;
+            grid-row: 6 / span 1;
             grid-column: 1 / span 1;
             align-self: center;
             width: 100px;
+            @include max-mixin(500px) {
+                display: flex;
+                grid-row: 6 / span 1;
+                grid-column: 1 / span 1;
+                width: 250px;
+                height: 75px;
+            }
         }
-        .f {
-            // border: 3px  solid red;
-            padding-left: 15px;
+        .buy-it {
+            // border: 3px solid red;
+            // padding-left: 15px;
             // grid-area: cart;
-            padding-left: 50px;
-            grid-row: 5 / span 1;
+            // padding-left: 50px;
+            grid-row: 6 / span 1;
             grid-column: 3 / span 3;
             width: auto;
             text-align: left;
+            justify-self: left;
+            @include max-mixin(500px) {
+                grid-row: 7 / span 1;
+                grid-column: 1 / span 3;
+                justify-self: center;
+                padding-left: 25px;
+            }
             // @include font7;
             @include max-mixin(360px) {
                 font-size: 16px;
@@ -256,7 +252,7 @@ and open the template in the editor.
             @include max-mixin(500px) {
                 grid-row: 5 / span 2;
                 grid-column: 1 / span 2;
-                }
+            }
         }
         // .pictures {
         //     display: flex;
@@ -346,8 +342,6 @@ and open the template in the editor.
         }
         padding-bottom: 25px;
     }
-
-
 
     /******************************************
       bowl-holders
