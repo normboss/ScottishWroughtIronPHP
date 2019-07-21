@@ -42,7 +42,7 @@ text-align: center;
 }
 .wide-paragraph-left {
     /*border: 3px solid red;*/
-    width: 70%;
+    width: 80%;
     /*width: 50vw;*/
     @include font7;
     margin: 0 auto;
@@ -69,15 +69,16 @@ text-align: center;
 }
 
 .process {
-    /*border: 3px solid red;*/
-    width: 80%;
+    // border: 3px solid red;
+    width: 95%;
     /*margin: 0 auto;*/
-    justify-self: start;
+    // justify-self: start;
+    text-align: left;
     @include font7;
     ul {
-        justify-self: start;
+        // justify-self: start;
         li {
-            justify-self: start;
+            // justify-self: start;
             @include font7;
             a {
                 color: #000000;
