@@ -25,7 +25,7 @@ and open the template in the editor.
         grid-template-columns: 1fr;
     }
     grid-gap: 50px;
-    justify-content: center;;
+    justify-content: center;
     /*align-items: end;*/
 
     .box {
@@ -87,8 +87,15 @@ and open the template in the editor.
     }
 }
 
+.bottom-text {
+    // font-size: 20px;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .sayings {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     display: flex;
     justify-content: center;
     padding-top: 25px;
@@ -112,4 +119,3 @@ and open the template in the editor.
 .garden-col {
     box-sizing: border-box;
 }
-

@@ -102,6 +102,17 @@ and open the template in the editor.
         <div class="image-text">Tulip inspired hinges are teamed up with a handle with a salamander motif on an outbuilding</div>
       </div>
 
+      
+      <div class="box"><span class="block-id-image">N</span>
+        <img src="./images/trellis2.png">
+        <div class="image-text">Trellis screen is functional focal point.</div>
+      </div>
+    
+      <div class="box"><span class="block-id-image">O</span>
+        <img src="./images/trellis.png">
+        <div class="image-text"></div>
+      </div>
+
     </div>
     <br>
     
