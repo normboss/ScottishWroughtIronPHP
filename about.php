@@ -61,7 +61,7 @@ and open the template in the editor.
         </div>
 
         <div class="box c">
-          <div class="row-copy">
+          <div class="row-copyi">
             <span class="block-id-letter">C</span>I awake early totally recharged, physically and mentally
             from yesterday's many hard tasks. I always remind 
             myself how lucky, thankful and blessed I am to be 
