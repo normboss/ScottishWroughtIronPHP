@@ -124,44 +124,16 @@ and open the template in the editor.
           <a href="https://www.AlchemyWebDesigns.com">Alchemy Web Designs</a>
         </div>
         <div class="box g"><span class="block-id-letter">G</span>
-          <div class="contact">
-<!--            <a href="contact.html">
-              <h5>Contact</h5>
-            </a>
-          </div>
-          <div class="facebook">
-            <a href="https://facebook.com">
-              <img src="./images/facebook_2.png">
-              <h5>Follow</h5>
-            </a>
-          </div>
-          <div class="subscribe">
-            <a href="subscribe.html">
-              <h5>Subscribe</h5>
-            </a>
-          </div>-->
-        </div>
-        <!--        <div class="box h">H
+        <div class="lower-part">
+                <div>
+                    <span class="credit-brand footer-box">Alchemy</span><span class="credit-name"> Web Designs.com</span>;
                 </div>
-                <div class="box i">I
+
+                <div class="credit-tagline footer-box">
+                    Making magic on the web
                 </div>
-                <div class="box k">K
-                </div>
-                <div class="box l">L</div>
-                <div class="box m">M</div>
-                <div class="box n">N</div>
-                <div class="box o">O</div>
-                <div class="box p">P</div>
-                <div class="box q">Q</div>
-                <div class="box r">R</div>
-                <div class="box s">S</div>
-                <div class="box t">T</div>
-                <div class="box u">U</div>
-                <div class="box v">V</div>
-                <div class="box w">W</div>
-                <div class="box x">X</div>
-                <div class="box y">Y</div>
-                <div class="box z">Z</div>-->
+
+            </div>
 
       </div>
 

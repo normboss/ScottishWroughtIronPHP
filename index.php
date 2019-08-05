@@ -80,49 +80,49 @@ and open the template in the editor.
              *********************************************** -->
     <div class="index-container">
 
-        <div class="box a">
+        <div class="box">
             <a href="curtainhw.php">
                 <div class="text">Hand Forged Hardware</div>
                 <img src="./images/curtain_rods400.jpg">
             </a>
         </div>
-        <div class="box b">
+        <div class="box">
             <a href="gatesRailings.php">
                 <div class="text">Custom Railings and Gates</div>
                 <img src="./images/gate_cranes.jpg">
             </a>
         </div>
-        <div class="box c">
+        <div class="box">
             <a href="plateHangers.php">
                 <div class="text">Plate and Bowl Holders</div>
                 <img src="./images/2plate_hanger.png">
             </a>
         </div>
-        <div class="box d">
+        <div class="box">
             <a href="signs.php">
                 <div class="text">Signs and Brackets</div>
                 <img src="./images/sign_cofee.jpg">
             </a>
         </div>
-        <div class="box e">
+        <div class="box">
             <a href="gardenArt.php">
                 <div class="text">Gallery of Original Art</div>
                 <img src="./images/hen_house_conflict.jpg">
             </a>
         </div>
-        <div class="box f">
+        <div class="box">
             <a href="https://www.etsy.com/shop/scottishlion">
                 <div class="text">Shop Etsy</div>
                 <img src="./images/etsy_image.png">
             </a>
         </div>
-        <div class="box g">
+        <div class="box">
             <a href="about.php">
                 <div class="text">About Andy</div>
                 <img src="./images/door_smile.jpg">
             </a>
         </div>
-        <div class="box h">
+        <div class="box">
             <!-- <div class="hcontent">
                     <div class="upper-paragraph">
                         The galleries display a small sampling of

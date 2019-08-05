@@ -7,12 +7,13 @@ and open the template in the editor.
     Created on : Aug 10, 2018, 11:41:16 AM
     Author     : Norm
 */
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|Open+Sans:400,400i,600,700,800');
 
 @import "variables";
 @import "footer";
 
 .index-container {
-    /*border: 3px solid red;*/
+    // border: 3px solid red;
     width: 50%;
     margin: 0 auto;
     /*padding-left: 25px;*/
@@ -23,17 +24,22 @@ and open the template in the editor.
     grid-template-columns: 1fr 1fr;
     @include max-mixin(650px) {
         grid-template-columns: 1fr;
+        width: 90%;
     }
     grid-gap: 50px;
     justify-content: center;
     /*align-items: end;*/
 
     .box {
+        // border: 3px solid red;
         text-align: center;
         img {
             width: 400px;
             height: 400px;
             width: 35vw;
+            @include max-mixin(650px) {
+                width: 85vw;
+            }
             height: auto;
         }
     }
@@ -86,6 +92,7 @@ and open the template in the editor.
         }
     }
 }
+
 
 .bottom-text {
     // font-size: 20px;

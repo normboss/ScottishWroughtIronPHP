@@ -7,6 +7,7 @@ and open the template in the editor.
     Created on : Aug 11, 2018, 10:50:08 PM
     Author     : Norm
 */
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|Open+Sans:400,400i,600,700,800');
 
 @import "variables";
 
@@ -14,10 +15,26 @@ and open the template in the editor.
   text-align: right;
 }
 
+
+%font-credit-brand {
+  font-family: 'Major Mono Display', monospace;
+  font-weight: 800;
+}
+
+%font-credit-name {
+  font-family: 'Open Sans', sans-serif;
+}
+
+%font-credit-tagline {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+}
+
 #footer {
-  /*border: 3px solid red;*/
+  // border: 3px solid red;
   .footer-block {
     padding-top: 15px;
+    padding-bottom: 15px;
     @include min-mixin(400px) {
       display: grid;
     }
@@ -39,7 +56,7 @@ and open the template in the editor.
       display: none;
     }
     .box {
-      /*border: solid 3px blue;*/
+      // border: solid 3px blue;
     }
     .h {
       /*border: 3px solid red;*/
@@ -215,7 +232,31 @@ and open the template in the editor.
       .facebook {
         padding-left: 10px;
       }
+      
     }
+    .f {
+      /*border: 2px solid red;*/
+      padding-top: 10px;
+      padding-bottom: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #957a2b;
+      font-size: 16px;
+
+      .credit-brand {
+          @extend %font-credit-brand;
+          /*font-weight: bold;*/
+      }
+      .credit-name {
+          @extend %font-credit-name;
+          /*font-weight: bold;*/
+      }
+      .credit-tagline {
+          @extend %font-credit-tagline;
+      }
+  }
 
 
   }
