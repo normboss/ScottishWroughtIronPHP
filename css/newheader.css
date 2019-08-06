@@ -18,6 +18,11 @@ and open the template in the editor.
     Author     : Norm
 */
 @import url("https://fonts.googleapis.com/css?family=IM+Fell+English+SC|Italianno|Roboto:300,300i,400,500,700");
+.html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 /*
 font-family: 'IM Fell English SC', serif;
 font-family: 'Roboto', sans-serif;
@@ -25,10 +30,11 @@ font-family: 'Italianno', cursive;
 */
 @font-face {
   font-family: Andulus;
-  src: local("D:ÞvelopmentScottishWroughtIronpublic_html\fonts\andalus\2.ttf");
+  src: local("D:ÞvelopmentScottishWroughtIronpublic_htmlonts\andalus.ttf");
 }
+
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -56,7 +62,7 @@ body {
 
 .signature .signature-block {
   /* Terms */
-  font-family: "IM Fell English SC", serif;
+  font-family: 'IM Fell English SC', serif;
   font-size: 28px;
   color: #000000;
 }
@@ -64,13 +70,13 @@ body {
 .heading {
   text-align: center;
   /* Headlines */
-  font-family: "IM Fell English SC", serif;
+  font-family: 'IM Fell English SC', serif;
   font-size: 32px;
   /*  @if $fontUsePercent == true {
-      font-size: calc(16px + (32 - 16) * ((1200px - 300px) / (1200 - 300)));
-    } @else {
-      font-size: 32px;
-    }*/
+    font-size: calc(16px + (32 - 16) * ((1200px - 300px) / (1200 - 300)));
+  } @else {
+    font-size: 32px;
+  }*/
   color: #000000;
   font-weight: bold;
 }
@@ -78,13 +84,13 @@ body {
 .sub-heading {
   text-align: center;
   /* Headlines */
-  font-family: "IM Fell English SC", serif;
+  font-family: 'IM Fell English SC', serif;
   font-size: 32px;
   /*  @if $fontUsePercent == true {
-      font-size: calc(16px + (32 - 16) * ((1200px - 300px) / (1200 - 300)));
-    } @else {
-      font-size: 32px;
-    }*/
+    font-size: calc(16px + (32 - 16) * ((1200px - 300px) / (1200 - 300)));
+  } @else {
+    font-size: 32px;
+  }*/
   color: #000000;
   font-weight: bold;
 }
@@ -92,7 +98,7 @@ body {
 .small-sub-heading {
   text-align: center;
   /* Navigation Menu */
-  font-family: "IM Fell English SC", serif;
+  font-family: 'IM Fell English SC', serif;
   font-size: 19px;
   color: #000000;
   font-weight: bold;
@@ -100,24 +106,30 @@ body {
 
 header {
   /*border: 3px solid red;*/
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 100%;
   /*  .sticky {
-      position: fixed;
-      top: 0;
-      width: $mainWidth;
-    }
+    position: fixed;
+    top: 0;
+    width: $mainWidth;
+  }
 
-    .sticky + .content {
-      padding-top: 60px;
-      padding-bottom: 50px;
-    }*/
+  .sticky + .content {
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }*/
   /*header a {
     font-size: 1rem 20px;
     color: black;
   }*/
 }
+
 header .banner-upper {
   z-index: 5;
   /*border: 3px solid red;*/
@@ -126,70 +138,91 @@ header .banner-upper {
   font-family: "IM Fell English SC", serif;
   color: black;
   font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-top: 5px;
 }
+
 header .banner-upper .banner-block {
   text-align: center;
   /*border: 3px solid red;*/
   /*padding: 0 25px 0 25px;*/
   width: 100%;
-  font-family: "IM Fell English SC", serif;
+  font-family: 'IM Fell English SC', serif;
   color: #000000;
   font-weight: bold;
 }
+
 header .banner-upper .banner-block .left-half, header .banner-upper .banner-block .right-half, header .banner-upper .banner-block .logo-inline {
   /*border: 3px solid red;*/
 }
+
 header .banner-upper .banner-block .left-half {
   /*width: 50%;*/
   /*align-self: flex-end;*/
   /*justify-content: flex-end;*/
   padding-left: 50px;
 }
+
 header .banner-upper .banner-block .logo-inline {
   display: inline;
 }
+
 @media screen and (max-width: 620px) {
   header .banner-upper .banner-block {
     font-size: 28px;
   }
 }
+
 @media screen and (min-width: 620px) and (max-width: 901px) {
   header .banner-upper .banner-block {
     font-size: 38px;
   }
 }
+
 @media screen and (min-width: 901px) {
   header .banner-upper .banner-block {
     font-size: 48px;
   }
 }
+
 @media screen and (max-width: 400px) {
   header .banner-upper .banner-block {
     /*width: 250px;*/
     font-size: 16px;
   }
 }
+
 @media screen and (max-width: 450px) {
   header .banner-upper .banner-block .logo-inline {
     display: none;
   }
 }
+
 @media screen and (min-width: 325px) {
   header .banner-upper .banner-block-small {
     display: none;
   }
 }
+
 @media screen and (max-width: 325px) {
   header .banner-upper .banner-block-small {
     display: inherit;
     font-size: 24px;
   }
 }
+
 header #header-image {
   z-index: 5;
   /*border: 3px solid blue;*/
@@ -199,61 +232,78 @@ header #header-image {
   background-size: cover;
   /*display: "block";*/
 }
+
 @media screen and (max-width: 650px) {
   header #header-image {
     background-image: url("../images/header2_m.jpg");
     height: 250px;
   }
 }
+
 header #main-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 header nav {
   z-index: 5;
   /*border: 3px solid red;*/
   /*    position: relative;
-      top: 47px;*/
+    top: 47px;*/
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   background-color: #D9D9D4;
-  justify-content: space-around;
-  align-content: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
   width: 100%;
   height: 30px;
   padding-top: 15px;
 }
+
 @media screen and (max-width: 450px) {
   header nav {
     display: none;
   }
 }
+
 header nav .shopping-cart {
   /*border: 3px solid red;*/
   position: relative;
   top: -10px;
 }
+
 header nav a {
   float: left;
   color: black;
   text-align: center;
   text-decoration: none;
   /* Navigation Menu */
-  font-family: "IM Fell English SC", serif;
+  font-family: 'IM Fell English SC', serif;
   font-size: 19px;
   color: #000000;
 }
+
 @media screen and (max-width: 400px) {
   header nav a {
     font-size: 16px;
   }
 }
+
 header nav a:hover, header .dropdown:hover .dropbtn {
   background-color: #5243D8;
   /* Navigation Menu */
-  font-family: "IM Fell English SC", serif;
+  font-family: 'IM Fell English SC', serif;
   font-size: 19px;
   color: #000000;
 }
+
 header .dropdown-content {
   display: none;
   width: 33%;
@@ -263,8 +313,9 @@ header .dropdown-content {
   padding: 0 15px 0 15px;
   height: auto;
   /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
-  /*z-index: 1;*/
+  /*z-index: 2;*/
 }
+
 header .dropdown-content a {
   float: none;
   color: black;
@@ -274,74 +325,92 @@ header .dropdown-content a {
   text-align: left;
   height: auto;
 }
+
 header .dropdown:hover .dropdown-content {
   display: block;
 }
+
 header header {
   width: 100%;
   /*padding-top: 15px;*/
   color: black;
 }
+
 header .menu-item {
   font-size: 1rem;
   color: black;
 }
+
 header .dropdown-item {
   font-size: 1.25rem;
   color: black;
 }
+
 header .topnavbar {
   /*border: 3px solid red;*/
   position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 2;
   width: 100%;
 }
+
 header #topnavbar .navbar-mobile {
   position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 2;
   width: 100%;
 }
+
 header .fixed {
   position: fixed;
 }
+
 header .navbar-mobile {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
+  -ms-grid-columns: 1fr 4fr 1fr;
+      grid-template-columns: 1fr 4fr 1fr;
   grid-justify-items: center;
   grid-align-items: center;
   grid-align-content: center;
-  grid-template-rows: 50px;
+  -ms-grid-rows: 50px;
+      grid-template-rows: 50px;
   /*padding-top: 8px;*/
   background-color: #D9D9D4;
 }
+
 @media screen and (min-width: 450px) {
   header .navbar-mobile {
     display: none;
   }
 }
+
 header .navbar-mobile a:hover, header .navbar-mobile .dropdown:hover .dropbtn {
   background-color: #5243D8;
   /* Navigation Menu */
-  font-family: "IM Fell English SC", serif;
+  font-family: 'IM Fell English SC', serif;
   font-size: 19px;
   color: #000000;
 }
+
 header .navbar-mobile a {
   /* Navigation Menu */
-  font-family: "IM Fell English SC", serif;
+  font-family: 'IM Fell English SC', serif;
   font-size: 19px;
   color: #000000;
 }
+
 header .navbar-mobile div {
   text-align: center;
 }
+
 header .navbar-mobile .menu-box {
-  align-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
+
 header .navbar-mobile .dropdown .dropdown-content {
   width: 100%;
 }
-
 /*# sourceMappingURL=newheader.css.map */

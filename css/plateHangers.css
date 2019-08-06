@@ -18,18 +18,25 @@ and open the template in the editor.
     Author     : Norm
 */
 @import url("https://fonts.googleapis.com/css?family=IM+Fell+English+SC|Italianno|Roboto:300,300i,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Major+Mono+Display|Open+Sans:400,400i,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=IM+Fell+English+SC|Italianno|Roboto:300,300i,400,500,700");
+.html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 /*
 font-family: 'IM Fell English SC', serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Italianno', cursive;
 */
-@import url("https://fonts.googleapis.com/css?family=IM+Fell+English+SC|Italianno|Roboto:300,300i,400,500,700");
 @font-face {
   font-family: Andulus;
-  src: local("D:ÞvelopmentScottishWroughtIronpublic_html\fonts\andalus\2.ttf");
+  src: local("D:ÞvelopmentScottishWroughtIronpublic_htmlonts\andalus.ttf");
 }
+
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -57,7 +64,7 @@ body {
 
 .signature .signature-block {
   /* Terms */
-  font-family: "IM Fell English SC", serif;
+  font-family: 'IM Fell English SC', serif;
   font-size: 28px;
   color: #000000;
 }
@@ -65,13 +72,13 @@ body {
 .heading {
   text-align: center;
   /* Headlines */
-  font-family: "IM Fell English SC", serif;
+  font-family: 'IM Fell English SC', serif;
   font-size: 32px;
   /*  @if $fontUsePercent == true {
-      font-size: calc(16px + (32 - 16) * ((1200px - 300px) / (1200 - 300)));
-    } @else {
-      font-size: 32px;
-    }*/
+    font-size: calc(16px + (32 - 16) * ((1200px - 300px) / (1200 - 300)));
+  } @else {
+    font-size: 32px;
+  }*/
   color: #000000;
   font-weight: bold;
 }
@@ -79,13 +86,13 @@ body {
 .sub-heading {
   text-align: center;
   /* Headlines */
-  font-family: "IM Fell English SC", serif;
+  font-family: 'IM Fell English SC', serif;
   font-size: 32px;
   /*  @if $fontUsePercent == true {
-      font-size: calc(16px + (32 - 16) * ((1200px - 300px) / (1200 - 300)));
-    } @else {
-      font-size: 32px;
-    }*/
+    font-size: calc(16px + (32 - 16) * ((1200px - 300px) / (1200 - 300)));
+  } @else {
+    font-size: 32px;
+  }*/
   color: #000000;
   font-weight: bold;
 }
@@ -93,7 +100,7 @@ body {
 .small-sub-heading {
   text-align: center;
   /* Navigation Menu */
-  font-family: "IM Fell English SC", serif;
+  font-family: 'IM Fell English SC', serif;
   font-size: 19px;
   color: #000000;
   font-weight: bold;
@@ -117,6 +124,11 @@ and open the template in the editor.
     Created on : Aug 10, 2018, 10:07:22 PM
     Author     : Norm
 */
+.html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 /*
 font-family: 'IM Fell English SC', serif;
 font-family: 'Roboto', sans-serif;
@@ -124,10 +136,11 @@ font-family: 'Italianno', cursive;
 */
 @font-face {
   font-family: Andulus;
-  src: local("D:ÞvelopmentScottishWroughtIronpublic_html\fonts\andalus\2.ttf");
+  src: local("D:ÞvelopmentScottishWroughtIronpublic_htmlonts\andalus.ttf");
 }
+
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -155,7 +168,7 @@ body {
 
 .signature .signature-block {
   /* Terms */
-  font-family: "IM Fell English SC", serif;
+  font-family: 'IM Fell English SC', serif;
   font-size: 28px;
   color: #000000;
 }
@@ -163,13 +176,13 @@ body {
 .heading {
   text-align: center;
   /* Headlines */
-  font-family: "IM Fell English SC", serif;
+  font-family: 'IM Fell English SC', serif;
   font-size: 32px;
   /*  @if $fontUsePercent == true {
-      font-size: calc(16px + (32 - 16) * ((1200px - 300px) / (1200 - 300)));
-    } @else {
-      font-size: 32px;
-    }*/
+    font-size: calc(16px + (32 - 16) * ((1200px - 300px) / (1200 - 300)));
+  } @else {
+    font-size: 32px;
+  }*/
   color: #000000;
   font-weight: bold;
 }
@@ -177,13 +190,13 @@ body {
 .sub-heading {
   text-align: center;
   /* Headlines */
-  font-family: "IM Fell English SC", serif;
+  font-family: 'IM Fell English SC', serif;
   font-size: 32px;
   /*  @if $fontUsePercent == true {
-      font-size: calc(16px + (32 - 16) * ((1200px - 300px) / (1200 - 300)));
-    } @else {
-      font-size: 32px;
-    }*/
+    font-size: calc(16px + (32 - 16) * ((1200px - 300px) / (1200 - 300)));
+  } @else {
+    font-size: 32px;
+  }*/
   color: #000000;
   font-weight: bold;
 }
@@ -191,145 +204,188 @@ body {
 .small-sub-heading {
   text-align: center;
   /* Navigation Menu */
-  font-family: "IM Fell English SC", serif;
+  font-family: 'IM Fell English SC', serif;
   font-size: 19px;
   color: #000000;
   font-weight: bold;
 }
 
-/*@import "header.scss";*/
 .back-to-top {
   text-align: right;
 }
 
-#footer {
-  /*border: 3px solid red;*/
+#footer .footer-block .f .credit-brand {
+  font-family: 'Major Mono Display', monospace;
+  font-weight: 800;
 }
+
+#footer .footer-block .f .credit-name {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#footer .footer-block .f .credit-tagline {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+}
+
 #footer .footer-block {
   padding-top: 15px;
+  padding-bottom: 15px;
   width: 100%;
   /*height: 300px;*/
   background-color: #EDEDED;
-  grid-template: 60px 100px 30px 150px 30px/1fr 1.5fr 1fr;
+  -ms-grid-rows: 60px 100px 30px 150px 30px;
+  -ms-grid-columns: 1fr 1.5fr 1fr;
+      grid-template: 60px 100px 30px 150px 30px / 1fr 1.5fr 1fr;
 }
+
 @media screen and (min-width: 400px) {
   #footer .footer-block {
+    display: -ms-grid;
     display: grid;
   }
 }
+
 @media screen and (min-width: 400px) {
   #footer .footer-block {
-    grid-template: 100px 30px 150px 30px/1fr 1.5fr 1fr;
-    grid-template-areas: "a a a" "aa aa aa" "b c d" "e f g";
+    -ms-grid-rows: 100px 30px 150px 30px;
+    -ms-grid-columns: 1fr 1.5fr 1fr;
+        grid-template: 100px 30px 150px 30px / 1fr 1.5fr 1fr;
+        grid-template-areas: "a a a"  "aa aa aa"  "b c d"  "e f g";
   }
 }
+
 @media screen and (max-width: 650px) {
   #footer .footer-block {
-    grid-template: 60px 100px 30px 150px 30px/1fr 1.5fr 1fr;
-    grid-template-areas: "h h h" "a a a" "aa aa aa" "b c d" "e f g";
+    -ms-grid-rows: 60px 100px 30px 150px 30px;
+    -ms-grid-columns: 1fr 1.5fr 1fr;
+        grid-template: 60px 100px 30px 150px 30px / 1fr 1.5fr 1fr;
+        grid-template-areas: "h h h" "a a a"  "aa aa aa"  "b c d"  "e f g";
   }
 }
+
 #footer .footer-block .block-id-letter {
   display: none;
 }
-#footer .footer-block .box {
-  /*border: solid 3px blue;*/
-}
+
 #footer .footer-block .h {
   /*border: 3px solid red;*/
   grid-area: h;
 }
+
 #footer .footer-block .h img {
   margin: 0 auto;
   /*padding-left: 35px;*/
   display: none;
 }
+
 @media screen and (max-width: 649px) {
   #footer .footer-block .h img {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
+
 @media screen and (min-width: 650px) {
   #footer .footer-block .h img {
     display: none;
   }
 }
+
 #footer .footer-block .a {
   /*@include font1;*/
   /*border: 3px solid red;*/
   height: auto;
   /*padding-top: 10px;*/
   grid-area: a;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   /*      .image-small {
-          display: none;
-          @include max-mixin(625px) {
-            display: inherit;
-          }
-        }*/
+        display: none;
+        @include max-mixin(625px) {
+          display: inherit;
+        }
+      }*/
 }
+
 #footer .footer-block .a .wide-footer h1 {
-  font-family: "IM Fell English SC", serif;
+  font-family: 'IM Fell English SC', serif;
   color: #000000;
   font-weight: bold;
 }
+
 @media screen and (max-width: 620px) {
   #footer .footer-block .a .wide-footer h1 {
     font-size: 28px;
   }
 }
+
 @media screen and (min-width: 620px) and (max-width: 901px) {
   #footer .footer-block .a .wide-footer h1 {
     font-size: 38px;
   }
 }
+
 @media screen and (min-width: 901px) {
   #footer .footer-block .a .wide-footer h1 {
     font-size: 48px;
   }
 }
+
 @media screen and (max-width: 649px) {
   #footer .footer-block .a .wide-footer h1 {
     /* Headlines */
-    font-family: "IM Fell English SC", serif;
+    font-family: 'IM Fell English SC', serif;
     font-size: 32px;
     /*  @if $fontUsePercent == true {
-        font-size: calc(16px + (32 - 16) * ((1200px - 300px) / (1200 - 300)));
-      } @else {
-        font-size: 32px;
-      }*/
+    font-size: calc(16px + (32 - 16) * ((1200px - 300px) / (1200 - 300)));
+  } @else {
+    font-size: 32px;
+  }*/
     color: #000000;
     font-weight: bold;
   }
 }
+
 @media screen and (max-width: 450px) {
   #footer .footer-block .a .wide-footer h1 {
     display: none;
   }
 }
+
 #footer .footer-block .a .narrow-footer h1 {
   display: none;
-  font-family: "IM Fell English SC", serif;
+  font-family: 'IM Fell English SC', serif;
   color: #000000;
   font-weight: bold;
 }
+
 @media screen and (max-width: 620px) {
   #footer .footer-block .a .narrow-footer h1 {
     font-size: 28px;
   }
 }
+
 @media screen and (min-width: 620px) and (max-width: 901px) {
   #footer .footer-block .a .narrow-footer h1 {
     font-size: 38px;
   }
 }
+
 @media screen and (min-width: 901px) {
   #footer .footer-block .a .narrow-footer h1 {
     font-size: 48px;
   }
 }
+
 @media screen and (max-width: 450px) {
   #footer .footer-block .a .narrow-footer h1 {
     /*border: 3px solid blue;*/
@@ -337,679 +393,787 @@ body {
     text-align: center;
   }
 }
+
 #footer .footer-block .a .image-big {
   display: inherit;
 }
+
 @media screen and (max-width: 650px) {
   #footer .footer-block .a .image-big {
     display: none;
   }
 }
+
 @media screen and (max-width: 500px) {
   #footer .footer-block .a img {
     display: none;
   }
 }
+
 #footer .footer-block .aa {
   /*border: 3px solid red;*/
   grid-area: aa;
   margin: 0 auto;
   /*padding-top: 20px;*/
   /* ORDER */
-  font-family: "Roboto Medium", sans-serif;
+  font-family: 'Roboto Medium', sans-serif;
   font-size: 19px;
   color: #000000;
   font-size: 14px;
   font-weight: bold;
   line-height: 1.5;
 }
+
 #footer .footer-block .aa .one-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 #footer .footer-block .aa .two-lines {
   display: none;
 }
+
 @media screen and (max-width: 400px) {
   #footer .footer-block .aa .one-line {
     display: none;
   }
   #footer .footer-block .aa .two-lines {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
+
 #footer .footer-block .b {
   grid-area: b;
   /* ORDER */
-  font-family: "Roboto Medium", sans-serif;
+  font-family: 'Roboto Medium', sans-serif;
   font-size: 19px;
   color: #000000;
   /*      display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;*/
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;*/
   text-align: center;
 }
+
 #footer .footer-block .b h3 {
   line-height: 0.75;
 }
+
 #footer .footer-block .b .map {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 #footer .footer-block .c {
   grid-area: c;
   /* ORDER */
-  font-family: "Roboto Medium", sans-serif;
+  font-family: 'Roboto Medium', sans-serif;
   font-size: 19px;
   color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 #footer .footer-block .c .detail-block .details .name-address {
   /* Paragraph M */
-  font-family: "Roboto Regular", sans-serif;
+  font-family: 'Roboto Regular', sans-serif;
   font-size: 16px;
   color: #000000;
 }
+
 @media screen and (max-width: 450px) {
   #footer .footer-block .c .detail-block .details .name-address {
     font-size: 12px;
   }
 }
+
 #footer .footer-block .d {
   grid-area: d;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
+
 #footer .footer-block .d .facebook {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 #footer .footer-block .e {
   grid-area: e;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
+
 #footer .footer-block .f {
   grid-area: f;
   text-align: center;
   /*padding-bottom: 20px;*/
   /* Credit */
-  font-family: "Andulus", serif;
+  font-family: 'Andulus', serif;
   font-size: 19px;
   color: #000000;
   font-size: 14px;
   /*line-height: 0.75;*/
   /*      display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: flex-end;*/
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: flex-end;*/
 }
+
 #footer .footer-block .g {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   grid-area: g;
 }
+
 #footer .footer-block .g .facebook {
   padding-left: 10px;
 }
 
-.hardware-container {
-  padding-left: 25px;
-  /*  .heading {
-      @include font2;
-      text-align: center;
-      width: 90%;
-    }*/
-  /******************************************
-    plate-holders
-  *******************************************/
-  /******************************************
-   one-plate-hanger
-  *******************************************/
-  /******************************************
-    two-plate-hanger
-  *******************************************/
-  /******************************************
-    five-plate-hanger
-  *******************************************/
-  /******************************************
-    bowl-holders
-  *******************************************/
-  /* hw-block3 */
+#footer .footer-block .f {
+  /*border: 2px solid red;*/
+  padding-top: 10px;
+  padding-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #957a2b;
+  font-size: 16px;
 }
+
+#footer .footer-block .f .credit-brand {
+  /*font-weight: bold;*/
+}
+
+#footer .footer-block .f .credit-name {
+  /*font-weight: bold;*/
+}
+
+.hardware-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /*  .heading {
+        @include font2;
+        text-align: center;
+        width: 90%;
+      }*/
+  /******************************************
+      plate-holders
+    *******************************************/
+  /******************************************
+     one-plate-hanger
+    *******************************************/
+  /******************************************
+      bowl-holders
+    *******************************************/
+}
+
 .hardware-container .big-heading {
-  font-family: "IM Fell English SC", serif;
+  font-family: 'IM Fell English SC', serif;
   color: #000000;
   font-weight: bold;
   text-align: center;
   width: 90%;
 }
+
 @media screen and (max-width: 620px) {
   .hardware-container .big-heading {
     font-size: 28px;
   }
 }
+
 @media screen and (min-width: 620px) and (max-width: 901px) {
   .hardware-container .big-heading {
     font-size: 38px;
   }
 }
+
 @media screen and (min-width: 901px) {
   .hardware-container .big-heading {
     font-size: 48px;
   }
 }
-.hardware-container .plate-holders, .hardware-container .one-plate-hanger, .hardware-container .two-plate-hanger, .hardware-container .five-plate-hanger, .hardware-container .bowl-holders {
-  border: 3px solid red;
+
+.hardware-container .plate-holders,
+.hardware-container .plate-hangers {
+  display: -ms-grid;
   display: grid;
-  width: 90%;
+  width: 80%;
   text-align: center;
   /*margin: 0 auto;*/
-  background-color: #EDEDED;
+  background-color: #ededed;
 }
-.hardware-container .plate-holders .heading, .hardware-container .one-plate-hanger .heading, .hardware-container .two-plate-hanger .heading, .hardware-container .five-plate-hanger .heading, .hardware-container .bowl-holders .heading {
+
+.hardware-container .plate-holders .heading,
+.hardware-container .plate-hangers .heading {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
   /* Headlines */
-  font-family: "IM Fell English SC", serif;
+  font-family: 'IM Fell English SC', serif;
   font-size: 32px;
   /*  @if $fontUsePercent == true {
-      font-size: calc(16px + (32 - 16) * ((1200px - 300px) / (1200 - 300)));
-    } @else {
-      font-size: 32px;
-    }*/
+    font-size: calc(16px + (32 - 16) * ((1200px - 300px) / (1200 - 300)));
+  } @else {
+    font-size: 32px;
+  }*/
   color: #000000;
   font-weight: bold;
 }
-.hardware-container .plate-holders .copy, .hardware-container .one-plate-hanger .copy, .hardware-container .two-plate-hanger .copy, .hardware-container .five-plate-hanger .copy, .hardware-container .bowl-holders .copy {
+
+.hardware-container .plate-holders .copy1,
+.hardware-container .plate-holders .copy2,
+.hardware-container .plate-hangers .copy1,
+.hardware-container .plate-hangers .copy2 {
   text-align: left;
   font-size: 14px;
   display: block;
-  float: left;
   padding: 20px;
-  padding: 10px 20px 10px 20px;
   /* Paragraphs */
-  font-family: "Roboto Light", sans-serif;
+  font-family: 'Roboto Light', sans-serif;
   font-size: 19px;
   /*font-size: 119%;*/
   color: #000000;
-  /*      .line1 {
-          color: red;
-        }*/
-  /*      .order-link {
-          font-weight: bold;
-          font-size: 20px;
-          text-align: center;
-        }*/
 }
-.hardware-container .plate-holders .copy .bold, .hardware-container .one-plate-hanger .copy .bold, .hardware-container .two-plate-hanger .copy .bold, .hardware-container .five-plate-hanger .copy .bold, .hardware-container .bowl-holders .copy .bold {
+
+.hardware-container .plate-holders .copy1 .bold,
+.hardware-container .plate-holders .copy2 .bold,
+.hardware-container .plate-hangers .copy1 .bold,
+.hardware-container .plate-hangers .copy2 .bold {
   font-weight: bold;
 }
-.hardware-container .plate-holders .copy .red-words, .hardware-container .one-plate-hanger .copy .red-words, .hardware-container .two-plate-hanger .copy .red-words, .hardware-container .five-plate-hanger .copy .red-words, .hardware-container .bowl-holders .copy .red-words {
+
+.hardware-container .plate-holders .copy1 .red-words,
+.hardware-container .plate-holders .copy2 .red-words,
+.hardware-container .plate-hangers .copy1 .red-words,
+.hardware-container .plate-hangers .copy2 .red-words {
   /* Red Words */
-  font-family: "Roboto Bold", sans-serif;
+  font-family: 'Roboto Bold', sans-serif;
   font-size: 19px;
   font-weight: bold;
   color: #700707;
   font-weight: bold;
 }
-.hardware-container .plate-holders .copy .item-name, .hardware-container .one-plate-hanger .copy .item-name, .hardware-container .two-plate-hanger .copy .item-name, .hardware-container .five-plate-hanger .copy .item-name, .hardware-container .bowl-holders .copy .item-name {
+
+.hardware-container .plate-holders .copy1 .item-name,
+.hardware-container .plate-holders .copy2 .item-name,
+.hardware-container .plate-hangers .copy1 .item-name,
+.hardware-container .plate-hangers .copy2 .item-name {
   /* Item Name */
-  font-family: "Roboto Regular", sans-serif;
+  font-family: 'Roboto Regular', sans-serif;
   font-size: 24px;
   color: #000000;
   font-weight: bold;
 }
-@media screen and (max-width: 700px) {
-  .hardware-container .plate-holders, .hardware-container .one-plate-hanger, .hardware-container .two-plate-hanger, .hardware-container .five-plate-hanger, .hardware-container .bowl-holders {
-    display: block;
+
+@media screen and (max-width: 500px) {
+  .hardware-container .plate-holders .copy1,
+  .hardware-container .plate-holders .copy2,
+  .hardware-container .plate-hangers .copy1,
+  .hardware-container .plate-hangers .copy2 {
+    width: 100%;
   }
 }
-.hardware-container .plate-holders .box, .hardware-container .one-plate-hanger .box, .hardware-container .two-plate-hanger .box, .hardware-container .five-plate-hanger .box, .hardware-container .bowl-holders .box {
-  background-color: #EDEDED;
+
+.hardware-container .plate-holders .box,
+.hardware-container .plate-hangers .box {
+  background-color: #ededed;
   color: black;
-  border: 3px solid red;
+  /*border: 3px solid red;*/
   /*height: 100px;*/
+  width: 80%;
+  height: auto;
 }
-.hardware-container .plate-holders .box .item-name, .hardware-container .one-plate-hanger .box .item-name, .hardware-container .two-plate-hanger .box .item-name, .hardware-container .five-plate-hanger .box .item-name, .hardware-container .bowl-holders .box .item-name {
+
+.hardware-container .plate-holders .box .item-name,
+.hardware-container .plate-hangers .box .item-name {
   /* Item Name */
-  font-family: "Roboto Regular", sans-serif;
+  font-family: 'Roboto Regular', sans-serif;
   font-size: 24px;
   color: #000000;
 }
-.hardware-container .plate-holders .box .paragraph, .hardware-container .one-plate-hanger .box .paragraph, .hardware-container .two-plate-hanger .box .paragraph, .hardware-container .five-plate-hanger .box .paragraph, .hardware-container .bowl-holders .box .paragraph {
+
+.hardware-container .plate-holders .box .paragraph,
+.hardware-container .plate-hangers .box .paragraph {
   /* Paragraphs */
-  font-family: "Roboto Light", sans-serif;
+  font-family: 'Roboto Light', sans-serif;
   font-size: 19px;
   /*font-size: 119%;*/
   color: #000000;
 }
-.hardware-container .plate-holders .box .paragraph .red-words, .hardware-container .one-plate-hanger .box .paragraph .red-words, .hardware-container .two-plate-hanger .box .paragraph .red-words, .hardware-container .five-plate-hanger .box .paragraph .red-words, .hardware-container .bowl-holders .box .paragraph .red-words {
+
+.hardware-container .plate-holders .box .paragraph .red-words,
+.hardware-container .plate-hangers .box .paragraph .red-words {
   /* Red Words */
-  font-family: "Roboto Bold", sans-serif;
+  font-family: 'Roboto Bold', sans-serif;
   font-size: 19px;
   font-weight: bold;
   color: #700707;
 }
-.hardware-container .plate-holders .box .order, .hardware-container .one-plate-hanger .box .order, .hardware-container .two-plate-hanger .box .order, .hardware-container .five-plate-hanger .box .order, .hardware-container .bowl-holders .box .order {
+
+.hardware-container .plate-holders .box .order,
+.hardware-container .plate-hangers .box .order {
   /* ORDER */
-  font-family: "Roboto Medium", sans-serif;
+  font-family: 'Roboto Medium', sans-serif;
   font-size: 19px;
   color: #000000;
   font-weight: bold;
 }
-.hardware-container .plate-holders .box .item-name, .hardware-container .one-plate-hanger .box .item-name, .hardware-container .two-plate-hanger .box .item-name, .hardware-container .five-plate-hanger .box .item-name, .hardware-container .bowl-holders .box .item-name {
+
+.hardware-container .plate-holders .box .item-name,
+.hardware-container .plate-hangers .box .item-name {
   /* Item Name */
-  font-family: "Roboto Regular", sans-serif;
+  font-family: 'Roboto Regular', sans-serif;
   font-size: 24px;
   color: #000000;
   font-weight: bold;
 }
-.hardware-container .plate-holders .box form, .hardware-container .one-plate-hanger .box form, .hardware-container .two-plate-hanger .box form, .hardware-container .five-plate-hanger .box form, .hardware-container .bowl-holders .box form {
-  justify-self: end;
-  text-align: right;
-  color: red;
+
+.hardware-container .plate-holders .box form,
+.hardware-container .plate-hangers .box form {
+  -ms-grid-column-align: end;
+      justify-self: end;
+  text-align: left;
+  color: black;
 }
-.hardware-container .one-plate-hanger .e .f, .hardware-container .one-plate-hanger .g, .hardware-container .one-plate-hanger .h, .hardware-container .one-plate-hanger .i, .hardware-container .two-plate-hanger .e .f, .hardware-container .two-plate-hanger .g, .hardware-container .two-plate-hanger .h, .hardware-container .two-plate-hanger .i, .hardware-container .five-plate-hanger .e .f, .hardware-container .five-plate-hanger .g, .hardware-container .five-plate-hanger .h, .hardware-container .five-plate-hanger .i {
-  /*border: 3px solid red;*/
-  width: 80%;
-  display: block;
-}
-.hardware-container .one-plate-hanger .e .f img, .hardware-container .one-plate-hanger .g img, .hardware-container .one-plate-hanger .h img, .hardware-container .one-plate-hanger .i img, .hardware-container .two-plate-hanger .e .f img, .hardware-container .two-plate-hanger .g img, .hardware-container .two-plate-hanger .h img, .hardware-container .two-plate-hanger .i img, .hardware-container .five-plate-hanger .e .f img, .hardware-container .five-plate-hanger .g img, .hardware-container .five-plate-hanger .h img, .hardware-container .five-plate-hanger .i img {
-  /*border: 3px solid red;*/
-  /*padding-top: 15px;*/
-  height: 70px;
-  width: 70%;
-}
-@media screen and (max-width: 700px) {
-  .hardware-container .one-plate-hanger .e .f, .hardware-container .one-plate-hanger .g, .hardware-container .one-plate-hanger .h, .hardware-container .one-plate-hanger .i, .hardware-container .two-plate-hanger .e .f, .hardware-container .two-plate-hanger .g, .hardware-container .two-plate-hanger .h, .hardware-container .two-plate-hanger .i, .hardware-container .five-plate-hanger .e .f, .hardware-container .five-plate-hanger .g, .hardware-container .five-plate-hanger .h, .hardware-container .five-plate-hanger .i {
-    /*width: 15%;*/
-    /*height: 35%;*/
-    display: inline;
+
+@media screen and (max-width: 360px) {
+  .hardware-container .plate-holders .box form,
+  .hardware-container .plate-hangers .box form {
+    font-size: 16px;
   }
 }
-@media screen and (max-width: 700px) {
-  .hardware-container .one-plate-hanger .e .f img, .hardware-container .one-plate-hanger .g img, .hardware-container .one-plate-hanger .h img, .hardware-container .one-plate-hanger .i img, .hardware-container .two-plate-hanger .e .f img, .hardware-container .two-plate-hanger .g img, .hardware-container .two-plate-hanger .h img, .hardware-container .two-plate-hanger .i img, .hardware-container .five-plate-hanger .e .f img, .hardware-container .five-plate-hanger .g img, .hardware-container .five-plate-hanger .h img, .hardware-container .five-plate-hanger .i img {
-    width: 10%;
-    height: 10%;
-  }
-}
-.hardware-container .one-plate-hanger .f, .hardware-container .two-plate-hanger .f, .hardware-container .five-plate-hanger .f {
-  grid-area: heart;
-}
-.hardware-container .one-plate-hanger .g, .hardware-container .two-plate-hanger .g, .hardware-container .five-plate-hanger .g {
-  grid-area: ram;
-}
-.hardware-container .one-plate-hanger .h, .hardware-container .two-plate-hanger .h, .hardware-container .five-plate-hanger .h {
-  grid-area: scroll;
-}
-.hardware-container .one-plate-hanger .i, .hardware-container .two-plate-hanger .i, .hardware-container .five-plate-hanger .i {
-  grid-area: tear;
-}
+
 .hardware-container .plate-holders {
   /*border: 3px solid red;*/
-  min-height: 550px;
-  /*height: 525px;*/
-  /*grid-template: repeat(4, 90px)  / 55% 1fr 1fr 1fr 1fr 1fr;*/
-  grid-template: 1.5fr 1fr 1fr 1fr/55% 1fr 1fr 1fr 1fr;
-  grid-template-areas: "text text text text text" "plates cart cart cart blank" "plates cart cart cart blank" "plates cart cart cart blank" "plates heart ram scroll blank";
+  width: 80%;
+  padding-left: 25px;
+  -ms-grid-columns: (20%)[5];
+      grid-template-columns: repeat(5, 20%);
 }
-.hardware-container .plate-holders .a {
+
+@media screen and (max-width: 500px) {
+  .hardware-container .plate-holders {
+    width: 100%;
+  }
+}
+
+.hardware-container .plate-holders .picture {
   /*height: 400px;*/
-  grid-area: plates;
-  align-self: center;
+  width: 70vw;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+  grid-row: 3 / span 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1 / span 3;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
-.hardware-container .plate-holders .b {
-  /*border: 3px  solid red;*/
-  grid-area: text;
+
+.hardware-container .plate-holders .picture img {
+  width: 100%;
+  height: auto;
+}
+
+.hardware-container .plate-holders .heading {
+  width: 100%;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1 / span 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1 / span 4;
   font-size: 14px;
   text-align: center;
   padding-top: 40px;
-  padding-left: 20px;
 }
+
+@media screen and (max-width: 0) {
+  .hardware-container .plate-holders .heading {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1 / span 3;
+  }
+}
+
 @media screen and (max-width: 500px) {
-  .hardware-container .plate-holders .b {
+  .hardware-container .plate-holders .heading {
     padding-left: 0;
   }
 }
-.hardware-container .plate-holders .b .p {
-  /*border: 3px  solid red;*/
-  padding-left: 20px;
-}
-.hardware-container .plate-holders .c, .hardware-container .plate-holders .d, .hardware-container .plate-holders .e {
-  /*border: 3px  solid red;*/
+
+.hardware-container .plate-holders .heart,
+.hardware-container .plate-holders .ram,
+.hardware-container .plate-holders .scroll {
   justify-items: start;
-  /*align-self: center;*/
-  /*height: 40px;*/
-  display: block;
-}
-@media screen and (max-width: 700px) {
-  .hardware-container .plate-holders .c img, .hardware-container .plate-holders .d img, .hardware-container .plate-holders .e img {
-    /*width: 20%;*/
-    width: 10%;
-    height: 10%;
-  }
-}
-.hardware-container .plate-holders .c {
-  grid-area: heart;
-}
-.hardware-container .plate-holders .d {
-  grid-area: ram;
-}
-.hardware-container .plate-holders .d img {
-  padding-top: 5px;
-}
-.hardware-container .plate-holders .e {
-  grid-area: scroll;
-}
-.hardware-container .plate-holders .e img {
-  /*padding-top: 5px;*/
-}
-.hardware-container .plate-holders .f {
-  /*border: 4px  solid red;*/
-  grid-area: cart;
-  padding-left: 15px;
-  height: 75%;
-  text-align: left;
-  /* Paragraphs */
-  font-family: "Roboto Light", sans-serif;
-  font-size: 19px;
-  /*font-size: 119%;*/
-  color: #000000;
-}
-.hardware-container .plate-holders .f table {
-  /*border: 1px solid black;*/
-}
-.hardware-container .plate-holders .f table tr td {
-  /*border: 1px solid black;*/
-}
-.hardware-container .one-plate-hanger {
-  /*border: 3px solid blue;*/
-  grid-template: 0.6fr 1fr 1fr 1fr 0.5fr/repeat(6, 1fr);
-  grid-template-areas: "heading heading heading heading heading heading heading " "plate1    plate1    plate1    text       text        cart      cart" "plate1 plate1 plate1 text text cart cart" "plate1 plate1 plate1 text text cart cart" "plate1 plate1 plate1 heart ram scroll tear";
-}
-.hardware-container .one-plate-hanger .box {
-  background-color: #EDEDED;
-  color: black;
-  /*border: 3px solid blue;*/
-}
-.hardware-container .one-plate-hanger .aa {
-  grid-area: heading;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.hardware-container .one-plate-hanger .a {
-  /*border: 3px solid red;*/
-  grid-area: plate1;
-}
-.hardware-container .one-plate-hanger .b {
-  grid-area: text;
-}
-.hardware-container .one-plate-hanger .c {
-  grid-area: cart;
-  /* Paragraphs */
-  font-family: "Roboto Light", sans-serif;
-  font-size: 19px;
-  /*font-size: 119%;*/
-  color: #000000;
-  text-align: left;
-  padding-left: 20px;
-}
-.hardware-container .one-plate-hanger .d {
-  grid-area: plate5;
-}
-.hardware-container .two-plate-hanger {
-  /*border: 3px blue solid;*/
-  /*grid-template: .7fr 1fr 1fr 1.5fr 1fr / repeat(8, 1fr);*/
-  grid-template: 0.7fr 1fr 1fr 1fr 1fr/repeat(8, 1fr);
-  grid-template-areas: "heading heading heading heading heading heading heading heading" "text text text cart cart plates plates plates" "text text text cart cart plates plates plates" "text text text ram heart scroll tear blank ";
-  /*        <div class="box f"><span class="block-id-letter">F</span>
-            Heart
-            <img src="./images/style_heart1sm.jpg">
-          </div>
-          <div class="box g"><span class="block-id-letter">G</span>
-            Ram
-            <img src="./images/style_ram2.jpg">
-          </div>
-          <div class="box h"><span class="block-id-letter">H</span>
-            Scroll
-            <img src="./images/style_scroll2.jpg">
-          </div>
-          <div class="box i"><span class="block-id-letter">I</span>
-            Spade
-            <img src="./images/style_plain2.jpg">
-          </div>*/
-  /*    .f {    
-        background-image: url("../images/style_heart1sm.jpg");
-        background-size: cover;
-        height: 90px;
-        width: 100px 
-      }
-      .g {    
-        background-image: url("../images/style_ram2.jpg");
-        background-size: cover;
-        height: 90px;
-      }
-      .h {    
-        background-image: url("../images/style_scroll2.jpg");
-        background-size: cover;
-        height: 90px;
-      }
-      .i {    
-        background-image: url("../images/style_plain2.jpg");
-        background-size: cover;
-        height: 90px;
-      }*/
-}
-.hardware-container .two-plate-hanger .box {
-  /*background-color: #EDEDED;*/
-  color: black;
-  /*border-radius: 5px;*/
-  /*border: 3px solid red;*/
-}
-.hardware-container .two-plate-hanger .box .block-id-letter {
-  display: none;
-}
-.hardware-container .two-plate-hanger .box .item-name {
-  /*@include font9;*/
-}
-.hardware-container .two-plate-hanger .aa {
-  grid-area: heading;
-  padding-top: 3%;
-}
-.hardware-container .two-plate-hanger .aa .paragraph {
-  /* Paragraphs */
-  font-family: "Roboto Light", sans-serif;
-  font-size: 19px;
-  /*font-size: 119%;*/
-  color: #000000;
-}
-.hardware-container .two-plate-hanger .aa .paragraph .red-words {
-  /*color: red;*/
-  /* Red Words */
-  font-family: "Roboto Bold", sans-serif;
-  font-size: 19px;
-  font-weight: bold;
-  color: #700707;
-}
-.hardware-container .two-plate-hanger .a {
-  /*border: 3px solid red;*/
-  width: auto;
-  height: auto;
-  grid-area: text;
-}
-.hardware-container .two-plate-hanger .a .copy {
-  /* Paragraphs */
-  font-family: "Roboto Light", sans-serif;
-  font-size: 19px;
-  /*font-size: 119%;*/
-  color: #000000;
-}
-.hardware-container .two-plate-hanger .a .copy .item-name {
-  /* ORDER */
-  font-family: "Roboto Medium", sans-serif;
-  font-size: 19px;
-  color: #000000;
-  font-weight: bold;
-}
-.hardware-container .two-plate-hanger .c {
-  grid-area: plates;
-}
-.hardware-container .two-plate-hanger .d {
-  grid-area: cart;
-  text-align: left;
-  /*padding-left: 8%;*/
-  padding-left: 15px;
-}
-.hardware-container .two-plate-hanger .fghi {
-  display: flex;
-}
-.hardware-container .two-plate-hanger .fghi img {
-  width: 100%;
-  height: auto;
-  flex-shrink: 0;
-}
-.hardware-container .five-plate-hanger {
-  /*border: 3px blue solid;*/
-  grid-template: 1fr 1fr 1fr 1fr 1fr 1fr/repeat(7, 1fr);
-  grid-template-areas: "heading heading heading heading heading plates plates" "text    text    text    text    text    plates plates" "text    text    text    text    text    plates plates" "text    text    text    text    text    plates plates" "text    text    text    text    text    plates plates" "blank    heart   ram     scroll  tear    plates plates";
-  /*    .a {
-      }*/
-}
-.hardware-container .five-plate-hanger .box {
-  /*background-color: #EDEDED;*/
-  /*border: 3px solid red;*/
-}
-.hardware-container .five-plate-hanger .box .block-id-letter {
-  display: none;
-}
-.hardware-container .five-plate-hanger .aa {
-  grid-area: heading;
-  padding-top: 5%;
-  padding-left: 7%;
-}
-.hardware-container .five-plate-hanger .b {
-  /*border: 3px solid red;*/
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  grid-area: text;
-}
-.hardware-container .five-plate-hanger .b .paragraph {
-  padding-left: 25px;
-}
-.hardware-container .five-plate-hanger .b form {
-  padding-left: 50px;
-}
-.hardware-container .five-plate-hanger .b form table {
-  /*border: 3px solid red;*/
-}
-.hardware-container .five-plate-hanger .b form table tr {
-  /*border: 3px solid red;*/
-}
-.hardware-container .five-plate-hanger .b form table tr td {
-  /*border: 3px solid red;*/
-  padding-right: 25px;
-  text-align: left;
-}
-.hardware-container .five-plate-hanger .b form .button1 {
-  /*border: 3px solid red;*/
-  display: flex;
-}
-.hardware-container .five-plate-hanger .d {
-  grid-area: plates;
-  /*border: 3px solid red;*/
-}
-.hardware-container .bowl-holders {
-  /*    display: grid;
-      border: 3px solid red;*/
-  /*height: 600px;*/
-  /*    width: 90%;
-      text-align: center;
-      margin: 0 auto;*/
-  grid-template: 0.3fr 4fr/40% 40% 20%;
-  grid-template-areas: "head head head" "col1 col2 col3";
-  /*grid-row-gap: 10px;*/
-  /*      "head head"
-                         "nav nav" 
-                         "info services"
-                         "footer footer";*/
-  background-color: #EDEDED;
-}
-.hardware-container .bowl-holders .box {
-  background-color: #EDEDED;
-  color: black;
-}
-.hardware-container .bowl-holders .box .heading {
-  /* Headlines */
-  font-family: "IM Fell English SC", serif;
-  font-size: 32px;
-  /*  @if $fontUsePercent == true {
-      font-size: calc(16px + (32 - 16) * ((1200px - 300px) / (1200 - 300)));
-    } @else {
-      font-size: 32px;
-    }*/
-  color: #000000;
-  font-weight: bold;
-}
-.hardware-container .bowl-holders .aa {
-  /*border: 3px solid red;*/
-  grid-area: head;
-  /* Item Name */
-  font-family: "Roboto Regular", sans-serif;
-  font-size: 24px;
-  color: #000000;
-  font-weight: bold;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-.hardware-container .bowl-holders .a {
-  grid-area: col1;
-  padding-top: 50px;
-}
-.hardware-container .bowl-holders .b {
-  grid-area: col2;
-  /* Paragraphs */
-  font-family: "Roboto Light", sans-serif;
-  font-size: 19px;
-  /*font-size: 119%;*/
-  color: #000000;
-  text-align: left;
-  padding-left: 10%;
-}
-.hardware-container .bowl-holders .b form {
-  padding-left: 5%;
-}
-.hardware-container .bowl-holders .c {
-  grid-area: col3;
-  /*align-self: center;*/
-}
-@media screen and (min-width: 700px) {
-  .hardware-container .bowl-holders .c {
-    padding-top: 40%;
-  }
-}
-.hardware-container .bowl-holders .c img {
-  /*border: 2px solid red;*/
+  display: inline-block;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  justify-items: left;
+  height: 50px;
+  width: 80px;
 }
 
+.hardware-container .plate-holders .heart img,
+.hardware-container .plate-holders .ram img,
+.hardware-container .plate-holders .scroll img {
+  width: 60%;
+  height: 60%;
+}
+
+.hardware-container .plate-holders .models {
+  padding-right: 15px;
+  margin: 15px;
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
+  grid-row: 6 / span 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / span 1;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 100px;
+}
+
+@media screen and (max-width: 650px) {
+  .hardware-container .plate-holders .models {
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hardware-container .plate-holders .models {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 1;
+    grid-row: 6 / span 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1 / span 1;
+    width: 250px;
+    height: 75px;
+  }
+}
+
+.hardware-container .plate-holders .buy-it {
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
+  grid-row: 6 / span 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 3;
+  grid-column: 3 / span 3;
+  width: auto;
+  text-align: left;
+  -ms-grid-column-align: left;
+      justify-self: left;
+}
+
+@media screen and (max-width: 500px) {
+  .hardware-container .plate-holders .buy-it {
+    -ms-grid-row: 7;
+    -ms-grid-row-span: 1;
+    grid-row: 7 / span 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1 / span 3;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    padding-left: 25px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .hardware-container .plate-holders .buy-it {
+    font-size: 16px;
+  }
+}
+
+.hardware-container .plate-holders .buy-it table {
+  /*border: 1px solid black;*/
+}
+
+.hardware-container .plate-holders .buy-it table tr td {
+  /*border: 1px solid black;*/
+}
+
+.hardware-container .plate-hangers {
+  display: -ms-grid;
+  display: grid;
+  grid-row-gap: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+@media screen and (max-width: 500px) {
+  .hardware-container .plate-hangers {
+    width: 100%;
+  }
+}
+
+.hardware-container .plate-hangers .heading {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / span 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1 / span 3;
+}
+
+.hardware-container .plate-hangers .copy1 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2 / span 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1 / span 3;
+}
+
+.hardware-container .plate-hangers .picture {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  grid-row: 3 / span 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / span 2;
+}
+
+.hardware-container .plate-hangers .picture2 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  grid-row: 3 / span 2;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3 / span 1;
+}
+
+@media screen and (max-width: 500px) {
+  .hardware-container .plate-hangers .picture2 {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 2;
+    grid-row: 5 / span 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1 / span 2;
+  }
+}
+
+.hardware-container .plate-hangers .heart,
+.hardware-container .plate-hangers .ram,
+.hardware-container .plate-hangers .scroll,
+.hardware-container .plate-hangers .spade {
+  justify-items: start;
+  display: inline-block;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  justify-items: left;
+  height: 60px;
+  width: 80px;
+  padding-bottom: 25px;
+}
+
+@media screen and (max-width: 400px) {
+  .hardware-container .plate-hangers .heart,
+  .hardware-container .plate-hangers .ram,
+  .hardware-container .plate-hangers .scroll,
+  .hardware-container .plate-hangers .spade {
+    width: 50px;
+  }
+}
+
+.hardware-container .plate-hangers .heart img,
+.hardware-container .plate-hangers .ram img,
+.hardware-container .plate-hangers .scroll img,
+.hardware-container .plate-hangers .spade img {
+  width: 60%;
+  height: 60%;
+}
+
+.hardware-container .plate-hangers .models {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3 / span 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-column: 3 / span 2;
+  -ms-flex-item-align: center;
+      align-self: center;
+  width: 100%;
+  height: auto;
+  color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 1;
+}
+
+@media screen and (max-width: 500px) {
+  .hardware-container .plate-hangers .models {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    grid-row: 5 / span 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1 / span 2;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.hardware-container .plate-hangers .copy2 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  grid-row: 5 / span 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1 / span 3;
+}
+
+.hardware-container .plate-hangers .buy-it {
+  padding-left: 15px;
+  padding-left: 50px;
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
+  grid-row: 6 / span 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1 / span 4;
+  width: auto;
+  text-align: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  width: 30vw;
+  height: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .hardware-container .plate-hangers .buy-it {
+    -ms-grid-row: 7;
+    -ms-grid-row-span: 1;
+    grid-row: 7 / span 1;
+    -ms-grid-column-align: left;
+        justify-self: left;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .hardware-container .plate-hangers .buy-it {
+    font-size: 16px;
+  }
+}
+
+.hardware-container .plate-hangers .buy-it table {
+  /*border: 1px solid black;*/
+}
+
+.hardware-container .plate-hangers .buy-it table tr td {
+  /*border: 1px solid black;*/
+}
+
+.hardware-container .bowl-holders {
+  display: block;
+}
 /*# sourceMappingURL=plateHangers.css.map */
