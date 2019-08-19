@@ -139,7 +139,7 @@ and open the template in the editor.
         <img src="./images/gate_cranes2.jpg">
         <div class="image-text">Pond Life Gate</div>
         <div class="image-text">
-          <a href="gatesRailings.html">See more Garden Gates</a>
+          <a href="gates.php">See more Garden Gates</a>
         </div>
       </div>
 

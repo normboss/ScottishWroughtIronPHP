@@ -1,0 +1,47 @@
+
+#1 - Header – Brand IM Fell English SC 36pt, 48px, 3em, 300%    #000000 
+	
+#2  - Headlines IM Fell English SC for Headlines 24pt, 32px #000000
+
+#2M - Headlines M IM Fell English SC for Headlines 16pt, 22px #000000
+
+#3 – Navigation Menu IM Fell English SC 14pt, 19px, 1.2em, 120%    #000000
+
+#4 - Terms M - IM Fell English SC 21pt, 28px. #000000
+
+#4M  Terms M - IM Fell English SC 14pt 19px #000000
+	 
+#5 – Footer – IM Fell English SC  16pt, 22px, 1.4 em. 100% medium #000000
+
+#6 – Footer small – IM Fell English SC 11pt, 15px, .95 em 95% #000000
+
+#7 - Paragraphs - Roboto Light 14pt, 19px, 1.2 em., 120% #000000
+
+#8 - Links – Roboto Light 14pt., 19px, 1.2 em. 120% #1120FD2
+
+#8M - Links M Roboto Light 12pt., 16px, 1em. 100% #1120FD2
+
+#9 – ORDER Roboto Medium 14pt, 19px, 1.2 em 120% #000000
+
+#10 - Index Links – Roboto Medium 21pt., 28px. #230FD2
+	
+#11 - Quotes – Roboto Light Italic 14pt, 19px 1.2 em 120% # 000000
+
+#11M - Quotes M Roboto Light Italic 12pt, 16px, 1em  #000000
+
+#12 Captions – Roboto Light Italic 11pt, 15px, .95em 95% #000000
+
+#13 Address – Roboto Regular 21pt, 28px, #000000
+
+#14 ITEM NAME – Roboto Regular 18pt, 24px., 2 em, 200% xx large #000000
+
+#15 Paragraph M - Roboto Regular 12pt, 16px, 1em 100% #000000
+
+#16 CREDIT  - Andulus 14pt, 19px, 1.2 em, 120% #000000
+
+#17 Red Words - Roboto Bold 14pt, 19px, 1.2em, 120% #700707
+
+#18 Village Weaver link – Italianno 12pt, 16px, 1 em, 100% # 230FD2
+
+#19 image labels Roboto Medium 14pt, 19px 1.2em, 120% # FAFABF6
+

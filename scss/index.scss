@@ -7,7 +7,7 @@ and open the template in the editor.
     Created on : Aug 10, 2018, 11:41:16 AM
     Author     : Norm
 */
-@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|Open+Sans:400,400i,600,700,800');
+@import url("https://fonts.googleapis.com/css?family=Major+Mono+Display|Open+Sans:400,400i,600,700,800");
 
 @import "variables";
 @import "footer";
@@ -31,7 +31,7 @@ and open the template in the editor.
     /*align-items: end;*/
 
     .box {
-        // border: 3px solid red;
+        border: 3px solid red;
         text-align: center;
         img {
             width: 400px;
@@ -44,55 +44,53 @@ and open the template in the editor.
         }
     }
 
-    .h {
-        .hcontent {
-            text-align: left;
-            @include font7;
-            @include max-mixin(500px) {
-                font-size: 16px;
-                @include font15;
-            }
-            @include min-mixin(600px) {
-                padding-top: 25px;
-                .upper-paragraph {
-                    .brand-block {
-                        @include font4;
-                        @include max-mixin(700px) {
-                            font-size: 16px;
-                            @include font3;
-                        }
+    .box1 {
+        border: 3px solid red;
+        text-align: left;
+        width: 250px;
+        // @include font7;
+        font-size: 16px;
+        @include max-mixin(500px) {
+            font-size: 16px;
+            @include font15;
+        }
+        @include min-mixin(600px) {
+            padding-top: 25px;
+            .upper-paragraph {
+                .brand-block {
+                    @include font4;
+                    @include max-mixin(700px) {
+                        font-size: 16px;
+                        @include font3;
                     }
                 }
             }
-            @include max-mixin(599px) {
-                .upper-paragraph {
-                    /*display: none;*/
+        }
+        .upper-paragraph {
+            font-size: 16px;
+        }
+        .lion-image {
+            /*border: 3px solid red;*/
+            padding-left: 25px;
+            padding-top: 25px;
+            width: 200px;
+            height: 200px;
+            height: auto;
+            img {
+                width: 100px;
+                height: 100px;
+                /*min-width: 150px;*/
+                @include max-mixin(950px) {
+                    width: 100px;
                 }
-            }
-            .lion-image {
-                /*border: 3px solid red;*/
-                padding-left: 25px;
-                padding-top: 25px;
-                width: 200px;
-                height: 200px;
+                @include max-mixin(850px) {
+                    display: none;
+                }
                 height: auto;
-                img {
-                    width: 150px;
-                    height: 150px;
-                    /*min-width: 150px;*/
-                    @include max-mixin(950px) {
-                        width: 100px;
-                    }
-                    @include max-mixin(850px) {
-                        display: none;
-                    }
-                    height: auto;
-                }
             }
         }
     }
 }
-
 
 .bottom-text {
     // font-size: 20px;

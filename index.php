@@ -87,9 +87,15 @@ and open the template in the editor.
             </a>
         </div>
         <div class="box">
-            <a href="gatesRailings.php">
-                <div class="text">Custom Railings and Gates</div>
+            <a href="gates.php">
+                <div class="text">Custom Gates</div>
                 <img src="./images/gate_cranes.jpg">
+            </a>
+        </div>
+        <div class="box">
+            <a href="railings.php">
+                <div class="text">Custom Railings</div>
+                <img src="./images/railing_fish2.jpg">
             </a>
         </div>
         <div class="box">
@@ -140,11 +146,24 @@ and open the template in the editor.
                 <img src="./images/trellis.png">
             </a>
         </div>
+        <div class="box">
+            <div class="text">Scottish Wrought Iron</div>
+            <!-- <div class="text">
+                The galleries display a small sampling of
+                <span class="brand-block">Scottish Lion Wrought Iron</span> craftsmanship.
+            </div> -->
+            <br>
+            <!-- <a href="subscribe.php">Subscribe</a> to see the current inventory
+                or visit the showroom and display gardens. -->
+            <div class="lion-image">
+                <img src="./images/lion_150_trans.png">
+            </div>
+        </div>
     </div>
 
     <div class="bottom-text">
-            <a href="subscribe.php">Subscribe</a> to see the current inventory or visit the showroom and&nbsp;display&nbsp;gardens.
-        </div>
+        <a href="subscribe.php">Subscribe</a> to see the current inventory or visit the showroom and&nbsp;display&nbsp;gardens.
+    </div>
 
     <div id="footer">
     </div>
