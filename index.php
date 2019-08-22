@@ -156,7 +156,7 @@ and open the template in the editor.
             <!-- <a href="subscribe.php">Subscribe</a> to see the current inventory
                 or visit the showroom and display gardens. -->
             <div class="lion-image">
-                <img src="./images/lion_150_trans.png">
+                <img src="./images/lion_200_trans2.png">
             </div>
         </div>
     </div>
