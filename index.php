@@ -132,7 +132,6 @@ and open the template in the editor.
             <a href="commissions.php">
                 <div class="text">Commissions</div>
             </a>
-            <br>
             <a href="commissions.php">
                 <img src="./images/trellis.png">
             </a>
@@ -141,7 +140,6 @@ and open the template in the editor.
             <a href="newwork.php">
                 <div class="text">New Work Available</div>
             </a>
-            <br>
             <a href="newwork.php">
                 <img src="./images/dear_spinner.png">
             </a>
