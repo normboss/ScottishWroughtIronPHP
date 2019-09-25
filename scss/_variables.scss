@@ -74,7 +74,7 @@ $fontUsePercent: true;
   /* Navigation Menu */
   font-family: 'IM Fell English SC', serif;
   font-size: 19px;
-  color: #000000;
+  color:#000000;
 }
 
 // TermsM - IM Fell English SC 21pt, 28px. #000000
@@ -138,7 +138,7 @@ $fontUsePercent: true;
   /* Links */
   font-family: 'Roboto Light', sans-serif;
   font-size: 19px;
-  color: #230FD2;
+  color: $purple230FD2;
 }
 
 // Links M Roboto Light 12pt., 16px, 1em. 100% #230FD2
@@ -146,7 +146,7 @@ $fontUsePercent: true;
   /* Links */
   font-family: 'Roboto Light', sans-serif;
   font-size: 16px;
-  color: #230FD2;
+  color: $purple230FD2;
 }
 
 // ORDER Roboto Medium 14pt, 19px, 1.2 em 120% #000000
@@ -162,7 +162,7 @@ $fontUsePercent: true;
   /* Index Links */
   font-family: 'Roboto Medium', sans-serif;
   font-size: 28px;
-  color: #230FD2;
+  color: $purple230FD2;
 }
 
 @mixin font10small {
@@ -170,7 +170,7 @@ $fontUsePercent: true;
   font-family: 'Roboto Medium', sans-serif;
   font-size: 16px;
   font-style: italic;
-  color: #230FD2;
+  color: purple230FD2;
 }
 
 // Quotes – Roboto Light Italic 14pt, 19px 1.2 em 120% #000000
@@ -245,7 +245,7 @@ $fontUsePercent: true;
   /* Village Weaver Link */
   font-family: 'Italianno', cursive;
   font-size: 16px;
-  color: #230FD2;
+  color: $purple230FD2;
 }
 
 // image labels Roboto Medium 14pt, 19px 1.2em, 120% #FAFABF6
@@ -268,8 +268,9 @@ body {
 $navigationBoxGrey: #D9D9D4;
 $mainFont: 'IM Fell English SC', serif;
 $secondFont: 'Roboto', sans-serif;
-$hoverColor: #5243D8;
+$hoverColor: rgba(82, 67, 216, .65);
 $footerBackgroundColor: #D9D9D4;
+$purple230FD2: #230FD2;
 
 .block-id-letter {
   /*display: inline;*/

@@ -679,17 +679,15 @@ body {
   }
 }
 
-.index-container .h .hcontent {
+.index-container .box1 {
+  border: 3px solid red;
   text-align: left;
-  /* Paragraphs */
-  font-family: 'Roboto Light', sans-serif;
-  font-size: 19px;
-  /*font-size: 119%;*/
-  color: #000000;
+  width: 250px;
+  font-size: 16px;
 }
 
 @media screen and (max-width: 500px) {
-  .index-container .h .hcontent {
+  .index-container .box1 {
     font-size: 16px;
     /* Paragraph M */
     font-family: 'Roboto Regular', sans-serif;
@@ -699,10 +697,10 @@ body {
 }
 
 @media screen and (min-width: 600px) {
-  .index-container .h .hcontent {
+  .index-container .box1 {
     padding-top: 25px;
   }
-  .index-container .h .hcontent .upper-paragraph .brand-block {
+  .index-container .box1 .upper-paragraph .brand-block {
     /* Terms */
     font-family: 'IM Fell English SC', serif;
     font-size: 28px;
@@ -711,7 +709,7 @@ body {
 }
 
 @media screen and (min-width: 600px) and (max-width: 700px) {
-  .index-container .h .hcontent .upper-paragraph .brand-block {
+  .index-container .box1 .upper-paragraph .brand-block {
     font-size: 16px;
     /* Navigation Menu */
     font-family: 'IM Fell English SC', serif;
@@ -720,13 +718,11 @@ body {
   }
 }
 
-@media screen and (max-width: 599px) {
-  .index-container .h .hcontent .upper-paragraph {
-    /*display: none;*/
-  }
+.index-container .box1 .upper-paragraph {
+  font-size: 16px;
 }
 
-.index-container .h .hcontent .lion-image {
+.index-container .box1 .lion-image {
   /*border: 3px solid red;*/
   padding-left: 25px;
   padding-top: 25px;
@@ -735,21 +731,21 @@ body {
   height: auto;
 }
 
-.index-container .h .hcontent .lion-image img {
-  width: 150px;
-  height: 150px;
+.index-container .box1 .lion-image img {
+  width: 100px;
+  height: 100px;
   /*min-width: 150px;*/
   height: auto;
 }
 
 @media screen and (max-width: 950px) {
-  .index-container .h .hcontent .lion-image img {
+  .index-container .box1 .lion-image img {
     width: 100px;
   }
 }
 
 @media screen and (max-width: 850px) {
-  .index-container .h .hcontent .lion-image img {
+  .index-container .box1 .lion-image img {
     display: none;
   }
 }

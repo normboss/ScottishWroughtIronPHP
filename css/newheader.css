@@ -297,7 +297,7 @@ header nav a {
 }
 
 header nav a:hover, header .dropdown:hover .dropbtn {
-  background-color: #5243D8;
+  background-color: rgba(82, 67, 216, 0.65);
   /* Navigation Menu */
   font-family: 'IM Fell English SC', serif;
   font-size: 19px;
@@ -370,9 +370,12 @@ header .navbar-mobile {
   display: grid;
   -ms-grid-columns: 1fr 4fr 1fr;
       grid-template-columns: 1fr 4fr 1fr;
-  grid-justify-items: center;
-  grid-align-items: center;
-  grid-align-content: center;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   -ms-grid-rows: 50px;
       grid-template-rows: 50px;
   /*padding-top: 8px;*/
@@ -386,7 +389,7 @@ header .navbar-mobile {
 }
 
 header .navbar-mobile a:hover, header .navbar-mobile .dropdown:hover .dropbtn {
-  background-color: #5243D8;
+  background-color: rgba(82, 67, 216, 0.65);
   /* Navigation Menu */
   font-family: 'IM Fell English SC', serif;
   font-size: 19px;

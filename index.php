@@ -23,8 +23,8 @@ and open the template in the editor.
 
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i" rel="stylesheet">
-    <link href="./css/newheader.css" media="screen" rel="stylesheet" type="text/css">
     <link href="./css/index.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="./css/newheader.css" media="screen" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <link rel="icon" href="./images/favicon.png">
 
@@ -129,38 +129,28 @@ and open the template in the editor.
             </a>
         </div>
         <div class="box">
-            <!-- <div class="hcontent">
-                    <div class="upper-paragraph">
-                        The galleries display a small sampling of
-                        <span class="brand-block">Scottish Lion Wrought Iron</span> craftsmanship.
-                    </div>
-                    <br>
-                    <a href="subscribe.php">Subscribe</a> to see the current inventory
-                    or visit the showroom and display gardens.
-                    <div class="lion-image">
-                        <img src="./images/lion_150_trans.png">
-                    </div>
-                </div> -->
             <a href="commissions.php">
-                <div class="text">Recent Creation</div>
+                <div class="text">Commissions</div>
+            </a>
+            <br>
+            <a href="commissions.php">
                 <img src="./images/trellis.png">
             </a>
         </div>
         <div class="box">
-            <div class="text">Scottish Wrought Iron</div>
-            <!-- <div class="text">
-                The galleries display a small sampling of
-                <span class="brand-block">Scottish Lion Wrought Iron</span> craftsmanship.
-            </div> -->
+            <a href="newwork.php">
+                <div class="text">New Work Available</div>
+            </a>
             <br>
-            <!-- <a href="subscribe.php">Subscribe</a> to see the current inventory
-                or visit the showroom and display gardens. -->
-            <div class="lion-image">
-                <img src="./images/lion_200_trans2.png">
-            </div>
+            <a href="newwork.php">
+                <img src="./images/dear_spinner.png">
+            </a>
         </div>
-    </div>
-
+            <!-- <div class="lion-image">
+                <img src="./images/lion_200_trans2.png">
+            </div> -->
+            </div>
+<br>
     <div class="bottom-text">
         <a href="subscribe.php">Subscribe</a> to see the current inventory or visit the showroom and&nbsp;display&nbsp;gardens.
     </div>

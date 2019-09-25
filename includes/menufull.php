@@ -17,6 +17,7 @@ print <<<END
         <a href="plateHangers.php"><span class="dropdown-item">Plate Hangers</span></a>
         <a href="curtainhw.php"><span class="dropdown-item">Curtain Hardware</span></a>
         <a href="signs.php"><span class="dropdown-item">Signs / Brackets</span></a>
+        <a href="newwork.php"><span class="dropdown-item">Latest Work</span></a>
         <a href="commissions.php"><span class="dropdown-item">Commissions</span></a>
         <a href="process.php"><span class="dropdown-item">Working with Andy</span></a>
         <a href="https://www.etsy.com/shop/scottishlion"><span class="dropdown-item">Shop Etsy</span></a>
