@@ -109,8 +109,10 @@ and open the template in the editor.
       </div>
     
       <div class="box"><span class="block-id-image">O</span>
-        <img src="./images/trellis.png">
-        <div class="image-text"></div>
+        <img src="./images/live_edge_table1.jpg">
+        <div class="image-text">
+        Live edge table specially crafted for a client.
+        </div>
       </div>
 
     </div>

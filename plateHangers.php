@@ -30,7 +30,8 @@ and open the template in the editor.
 
 </head>
 
-<body>
+<body onload="fixWidth()">
+
     <div id="fb-root"></div>
     <div id="new-header"></div>
     <?php require 'newheader.php' ?>

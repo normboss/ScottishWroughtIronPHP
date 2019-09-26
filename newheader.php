@@ -24,7 +24,7 @@ and open the template in the editor.
             });
         </script>
     </head>
-    <body>
+    <body onload="fixWidth()">
 
         <header id="header" onload="fixWidth()">
 

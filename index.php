@@ -42,8 +42,7 @@ and open the template in the editor.
 
 </head>
 
-<body>
-
+<body onload="fixWidth()">
 
     <div id="fb-root"></div>
 
@@ -144,11 +143,11 @@ and open the template in the editor.
                 <img src="./images/dear_spinner.png">
             </a>
         </div>
-            <!-- <div class="lion-image">
+        <!-- <div class="lion-image">
                 <img src="./images/lion_200_trans2.png">
             </div> -->
-            </div>
-<br>
+    </div>
+    <br>
     <div class="bottom-text">
         <a href="subscribe.php">Subscribe</a> to see the current inventory or visit the showroom and&nbsp;display&nbsp;gardens.
     </div>

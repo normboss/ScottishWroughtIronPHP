@@ -212,13 +212,13 @@ header {
       z-index: 2;
       width: 100%;
     }
+    // border: 2px solid red;
   }
 
-  
-  .fixed {
+    .fixed {
     position: fixed;
   }
-  
+    
   .navbar-mobile {
     display: grid;
     @include min-mixin(450px) {

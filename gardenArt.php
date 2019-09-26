@@ -33,8 +33,7 @@ and open the template in the editor.
     </script> 
 
   </head>
-  <body>
-
+  <body onload="fixWidth()">
 
     <div id="fb-root"></div>
     <div id="new-header"></div>
