@@ -699,7 +699,7 @@ body {
   padding: 10px 20px 10px 20px;
   /* Paragraphs */
   font-family: 'Roboto Light', sans-serif;
-  font-size: 19px;
+  font-size: 20px;
   /*font-size: 119%;*/
   color: #000000;
   /*      .line1 {
@@ -760,7 +760,7 @@ body {
 .main .forged-rods .box .paragraph, .main .curtain-rings .box .paragraph, .main .large-brackets .box .paragraph, .main .small-brackets .box .paragraph, .main .shelf-brackets .box .paragraph, .main .star-shelf-bracket .box .paragraph {
   /* Paragraphs */
   font-family: 'Roboto Light', sans-serif;
-  font-size: 19px;
+  font-size: 20px;
   /*font-size: 119%;*/
   color: #000000;
 }
