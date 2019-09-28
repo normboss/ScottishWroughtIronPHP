@@ -1,5 +1,5 @@
 <?php
-if(!session_id()) session_start();
+if (!session_id()) session_start();
 $_SESSION['pagename'] = "newwork";
 ?>
 <!DOCTYPE html>
@@ -9,58 +9,59 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-  <head>
-    <title>Gates and Railings</title>
-    <meta charset="UTF-8">
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
-    <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC" rel="stylesheet">
-    <link href="./css/newwork.css" media="screen" rel="stylesheet" type="text/css">
-    <link rel="icon" href="./images/favicon.png">
 
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <script>
-      $(function () {
-//        $("#new-header").load("newheader.php");
-        $("#footer").load("footer.html");
-      });
-    </script> 
-  </head>
-  
-  <body onload="fixWidth()">
+<head>
+  <title>Gates and Railings</title>
+  <meta charset="UTF-8">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC" rel="stylesheet">
+  <link href="./css/newwork.css" media="screen" rel="stylesheet" type="text/css">
+  <link rel="icon" href="./images/favicon.png">
 
-    <div id="fb-root"></div>
-    <div id="new-header"></div>
-<?php
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script>
+    $(function() {
+      //        $("#new-header").load("newheader.php");
+      $("#footer").load("footer.html");
+    });
+  </script>
+</head>
+
+<body onload="fixWidth()">
+
+  <div id="fb-root"></div>
+  <div id="new-header"></div>
+  <?php
   require 'newheader.php'
-?>
-    
-    <!-- *********************************************** -->
-    <br>
-    <div class="heading">
-      <span class="block-id-letter">A</span>
-      Latest Work - Available Now!
-    </div>
-    <br>
-    
-    <div class="wide-paragraph">
-    Andy Leck is always creating! Check out his latest creations available now in the yard and workshop.    </div>
+  ?>
 
-    <!-- ***********************************************
+  <!-- *********************************************** -->
+  <br>
+  <div class="heading">
+    <span class="block-id-letter">A</span>
+    Latest Work - Available Now!
+  </div>
+  <br>
+
+  <div class="wide-paragraph">
+    Andy Leck is always creating! Check out his latest creations available now in the yard and workshop. </div>
+
+  <!-- ***********************************************
             M A I N
          ***********************************************-->
-    <div class="main">
+  <div class="main">
 
-      <div class="box c">
-        <img src="./images/spinner.png">
-        <div class="image-text">Spinner and Granite Post $350</div>
-      </div> 
+    <div class="box c">
+      <img src="./images/spinner_sold.png">
+      <div class="image-text">Spinner and Granite Post $350</div>
+    </div>
 
-      <div class="box b"><span class="block-id-image">B</span>
-        <img src="./images/dear_spinner.png">
-        <div class="image-text">Dear Spinner $850 (pillar stone optional)</div>
-      </div>
+    <div class="box b"><span class="block-id-image">B</span>
+      <img src="./images/dear_spinner.png">
+      <div class="image-text">Dear Spinner $850 (pillar stone optional)</div>
+    </div>
 
-      <!-- <div class="box f"><span class="block-id-image">F</span>
+    <!-- <div class="box f"><span class="block-id-image">F</span>
         <img src="./images/ox_bow_bracket2.jpg">
         <div class="image-text">Custom brackets support an ox bow above a window.</div>
       </div>
@@ -106,12 +107,13 @@ and open the template in the editor.
         <div class="image-text"></div>
       </div> -->
 
-    </div>
-    <br>
-    
-    <div id="footer"></div>
+  </div>
+  <br>
+
+  <div id="footer"></div>
 
 
-    
-  </body>
+
+</body>
+
 </html>
