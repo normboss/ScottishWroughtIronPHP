@@ -115,6 +115,18 @@ and open the template in the editor.
         </div>
       </div>
 
+      
+      <div class="box"><span class="block-id-image">N</span>
+        <img src="./images/k_gate.png">
+        <div class="image-text">Gate photographed before installation. </div>
+      </div>
+    
+      <div class="box"><span class="block-id-image">O</span>
+        <img src="./images/gate_client_site.png">
+        <div class="image-text">
+        Seen with Andy’s sculpture, “Bird Cage with Arrow Windvane”. Photo credit: Ray Kaller..
+        </div>
+      </div>
     </div>
     <br>
     
