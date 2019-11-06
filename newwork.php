@@ -57,7 +57,7 @@ and open the template in the editor.
     </div>
 
     <div class="box"><span class="block-id-image">B</span>
-      <img src="./images/dear_spinner.png">
+      <img src="./images/dear_spinner_sold.png">
       <div class="image-text">Dear Spinner $850 (pillar stone optional)</div>
     </div>
 
