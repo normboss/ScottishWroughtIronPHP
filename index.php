@@ -32,7 +32,7 @@ and open the template in the editor.
     <script>
         $(function() {
             //        $("#new-header").load("newheader.php");
-            $("#footer").load("footer.html");
+            // $("#footer").load("footer.html");
         });
         // $(document).ready(function () {
         //     //        $("#new-header").load("newheader.php");
@@ -152,8 +152,11 @@ and open the template in the editor.
         <a href="subscribe.php">Subscribe</a> to see the current inventory or visit the showroom and&nbsp;display&nbsp;gardens.
     </div>
 
-    <div id="footer">
-    </div>
+    <!-- <div id="footer">
+    </div> -->
+    <?php
+        require 'footer.html'
+        ?>
 
 </body>
 

@@ -51,61 +51,26 @@ and open the template in the editor.
          ***********************************************-->
   <div class="main">
 
-    <div class="box c">
+    <div class="box">
       <img src="./images/spinner_sold.png">
       <div class="image-text">Spinner and Granite Post $350</div>
     </div>
 
-    <div class="box b"><span class="block-id-image">B</span>
+    <div class="box"><span class="block-id-image">B</span>
       <img src="./images/dear_spinner.png">
       <div class="image-text">Dear Spinner $850 (pillar stone optional)</div>
     </div>
 
-    <!-- <div class="box f"><span class="block-id-image">F</span>
-        <img src="./images/ox_bow_bracket2.jpg">
-        <div class="image-text">Custom brackets support an ox bow above a window.</div>
+    <div class="box"><span class="block-id-image">F</span>
+        <img src="./images/sail_copper_sea.png">
+        <div class="image-text">“Whales off the Port Bow” features the silhouette of a schooner with a hand forged anchor and tender sailing on a copper sea of hand hammered waves . $1600.</div>
       </div>
 
-      <div class="box h"><span class="block-id-image">H</span>
-        <img src="./images/spinner_fish.jpg">
-        <div class="image-text">A granite post supports a sculpture with fish that spin around a metal globe.</div>
+      <div class="box"><span class="block-id-image">H</span>
+        <img src="./images/sails_copper_andy.png">
+        <div class="image-text">Andy putting finishing touches on his latest piece of upcycled metal folk art.</div>
       </div>
 
-      <div class="box i"><span class="block-id-image">I</span>
-        <img src="./images/sun_dial_garage.jpg">
-        <div class="image-text">Custom sun dial marks the hours on this garage</div>
-      </div>
-
-      <div class="box k"><span class="block-id-image">K</span>
-        <img src="./images/rxr_tables.jpg">
-        <div class="image-text">Antique metal rail road signs transformed into tables for a collector. A glass top was added.</div>
-      </div>
-      
-      <div class="box l"><span class="block-id-image">L</span>
-        <img src="./images/rxr_table.jpg">
-        <div class="image-text">Andy can help repurpose favorite items.</div> 
-      </div>
-      
-      <div class="box n"><span class="block-id-image">N</span>
-        <img src="./images/hat_rack.jpg">
-        <div class="image-text">Andy’s rack displays hats while preserving their shapes.</div>
-      </div>
-    
-      <div class="box o"><span class="block-id-image">O</span>
-        <img src="./images/tulip_hinges_salamander_handle.jpg">
-        <div class="image-text">Tulip inspired hinges are teamed up with a handle with a salamander motif on an outbuilding</div>
-      </div>
-
-      
-      <div class="box"><span class="block-id-image">N</span>
-        <img src="./images/trellis2.png">
-        <div class="image-text">Trellis screen is functional focal point.</div>
-      </div>
-    
-      <div class="box"><span class="block-id-image">O</span>
-        <img src="./images/trellis.png">
-        <div class="image-text"></div>
-      </div> -->
 
   </div>
   <br>
