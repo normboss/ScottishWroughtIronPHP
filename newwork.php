@@ -22,7 +22,7 @@ and open the template in the editor.
   <script>
     $(function() {
       //        $("#new-header").load("newheader.php");
-      $("#footer").load("footer.html");
+    //   $("#footer").load("footer.html");
     });
   </script>
 </head>
@@ -76,6 +76,9 @@ and open the template in the editor.
   <br>
 
   <div id="footer"></div>
+  <?php
+        require 'footer.html'
+        ?>
 
 
 

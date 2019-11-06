@@ -546,10 +546,10 @@ and open the template in the editor.
 
     </div>
 
-    <?php require 'footer.php' ?>
 
     <div id="footer">
     </div>
+    <?php require 'footer.html' ?>
 </body>
 
 </html>

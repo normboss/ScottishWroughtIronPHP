@@ -22,7 +22,7 @@ and open the template in the editor.
     <script>
       $(function () {
 //        $("#new-header").load("newheader.php");
-        $("#footer").load("footer.html");
+        // $("#footer").load("footer.html");
       });
     </script> 
 
@@ -125,6 +125,9 @@ installed by Andy Leck.
 
     <div id="footer">
     </div>
+    <?php
+        require 'footer.html'
+        ?>
 
   </body>
 </html>
