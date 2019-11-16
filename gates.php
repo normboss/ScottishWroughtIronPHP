@@ -60,7 +60,7 @@ and open the template in the editor.
         <span class="block-id-letter">A</span>
         Custom Gates
         <div class="box c">
-            <img src="./images/andy_only2.jpg" alt="picture of Andy">
+            <img src="./images/andy_only2.jpg" alt="Andy Leck">
         </div>
         <div class="box cc">
             <div class="wide-paragraph">
@@ -82,7 +82,7 @@ and open the template in the editor.
     <div class="main">
 
         <div class="box b"><span class="block-id-image">B</span>
-            <img src="./images/gate_cranes.jpg" alt="Gate with birds, animals and fish">
+            <img src="./images/gate_cranes.jpg" alt="Decorative gate with birds and fish.">
             <div class="image-text">Gate alive with birds, animals and fish cut from reclaimed metal</div>
         </div>
 
@@ -91,8 +91,8 @@ and open the template in the editor.
             <figcaption class="image-text">Gate alive with birds, animals and fish cut from reclaimed metal</figcaption>
         </figure> -->
 
-        <div class="box e"><span class="block-id-image" alt="Victorian gate">E</span>
-            <img src="./images/railing_pink_gate.jpg">
+        <div class="box e"><span class="block-id-image">E</span>
+            <img src="./images/railing_pink_gate.jpg" alt="Victorian style gate.">
             <div class="image-text">Victorian style compliments this home.</div>
         </div>
 
@@ -102,22 +102,22 @@ and open the template in the editor.
         </figure> -->
 
         <div class="box f"><span class="block-id-image">F</span>
-            <img src="./images/railing_pink_curve.jpg" alt="Double railing features baskets, curls, circles and fleur de lis finials">
+            <img src="./images/railing_pink_curve.jpg" alt="">
             <div class="image-text">Double railing features baskets, curls, circles and fleur de lis finials</div>
         </div>
 
         <div class="box h"><span class="block-id-image">H</span>
-            <img src="./images/gate_leaves_snow.jpg" alt="Custom Gate for a seasonal drive">
-            <div class="image-text">Custom Gate for a seasonal drive</div>
+            <img src="./images/gate_leaves_snow.jpg" alt="Gate with decorative leaves and vines.">
+            <div class="image-text">Custom Gate for a seasonal driveway</div>
         </div>
 
         <div class="box i"><span class="block-id-image">I</span>
-            <img src="./images/gate_farm.jpg" alt="Gate with distinctive style">
+            <img src="./images/gate_farm.jpg" alt="Another style gate with leaves and vines.">
             <div class="image-text">Gate with distinctive style</div>
         </div>
 
         <div class="box k"><span class="block-id-image">K</span>
-            <img src="./images/heart_gate.jpg" alt="Custom gate has a sliding closure and rocks wrapped in iron.">
+            <img src="./images/heart_gate.jpg" alt="Gate with rocks wrapped in iron.">
             <div class="image-text">Custom gate has a sliding closure and rocks wrapped in iron. </div>
         </div>
 
@@ -127,17 +127,17 @@ and open the template in the editor.
         </div>
 
         <div class="box n"><span class="block-id-image">N</span>
-            <img src="./images/tree_life.jpg.jpg" alt="Tree of Life Gate with Glass Fruit">
+            <img src="./images/tree_life.jpg.jpg" alt="Tall gate with tree design.">
             <div class="image-text">Tree of Life Gate with Glass "Fruit"</div>
         </div>
 
         <div class="box o"><span class="block-id-image">O</span>
-            <img src="./images/tree_life_andy.jpg" alt="Andy with the Tree of Life Gate before installation">
+            <img src="./images/tree_life_andy.jpg" alt="">
             <div class="image-text">Andy with the Tree of Life Gate before installation</div>
         </div>
 
         <div class="box p"><span class="block-id-image">P</span>
-            <img src="./images/gate_water_st468.jpg" alt="Formal Gate with handrail welcomes visitors to the garden.">
+            <img src="./images/gate_water_st468.jpg" alt="">
             <div class="image-text">Formal Gate with handrail welcomes visitors to the garden.</div>
         </div>
     </div>

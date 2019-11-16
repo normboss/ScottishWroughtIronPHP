@@ -52,7 +52,7 @@ and open the template in the editor.
             <span class="block-id-letter">A</span>
             Working with Andy
             <div class="box c">
-                <img src="./images/andy_only2.jpg">
+                <img src="./images/andy_only2.jpg" alt="Andy Leck">
             </div> 
             <div class="box cc">
                 <div class="wide-paragraph-left">
@@ -76,14 +76,14 @@ and open the template in the editor.
 
         <div class="main">
             <div class="box af"><span class="block-id-image">AF</span>
-                <img src="./images/railing_sample_left.jpg">
+                <img src="./images/railing_sample_left.jpg" alt="">
                 <div class="image-text">When meeting with customers 
                     to plan their projects Andy brings
                     this sample railing along.</div>
             </div>
 
             <div class="box ag"><span class="block-id-image">AG</span>
-                <img src="./images/andy_installs.jpg">
+                <img src="./images/andy_installs.jpg" alt="">
                 <div class="image-text">Andy installing a railing 
                     for a church in Edgecomb, Maine</div>
             </div>

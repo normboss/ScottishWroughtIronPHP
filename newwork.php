@@ -52,22 +52,22 @@ and open the template in the editor.
   <div class="main">
 
     <div class="box">
-      <img src="./images/spinner_sold.png">
+      <img src="./images/spinner_sold.png" alt="">
       <div class="image-text">Spinner and Granite Post $350</div>
     </div>
 
     <div class="box"><span class="block-id-image">B</span>
-      <img src="./images/dear_spinner_sold.png">
-      <div class="image-text">Dear Spinner $850 (pillar stone optional)</div>
+      <img src="./images/dear_spinner_sold.png" alt="">
+      <div class="image-text">Deer Spinner $850 (pillar stone optional)</div>
     </div>
 
     <div class="box"><span class="block-id-image">F</span>
-        <img src="./images/sail_copper_sea.png">
+        <img src="./images/sail_copper_sea.png" alt="">
         <div class="image-text">“Whales off the Port Bow” features the silhouette of a schooner with a hand forged anchor and tender sailing on a copper sea of hand hammered waves . $1600.</div>
       </div>
 
       <div class="box"><span class="block-id-image">H</span>
-        <img src="./images/sails_copper_andy.png">
+        <img src="./images/sails_copper_andy.png" alt="">
         <div class="image-text">Andy putting finishing touches on his latest piece of upcycled metal folk art.</div>
       </div>
 

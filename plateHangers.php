@@ -34,7 +34,9 @@ and open the template in the editor.
 
     <div id="fb-root"></div>
     <div id="new-header"></div>
-    <?php require 'newheader.php' ?>
+    <?php 
+        require 'newheader.php';
+    ?>
 
     <!--    <div id="banner-upper"></div>
             <div id="banner-lower"></div>
@@ -76,21 +78,21 @@ and open the template in the editor.
 
             <div class="box picture">
                 <!--PLATES-->
-                <img src="./images/plate_holders_wp_left.jpg">
+                <img src="./images/plate_holders_wp_left.jpg" alt="">
             </div>
 
             <dev class="box models">
                 <dev class="box heart">
                     <dev class="box">Heart</dev>
-                    <img src="./images/style_heart.jpg">
+                    <img src="./images/style_heart.jpg" alt="">
                 </dev>
                 <dev class="box ram">
                     <dev class="box">Ram</dev>
-                    <img src="./images/style_ram.jpg">
+                    <img src="./images/style_ram.jpg" alt="">
                 </dev>
                 <dev class="box scroll">
                     <dev class="box">Scroll</dev>
-                    <img src="./images/style_scroll.jpg">
+                    <img src="./images/style_scroll.jpg" alt="">
                 </dev>
             </dev>
             <div class="box buy-it">
@@ -139,8 +141,8 @@ and open the template in the editor.
                             <td colspan="2">
                                 <div class="button1">
                                     <input type="hidden" name="currency_code" value="USD">
-                                    <input type="image" src="./images/add_2_cart2.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                    <input type="image" src="./images/add_2_cart2.png" border="0" name="submit" alt="Add to Cart" <?php echo $buttonAltStyle; ?>>
+                                    <img alt="Add to Cart" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                                 </div>
                             </td>
                         </tr>
@@ -181,7 +183,7 @@ and open the template in the editor.
             <div class="box picture">
                 <!--1PLATE-->
                 <a href="1plateholder.html">
-                    <img src="./images/plate_holder.jpg">
+                    <img src="./images/plate_holder.jpg" alt="">
                 </a>
             </div>
 
@@ -249,7 +251,7 @@ and open the template in the editor.
                             <td></td>
                         </tr>
                     </table>
-                    <input type="image" src="./images/add_2_cart2.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <input type="image" src="./images/add_2_cart2.png" border="0" name="submit"  alt="Add to Cart" <?php echo $buttonAltStyle; ?>>
                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                 </form>
 
@@ -294,7 +296,7 @@ and open the template in the editor.
             </div>
 
             <div class="box picture">
-                <img src="./images/2_plate_holder_c.jpg">
+                <img src="./images/2_plate_holder_c.jpg" alt="">
             </div>
 
             <?php require './includes/models.php'; ?>
@@ -348,7 +350,7 @@ and open the template in the editor.
                             <td></td>
                         </tr>
                     </table>
-                    <input type="image" src="./images/add_2_cart2.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <input type="image" src="./images/add_2_cart2.png" border="0" name="submit" alt="Add to Cart" <?php echo $buttonAltStyle; ?>>
                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                 </form>
             </div>
@@ -444,13 +446,13 @@ and open the template in the editor.
                             <td></td>
                         </tr>
                     </table>
-                    <input class="button1" type="image" src="./images/add_2_cart2.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <input class="button1" type="image" src="./images/add_2_cart2.png" border="0" name="submit" alt="Add to Cart" <?php echo $buttonAltStyle; ?>>
                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                 </form>
             </div>
 
             <div class="box picture">
-                <img src="./images/5_plate_holder.jpg">
+                <img src="./images/5_plate_holder.jpg" alt="">
             </div>
 
             <?php require './includes/models.php'; ?>
@@ -487,10 +489,10 @@ and open the template in the editor.
 
             <!-- <div class="box pictures"> -->
             <div class="box picture">
-                <img src="./images/bowl_holder2.jpg">
+                <img src="./images/bowl_holder2.jpg" alt="">
             </div>
             <div class="box picture2">
-                <img src="./images/2_bowl_holder3.jpg">
+                <img src="./images/2_bowl_holder3.jpg" alt="">
             </div>
             <!-- </div> -->
 
@@ -535,7 +537,7 @@ and open the template in the editor.
                         </tr>
                     </table>
                     <input type="hidden" name="currency_code" value="USD">
-                    <input type="image" src="./images/add_2_cart2.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <input type="image" src="./images/add_2_cart2.png" border="0" name="submit" alt="Add to Cart" <?php echo $buttonAltStyle; ?>>
                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                 </form>
             </div>

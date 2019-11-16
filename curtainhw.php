@@ -119,7 +119,7 @@ and open the template in the editor.
                   </tr>
                 </table>
                 <input type="hidden" name="currency_code" value="USD">
-                <input type="image" src="./images/add_2_cart2.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <input type="image" src="./images/add_2_cart2.png" border="0" name="submit" alt="Add to Cart" <?php echo $buttonAltStyle; ?>>
                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
               </form>
               <br>
@@ -135,7 +135,7 @@ and open the template in the editor.
 
         <div class="box b">
           <div class="box pic">
-            <img src="./images/curtain_chw_1.jpg">
+            <img src="./images/curtain_chw_1.jpg" alt="Rod ends spiral, scroll, basket and knob.">
             <!--            <span class="label l1">Spiral</span>
                         <span class="label l2">Scroll</span>
                         <span class="label l3">Basket</span>
@@ -188,7 +188,7 @@ and open the template in the editor.
                       </select> </td></tr>
                   <tr class="spacer30"><td></td></tr>
                 </table>
-                <input type="image" src="./images/add_2_cart2.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <input type="image" src="./images/add_2_cart2.png" border="0" name="submit" alt="Add to Cart" <?php echo $buttonAltStyle; ?>>
                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
               </form>
 
@@ -199,7 +199,7 @@ and open the template in the editor.
         </div>
         <div class="box b">
           <div class="image">
-            <img src="./images/102018lion_rods_rings.jpg">
+            <img src="./images/102018lion_rods_rings.jpg" alt="">
           </div>
         </div>
       </div>
@@ -257,7 +257,7 @@ and open the template in the editor.
                       </select> </td></tr>
                   <tr class="spacer10"><td></td></tr>
                 </table>
-                <input type="image" src="./images/add_2_cart2.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <input type="image" src="./images/add_2_cart2.png" border="0" name="submit" alt="Add to Cart" <?php echo $buttonAltStyle; ?>>
                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
               </form>
             </div>
@@ -267,7 +267,7 @@ and open the template in the editor.
         </div>
         <div class="box b">
           <div class="image">
-            <img src="./images/brackets_b193-s.jpg">
+            <img src="./images/brackets_b193-s.jpg" alt="">
           </div>
         </div>
       </div>
@@ -319,7 +319,7 @@ and open the template in the editor.
                     </select> </td></tr>
                 <tr class="spacer10"><td></td></tr>
               </table>
-              <input type="image" src="./images/add_2_cart2.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <input type="image" src="./images/add_2_cart2.png" border="0" name="submit" alt="Add to Cart" <?php echo $buttonAltStyle; ?>>
               <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
             </form>
           </div>
@@ -328,7 +328,7 @@ and open the template in the editor.
 
         <div class="box b">
           <div class="image">
-            <img src="./images/bracket_b19s.jpg">
+            <img src="./images/bracket_b19s.jpg" alt="">
           </div>
         </div>
       </div>
@@ -417,7 +417,7 @@ and open the template in the editor.
                 </tr>
               </table>
               <input type="hidden" name="currency_code" value="USD">
-              <input type="image" src="./images/add_2_cart2.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <input type="image" src="./images/add_2_cart2.png" border="0" name="submit" alt="Add to Cart" <?php echo $buttonAltStyle; ?>>
               <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
             </form>
 
@@ -427,7 +427,7 @@ and open the template in the editor.
 
         <div class="box b">
           <div class="image">
-            <img src="./images/bracket_shelf_m.jpg">
+            <img src="./images/bracket_shelf_m.jpg" alt="">
           </div>
         </div>
       </div>
@@ -494,7 +494,7 @@ and open the template in the editor.
                 <tr class="spacer20"></tr>
               </table>
               <input type="hidden" name="currency_code" value="USD">
-              <input type="image" src="./images/add_2_cart2.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <input type="image" src="./images/add_2_cart2.png" border="0" name="submit" alt="Add to Cart" <?php echo $buttonAltStyle; ?>>
               <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
             </form>
 
@@ -503,7 +503,7 @@ and open the template in the editor.
 
         <div class="box b">
           <div class="image">
-            <img src="./images/bracket_star.jpg">
+            <img src="./images/bracket_star.jpg" alt="">
           </div>
         </div>
       </div>

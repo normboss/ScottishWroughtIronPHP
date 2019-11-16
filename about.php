@@ -57,7 +57,7 @@ and open the template in the editor.
 
       <div class="block1">
         <div class="box b"><span class="block-id-letter">B</span>
-          <img src="./images/andy_ladder.jpg">
+          <img src="./images/andy_ladder.jpg" alt="Andy showing wrought iron ladder he made.">
         </div>
 
         <div class="box c">
@@ -96,7 +96,7 @@ and open the template in the editor.
 
       <div class="block1">
         <div class="box e"><span class="block-id-letter">E</span>
-          <img src="./images/andy_sparks.jpg">
+          <img src="./images/andy_sparks.jpg" alt="The front of Andy's workshop.">
         </div>
 
         <div class="box f">
@@ -128,7 +128,7 @@ and open the template in the editor.
 
       <div class="block1">
         <div class="box h"><span class="block-id-letter">H</span>
-          <img src="./images/andy_whale.jpg">
+          <img src="./images/andy_whale.jpg" alt="Andy standing with his whale sculpture.">
         </div>
 
         <div class="box i"><span class="block-id-letter">I</span>
@@ -156,7 +156,7 @@ and open the template in the editor.
 
       <div class="block1">
         <div class="box k"><span class="block-id-letter">K</span>
-          <img src="./images/anvil_1.jpg">
+          <img src="./images/anvil_1.jpg" alt="Large anvil in Andy's shop.">
         </div>
 
         <div class="box l"><span class="block-id-letter">L</span>
@@ -185,7 +185,7 @@ and open the template in the editor.
       <div class="block3">
         <div class="box n">
           <div class="rowN"><span class="block-id-letter">N</span>
-            <img src="./images/aboutWeaverM V1.png">
+            <img src="./images/aboutWeaverM V1.png" alt="Shawl made by Maine Village Weaver.">
           </div>
         </div>
         <div class="box n1">
@@ -210,13 +210,13 @@ and open the template in the editor.
           </div>
         </div>
         <div class="box n2">
-          <img src="./images/aboutBakeryM_V1.png">
+          <img src="./images/aboutBakeryM_V1.png" alt="Cupcakes made by The Barn Door Bakery.">
         </div>
       </div>
       
       <div class="block4">
         <div class="box o"><span class="block-id-letter">O</span>
-          <img src="./images/zack_crab_m.jpg">
+          <img src="./images/zack_crab_m.jpg" alt="Steel crab sculpture.">
         </div>
         <div class="box p"><span class="block-id-letter">P</span>
           <div class="row-copy">

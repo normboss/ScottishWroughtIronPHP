@@ -20,7 +20,7 @@ and open the template in the editor.
     @include max-mixin(500px) {
         padding-left: 0;
     }
-    
+
     display: grid;
     grid-template-columns: 1fr 1fr;
     @include max-mixin(650px) {

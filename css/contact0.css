@@ -577,6 +577,7 @@ align-items: center;*/
 flex-direction: row;
 justify-content: space-around;
 align-items: flex-end;*/
+  border: 0px solid red;
 }
 
 #footer .footer-block .f a {
@@ -605,7 +606,6 @@ align-items: flex-end;*/
 }
 
 #footer .footer-block .f {
-  border: 2px solid red;
   padding-top: 10px;
   padding-bottom: 50px;
   display: -webkit-box;

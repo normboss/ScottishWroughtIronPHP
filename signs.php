@@ -69,27 +69,27 @@ installed by Andy Leck.
     <main class="main">
       <div class="box a">
         <!--A-->
-        <img src="./images/sign_cofee.jpg">
+        <img src="./images/sign_cofee.jpg" alt="Weather vane sign for North Cottage coffee shop.">
       </div>
       <div class="box b">
         <!--B-->
-        <img src="./images/oles_weld2.jpg">
+        <img src="./images/oles_weld2.jpg" alt="Dragon sign for Oles Welding.">
       </div> 
       <div class="box c">
         <!--C-->
-        <img src="./images/sign_southeby.jpg">
+        <img src="./images/sign_southeby.jpg" alt="Hanging sign for Sotheby's Realty.">
       </div>
       <div class="box d">
         <!--D-->
-        <img src="./images/sign_thompson.jpg">
+        <img src="./images/sign_thompson.jpg" alt="Thompson House sign.">
       </div>
       <div class="box e">
         <!--E-->
-        <img src="./images/sign_substance.jpg">
+        <img src="./images/sign_substance.jpg" alt="Women of Substance sign.">
       </div>
       <div class="box f">
         <!--F-->
-        <img src="./images/sign_vet.jpg">
+        <img src="./images/sign_vet.jpg" alt="Damariscotta Veterinary Clinic sign.">
       </div>
 <!--      <div class="box g">G
       </div>

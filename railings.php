@@ -46,7 +46,7 @@ and open the template in the editor.
             <span class="block-id-letter">A</span>
              Custom Hand Rails
             <div class="box c">
-                <img src="./images/andy_only2.jpg">
+                <img src="./images/andy_only2.jpg" alt="Andy Leck blacksmith.">
             </div> 
             <div class="box cc">
                 <div class="wide-paragraph">
@@ -79,32 +79,32 @@ and open the template in the editor.
             </div>-->
 
             <div class="box s"><span class="block-id-image">S</span>
-                <img src="./images/rock_railing.jpg">
+                <img src="./images/rock_railing.jpg" alt="">
                 <div class="image-text">Safety and fun together in a custom handrail with wrapped rocks.</div>
             </div>
 
             <div class="box t"><span class="block-id-image">T</span>
-                <img src="./images/railing_step_flow.jpg">
+                <img src="./images/railing_step_flow.jpg" alt="">
                 <div class="image-text">This double railing has scroll accent. </div>
             </div>
 
             <div class="box v"><span class="block-id-image">V</span>
-                <img src="./images/granite_steps_simple2.jpg">
+                <img src="./images/granite_steps_simple2.jpg" alt="">
                 <div class="image-text">Elegant simplicity of iron paired with granite steps</div>
             </div>
 
             <div class="box w"><span class="block-id-image">W</span>
-                <img src="./images/thistle_railing.jpg">
+                <img src="./images/thistle_railing.jpg" alt="">
                 <div class="image-text">Andy's graceful thistle motif enhances the entrance to this lovely home </div>
             </div>
 
             <div class="box y"><span class="block-id-image">Y</span>
-                <img src="./images/railing_step_rock2.jpg">
+                <img src="./images/railing_step_rock2.jpg" alt="">
                 <div class="image-text">Post with a twist supports this rail </div>
             </div>
 
             <div class="box z">
-                <img src="./images/railing_fish2.jpg">
+                <img src="./images/railing_fish2.jpg" alt="">
                 <div class="image-text">
                     Fish cut of recycled metal seem to swim in the current
                     accented by glass floats.<br>
@@ -113,12 +113,12 @@ and open the template in the editor.
             </div>
 
             <div class="box ac">
-                <img src="./images/anchor_railing.jpg">
+                <img src="./images/anchor_railing.jpg" alt="">
                 <div class="image-text">Anchors and wrapped rocks fit the place</div>
             </div>
 
             <div class="box ad">
-                <img src="./images/window_gate.jpg">
+                <img src="./images/window_gate.jpg" alt="">
                 <div class="image-text">Window grill has flowers and blue glass amid graceful curves </div>
             </div>
         </div>
@@ -138,14 +138,14 @@ and open the template in the editor.
 
         <div class="main">
             <div class="box af"><span class="block-id-image">AF</span>
-                <img src="./images/railing_sample_left.jpg">
+                <img src="./images/railing_sample_left.jpg" alt="">
                 <div class="image-text">When meeting with customers 
                     to plan their projects Andy brings
                     this sample railing along.</div>
             </div>
 
             <div class="box ag"><span class="block-id-image">AG</span>
-                <img src="./images/andy_installs.jpg">
+                <img src="./images/andy_installs.jpg" alt="">
                 <div class="image-text">Andy installing a railing 
                     for a church in Edgecomb, Maine</div>
             </div>
