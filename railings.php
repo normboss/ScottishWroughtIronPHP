@@ -46,7 +46,7 @@ and open the template in the editor.
             <span class="block-id-letter">A</span>
              Custom Hand Rails
             <div class="box c">
-                <img src="./images/andy_only2.jpg" alt="Andy Leck blacksmith.">
+                <img src="./images/andy_only2.jpg" alt="Blacksmith Andy Leck at work.">
             </div> 
             <div class="box cc">
                 <div class="wide-paragraph">
@@ -79,32 +79,32 @@ and open the template in the editor.
             </div>-->
 
             <div class="box s"><span class="block-id-image">S</span>
-                <img src="./images/rock_railing.jpg" alt="">
+                <img src="./images/rock_railing.jpg" alt="Double railings at the entrace of a low porch.">
                 <div class="image-text">Safety and fun together in a custom handrail with wrapped rocks.</div>
             </div>
 
             <div class="box t"><span class="block-id-image">T</span>
-                <img src="./images/railing_step_flow.jpg" alt="">
+                <img src="./images/railing_step_flow.jpg" alt="Railing along a custom stone stairway.">
                 <div class="image-text">This double railing has scroll accent. </div>
             </div>
 
             <div class="box v"><span class="block-id-image">V</span>
-                <img src="./images/granite_steps_simple2.jpg" alt="">
+                <img src="./images/granite_steps_simple2.jpg" alt="Simple railing along 3 granite block steps.">
                 <div class="image-text">Elegant simplicity of iron paired with granite steps</div>
             </div>
 
             <div class="box w"><span class="block-id-image">W</span>
-                <img src="./images/thistle_railing.jpg" alt="">
+                <img src="./images/thistle_railing.jpg" alt="Railing over two stone steps with thistle decoration.">
                 <div class="image-text">Andy's graceful thistle motif enhances the entrance to this lovely home </div>
             </div>
 
             <div class="box y"><span class="block-id-image">Y</span>
-                <img src="./images/railing_step_rock2.jpg" alt="">
+                <img src="./images/railing_step_rock2.jpg" alt="Railing with stones encased in wrought iron on six steps of granite.">
                 <div class="image-text">Post with a twist supports this rail </div>
             </div>
 
             <div class="box z">
-                <img src="./images/railing_fish2.jpg" alt="">
+                <img src="./images/railing_fish2.jpg" alt="Wrought iron railing with swimming fish and glass floats.">
                 <div class="image-text">
                     Fish cut of recycled metal seem to swim in the current
                     accented by glass floats.<br>
@@ -113,12 +113,12 @@ and open the template in the editor.
             </div>
 
             <div class="box ac">
-                <img src="./images/anchor_railing.jpg" alt="">
+                <img src="./images/anchor_railing.jpg" alt="Double railings on 8 steps to porch.">
                 <div class="image-text">Anchors and wrapped rocks fit the place</div>
             </div>
 
             <div class="box ad">
-                <img src="./images/window_gate.jpg" alt="">
+                <img src="./images/window_gate.jpg" alt="Wrough iron grill with flowers and glass balls.">
                 <div class="image-text">Window grill has flowers and blue glass amid graceful curves </div>
             </div>
         </div>

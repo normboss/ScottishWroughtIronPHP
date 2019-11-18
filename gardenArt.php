@@ -60,7 +60,7 @@ and open the template in the editor.
       
       
       <div class="box b"><span class="block-id-b">B</span>
-          <img src="./images/hen_house_conflict.jpg" alt="Pair of rooster squabbling.">
+          <img src="./images/hen_house_conflict.jpg" alt="Pair of roosters squabbling.">
           <div class="image-text">Rooster Wall Hanging</div>
       </div>
       
@@ -135,7 +135,7 @@ and open the template in the editor.
       </div>
 
       <div class="box ae"><span class="block-id-ae">AE</span>
-        <img src="./images/gate_cranes2.jpg" alt="Gate with birds and fish.">
+        <img src="./images/gate_cranes2.jpg" alt="Wrought iron gate with birds and fish.">
         <div class="image-text">Pond Life Gate</div>
         <div class="image-text">
           <a href="gates.php">See more Garden Gates</a>

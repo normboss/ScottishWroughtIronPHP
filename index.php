@@ -82,49 +82,49 @@ and open the template in the editor.
         <div class="box">
             <a href="curtainhw.php">
                 <div class="text">Hand Forged Hardware</div>
-                <img src="./images/curtain_rods400.jpg">
+                <img src="./images/curtain_rods400.jpg" alt="4 curtain rods with different ends. Spiral, scroll, basket and ball.">
             </a>
         </div>
         <div class="box">
             <a href="gates.php">
                 <div class="text">Custom Gates</div>
-                <img src="./images/gate_cranes.jpg">
+                <img src="./images/gate_cranes.jpg" alt="Gate with birds and fish over-looking a pond.">
             </a>
         </div>
         <div class="box">
             <a href="railings.php">
                 <div class="text">Custom Railings</div>
-                <img src="./images/railing_fish2.jpg">
+                <img src="./images/railing_fish2.jpg" alt="Railing with swimming fish.">
             </a>
         </div>
         <div class="box">
             <a href="plateHangers.php">
                 <div class="text">Plate and Bowl Holders</div>
-                <img src="./images/2plate_hanger.png">
+                <img src="./images/2plate_hanger.png" alt="An assortment of plate and bowl holders.">
             </a>
         </div>
         <div class="box">
             <a href="signs.php">
                 <div class="text">Signs and Brackets</div>
-                <img src="./images/sign_cofee.jpg">
+                <img src="./images/sign_cofee.jpg" alt="A weathervane sign with steaming coffee cup.">
             </a>
         </div>
         <div class="box">
             <a href="gardenArt.php">
                 <div class="text">Gallery of Original Art</div>
-                <img src="./images/hen_house_conflict.jpg">
+                <img src="./images/hen_house_conflict.jpg" alt="A pair of squabbling roosters.">
             </a>
         </div>
         <div class="box">
             <a href="https://www.etsy.com/shop/scottishlion">
                 <div class="text">Shop Etsy</div>
-                <img src="./images/etsy_image.png">
+                <img src="./images/etsy_image.png" alt="3 wrought iron catails and a bowl set in a bowl holder.">
             </a>
         </div>
         <div class="box">
             <a href="about.php">
                 <div class="text">About Andy</div>
-                <img src="./images/door_smile.jpg">
+                <img src="./images/door_smile.jpg" alt="Andy at work smiling for the camera.">
             </a>
         </div>
         <div class="box">
@@ -132,7 +132,7 @@ and open the template in the editor.
                 <div class="text">Commissions</div>
             </a>
             <a href="commissions.php">
-                <img src="./images/trellis.png">
+                <img src="./images/trellis.png" alt="Tall trellis with repeating geopmetrical patterns.">
             </a>
         </div>
         <div class="box">
@@ -140,12 +140,9 @@ and open the template in the editor.
                 <div class="text">New Work Available</div>
             </a>
             <a href="newwork.php">
-                <img src="./images/dear_spinner.png">
+                <img src="./images/dear_spinner.png" "Spinner with antlers and glass on stone pillar.">
             </a>
         </div>
-        <!-- <div class="lion-image">
-                <img src="./images/lion_200_trans2.png">
-            </div> -->
     </div>
     <br>
     <div class="bottom-text">

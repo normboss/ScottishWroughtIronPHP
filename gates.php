@@ -92,7 +92,7 @@ and open the template in the editor.
         </figure> -->
 
         <div class="box e"><span class="block-id-image">E</span>
-            <img src="./images/railing_pink_gate.jpg" alt="Victorian style gate.">
+            <img src="./images/railing_pink_gate.jpg" alt="Ornate wrought iron gate.">
             <div class="image-text">Victorian style compliments this home.</div>
         </div>
 
