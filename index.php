@@ -132,7 +132,7 @@ and open the template in the editor.
                 <div class="text">Commissions</div>
             </a>
             <a href="commissions.php">
-                <img src="./images/trellis.png" alt="Tall trellis with repeating geopmetrical patterns.">
+                <img src="./images/pond_railing.png" alt="Tall trellis with repeating geopmetrical patterns.">
             </a>
         </div>
         <div class="box">
