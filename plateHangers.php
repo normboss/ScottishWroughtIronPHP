@@ -199,61 +199,6 @@ and open the template in the editor.
             </div>
 
             <div class="box buy-it">
-                <br>
-
-                <!-- <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                    <input type="hidden" name="cmd" value="_s-xclick">
-                    <input type="hidden" name="hosted_button_id" value="FFPV2JS6C55KE">
-                    <table>
-                        <tr>
-                        </tr>
-                        <tr>
-                            <td><input type="hidden" name="on0" value="Style">Style:</td>
-                            <td><select name="os0">
-                                    <option value="Heart">Heart </option>
-                                    <option value="Ram">Ram </option>
-                                    <option value="Scroll">Scroll </option>
-                                    <option value="Spade">Spade </option>
-                                </select> </td>
-                        </tr>
-                        <tr class="spacer10">
-                            <td></td>
-                        </tr>
-                        <tr>
-                        </tr>
-                        <tr>
-                            <td><input type="hidden" name="on1" value="Color">Color:</td>
-                            <td><select name="os1">
-                                    <option value="black">black </option>
-                                    <option value="oil rubbed bronze">oil rubbed bronze </option>
-                                </select> </td>
-                        </tr>
-                        <tr class="spacer10">
-                            <td></td>
-                        </tr>
-                        <tr>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="hidden" name="on2" value="Plate size">Plate size:
-                            </td>
-                            <td>
-                                <select name="os2">
-                                    <option value="12 inch">12 inch </option>
-                                    <option value="14 inch">14 inch </option>
-                                    <option value="16 inch">16 inch </option>
-                                    <option value="18 inch">18 inch </option>
-                                </select>
-
-                        </tr>
-                        <tr class="spacer10">
-                            <td></td>
-                        </tr>
-                    </table>
-                    <input type="image" src="./images/add_2_cart2.png" border="0" name="submit" alt="Add to Cart" <?php echo $buttonAltStyle; ?>>
-                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                </form> -->
-
                 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                     <input type="hidden" name="cmd" value="_s-xclick">
                     <input type="hidden" name="hosted_button_id" value="FFPV2JS6C55KE">
@@ -604,8 +549,8 @@ and open the template in the editor.
             <div class="box copy1 copy6">
                 <div class="paragraph">
                     <br>
-                    Hand wrought stand displays pies, cakes
-                    and desserts on a table top in style.
+                    Hand wrought stand displays pies, cakes and desserts on a table top in style. 
+                    Hand riveted shelves can be custom sized to fit your needs. 
                 </div>
             </div>
 

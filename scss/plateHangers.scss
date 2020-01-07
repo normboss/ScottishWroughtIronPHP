@@ -37,6 +37,11 @@ and open the template in the editor.
         width: 80%;
         text-align: center;
         /*margin: 0 auto;*/
+        padding-left: 50px;
+        @include max-mixin(500px) {
+            padding-left: 0;
+        }
+
 
         .heading {
             font-size: 20px;
@@ -87,6 +92,8 @@ and open the template in the editor.
                 .red-words {
                     @include font17;
                 }
+                // font-size: 14px;
+                // color: red;
             }
             .order {
                 @include font9;

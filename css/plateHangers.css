@@ -696,7 +696,15 @@ align-items: flex-end;*/
   width: 80%;
   text-align: center;
   /*margin: 0 auto;*/
+  padding-left: 50px;
   background-color: #ededed;
+}
+
+@media screen and (max-width: 500px) {
+  .hardware-container .plate-holders,
+  .hardware-container .plate-hangers {
+    padding-left: 0;
+  }
 }
 
 .hardware-container .plate-holders .heading,
