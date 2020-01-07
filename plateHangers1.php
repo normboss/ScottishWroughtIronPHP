@@ -173,12 +173,12 @@ and open the template in the editor.
                     Actual size plate listed in&nbsp;drop&nbsp;down&nbsp;list.
                 </div>
                 <br>
-                <!-- <div class="item-name">
+                <div class="item-name">
                     Single Wall Plate Holder $50.
                     Extra Large Plate Holder $60. Plus 10% shipping
-                </div> -->
+                </div>
                 <br>
-                <div>Plus $18 shipping</div>
+                <div>Plus 10% shipping</div>
             </div>
 
             <div class="box picture">
@@ -201,7 +201,7 @@ and open the template in the editor.
             <div class="box buy-it">
                 <br>
 
-                <!-- <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                     <input type="hidden" name="cmd" value="_s-xclick">
                     <input type="hidden" name="hosted_button_id" value="FFPV2JS6C55KE">
                     <table>
@@ -235,9 +235,11 @@ and open the template in the editor.
                         </tr>
                         <tr>
                             <td>
+                                <!--<input type="hidden" width="4" name="on2" value="Plate diameter">Plate diameter:-->
                                 <input type="hidden" name="on2" value="Plate size">Plate size:
                             </td>
                             <td>
+                                <!--<input type="text" name="os2" maxlength="8" width="4" size="4" placeholder="14"></td>-->
                                 <select name="os2">
                                     <option value="12 inch">12 inch </option>
                                     <option value="14 inch">14 inch </option>
@@ -251,53 +253,6 @@ and open the template in the editor.
                         </tr>
                     </table>
                     <input type="image" src="./images/add_2_cart2.png" border="0" name="submit" alt="Add to Cart" <?php echo $buttonAltStyle; ?>>
-                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                </form> -->
-
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                    <input type="hidden" name="cmd" value="_s-xclick">
-                    <input type="hidden" name="hosted_button_id" value="FFPV2JS6C55KE">
-                    <table>
-                        <tr>
-                            <td><input type="hidden" name="on0" value="Plate Size">Plate Size</td>
-                        </tr>
-                        <tr>
-                            <td><select name="os0">
-                                    <option value="12 Inch">12 Inch $50.00 USD</option>
-                                    <option value="14 inch">14 inch $50.00 USD</option>
-                                    <option value="16 inch">16 inch $50.00 USD</option>
-                                    <option value="18 inch">18 inch $50.00 USD</option>
-                                    <option value="20 inch">20 inch $60.00 USD</option>
-                                </select> </td>
-                        </tr>
-                        <tr>
-                            <td><input type="hidden" name="on1" value="Style">Style</td>
-                        </tr>
-                        <tr>
-                            <td><select name="os1">
-                                    <option value="Heart">Heart </option>
-                                    <option value="Ram">Ram </option>
-                                    <option value="Scroll">Scroll </option>
-                                    <option value="Spade">Spade </option>
-                                </select> </td>
-                        </tr>
-                        <tr>
-                            <td><input type="hidden" name="on2" value="Color">Color</td>
-                        </tr>
-                        <tr>
-                            <td><select name="os2">
-                                    <option value="black">black </option>
-                                    <option value="oil rubbed bronze">oil rubbed bronze </option>
-                                </select> </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="spacer20"></div>
-                            </td>
-                        </tr>
-                    </table>
-                    <input type="hidden" name="currency_code" value="USD">
-                    <input type="image" src="./images/add_2_cart2.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                 </form>
 
@@ -314,7 +269,7 @@ and open the template in the editor.
         <br><br><br>
 
         <!--****************************************
-            two-plate-hanger - block 3
+            two-plate-hanger
             *****************************************-->
         <div class="plate-hangers">
             <br><br>
@@ -409,7 +364,7 @@ and open the template in the editor.
 
 
         <!--****************************************
-            five-plate-hanger - block 4
+            five-plate-hanger
             *****************************************-->
         <div class="plate-hangers">
 
@@ -509,7 +464,7 @@ and open the template in the editor.
         <br><br><br>
 
         <!--****************************************
-            bowl-holders - block 5
+            bowl-holders
             *****************************************-->
         <div class="plate-hangers">
 
@@ -523,11 +478,11 @@ and open the template in the editor.
                     holders are custom forged to fit your
                     bowls at no extra charge (if under 18 inch diameter).
                     <div class="spacer10"></div>
-                    Scrolls hold the bowl at a slight angle.
+                    Single scrolls hold the bowl at a slight angle.
                     Your choice of either black or oil rubbed bronze finish.
                     <div class="spacer10"></div>
-                    <!-- <div class="order">Single Wall Bowl Holder $40. </div>
-                    <div class="order">Double Wall Bowl Holder $65.</div> -->
+                    <div class="order">Single Wall Bowl Holder $40. </div>
+                    <div class="order">Double Wall Bowl Holder $65.</div>
                     <br>
 
                 </div>
@@ -584,50 +539,6 @@ and open the template in the editor.
                     </table>
                     <input type="hidden" name="currency_code" value="USD">
                     <input type="image" src="./images/add_2_cart2.png" border="0" name="submit" alt="Add to Cart" <?php echo $buttonAltStyle; ?>>
-                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                </form>
-            </div>
-
-        </div>
-
-        <br><br><br>
-        <div class="spacer30"></div>
-        <!--****************************************
-            bowl-holders - block 6
-            *****************************************-->
-        <div class="plate-hangers">
-
-            <div class="box heading heading6">
-                <div class="item-name">Three Tier Plate Stand</div>
-            </div>
-
-            <div class="box copy1 copy6">
-                <div class="paragraph">
-                    <br>
-                    Hand wrought stand displays pies, cakes
-                    and desserts on a table top in style.
-                </div>
-            </div>
-
-            <!-- <div class="box pictures"> -->
-            <div class="box picture picture6a">
-                <img src="./images/3_tier_stand.png" alt="">
-            </div>
-            <div class="box picture2 picture6b">
-                <img src="./images/2_tier_stand_plates.png" alt="">
-            </div>
-            <!-- </div> -->
-
-            <div class="box buy-it buy-it6">
-                <!-- <div class="spacer30"></div> -->
-                <div class="block6-info">
-                    Three Tier Plate Stand $125. Plus $25. Shipping
-                </div>
-                <br>
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                    <input type="hidden" name="cmd" value="_s-xclick">
-                    <input type="hidden" name="hosted_button_id" value="7ZYVDTNKBZVNU">
-                    <input type="image" src="./images/add_2_cart2.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                 </form>
             </div>

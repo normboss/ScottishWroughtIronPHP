@@ -774,7 +774,6 @@ align-items: flex-end;*/
 .hardware-container .plate-hangers .box {
   background-color: #ededed;
   color: black;
-  /*border: 3px solid red;*/
   /*height: 100px;*/
   width: 80%;
   height: auto;
@@ -822,6 +821,11 @@ align-items: flex-end;*/
   font-size: 24px;
   color: #000000;
   font-weight: bold;
+}
+
+.hardware-container .plate-holders .box .item-name0,
+.hardware-container .plate-hangers .box .item-name0 {
+  color: #700707;
 }
 
 .hardware-container .plate-holders .box form,
@@ -1005,7 +1009,7 @@ align-items: flex-end;*/
   padding-bottom: 25px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .hardware-container .plate-hangers {
     width: 100%;
   }
@@ -1027,6 +1031,15 @@ align-items: flex-end;*/
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-column: 1 / span 3;
+}
+
+.hardware-container .plate-hangers .copy6 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / span 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / span 2;
 }
 
 .hardware-container .plate-hangers .picture {
@@ -1055,6 +1068,31 @@ align-items: flex-end;*/
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
     grid-column: 1 / span 2;
+  }
+}
+
+.hardware-container .plate-hangers .picture6b {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 3;
+  grid-row: 2 / span 3;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3 / span 1;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  .hardware-container .plate-hangers .picture6b {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 2;
+    grid-row: 5 / span 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1 / span 2;
+    text-align: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    width: 100%;
   }
 }
 
@@ -1149,8 +1187,11 @@ align-items: flex-end;*/
   text-align: center;
   -ms-grid-column-align: center;
       justify-self: center;
-  width: 30vw;
   height: auto;
+}
+
+.hardware-container .plate-hangers .buy-it .block6-info {
+  font-size: 18px;
 }
 
 @media screen and (max-width: 500px) {
@@ -1175,6 +1216,15 @@ align-items: flex-end;*/
 
 .hardware-container .plate-hangers .buy-it table tr td {
   /*border: 1px solid black;*/
+}
+
+.hardware-container .plate-hangers .buy-it6 {
+  -ms-grid-row: 8;
+  -ms-grid-row-span: 1;
+  grid-row: 8 / span 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1 / span 4;
 }
 
 .hardware-container .bowl-holders {
