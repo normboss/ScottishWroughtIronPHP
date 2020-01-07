@@ -191,11 +191,11 @@ and open the template in the editor.
             <?php require './includes/models.php'; ?>
 
             <div class="box copy2">
-                <div class="paragraph">
+                <!-- <div class="paragraph">
                     Custom Holders are made to fit your plates
                     <div class="red-words">at no extra charge!</div>
-                    (up to 20 inches).
-                </div>
+                    (up&nbsp;to&nbsp;20&nbsp;inches).
+                </div> -->
             </div>
 
             <div class="box buy-it">
