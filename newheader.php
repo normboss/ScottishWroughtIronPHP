@@ -10,7 +10,7 @@ and open the template in the editor.
 <html>
 
 <head>
-    <title>New Header</title>
+    <title>Latest Work - Scottish Wrought Iron</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">

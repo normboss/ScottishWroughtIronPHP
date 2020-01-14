@@ -14,7 +14,7 @@ and open the template in the editor.
     require './includes/globalSiteTag.html';
     ?>
 
-    <title>Terms</title>
+    <title>Terms - Scottish Wrought Iron</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
