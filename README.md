@@ -1,2 +1,6 @@
 # location of source code
-https://github.com/normboss/ScottishWroughtIronPHP.git
+
+<!-- 
+    Create new repository on github for v2
+ -->
+<!-- https://github.com/normboss/ScottishWroughtIronPHP.git -->

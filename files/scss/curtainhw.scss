@@ -1,0 +1,167 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 11, 2018, 12:36:15 AM
+    Author     : Norm
+*/
+
+@import "common";
+
+
+.main {
+    /*padding-left: 25px;*/
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+    .big-heading {
+        @include font1;
+        text-align: center;
+        max-width: 400px;
+    }
+
+
+    .forged-rods,
+    .curtain-rings,
+    .large-brackets,
+    .small-brackets,
+    .shelf-brackets,
+    .star-shelf-bracket {
+        // border: 3px solid red;
+        margin: 0 auto;
+        align-self: center;
+        display: grid;
+        row-gap: 25px;
+        grid-template: 1fr 3fr 3fr / 1fr 1fr;
+        /*grid-template-areas: "image copy";*/
+        grid-template-areas:
+            "heading heading"
+            "image copy"
+            "image copy";
+        width: 100%;
+        max-width: 800px;
+        text-align: center;
+
+        .copy {
+            text-align: left;
+            font-size: 14px;
+            display: block;
+            // float: left;
+            padding: 20px;
+            padding: 10px 20px 10px 20px;
+            @include font7;
+            .bold {
+                font-weight: bold;
+            }
+            .red-words {
+                @include font17;
+                font-weight: bold;
+            }
+            .item-name {
+                @include font14;
+                font-weight: bold;
+            }
+        }
+        /* control narrow version here */
+        @include max-mixin(700px) {
+            /*display: block;*/
+            grid-template: 3fr / 1fr;
+            grid-template-areas:
+                "heading"
+                "image"
+                "copy";
+        }
+        background-color: #ededed;
+
+        .box {
+            background-color: #ededed;
+            color: black;
+            // border: 3px solid red;
+            /*height: 100px;*/
+            .item-name {
+                @include font14;
+            }
+            .contact-me {
+                font-size: 16px;
+                text-decoration: none;
+            }
+            .paragraph {
+                // border: 3px solid red;
+                width: 100%;
+                margin: 0 auto;
+                @include font7;
+                .red-words {
+                    @include font17;
+                }
+                @include max-mixin(400px) {
+                    font-size: 18px;
+                }
+            }
+            .order {
+                // border: 3px solid blue;
+                width: 100%;
+                margin: 0 auto;
+                @include font9;
+                font-weight: bold;
+                padding-left: 20px;
+            }
+            .item-name {
+                @include font14;
+                font-weight: bold;
+            }
+            img {
+                max-width: 250px;
+                // float: left;
+                @include max-mixin(400px) {
+                    max-width: 200px;
+                }
+            }
+            @include max-mixin(400px) {
+                // padding-left: 10px;
+                // padding-right: 10px;
+                // margin-left: 10px;
+                // margin-right: 10px;
+            }
+        }
+        .a {
+            /*border: 3px solid red;*/
+            grid-area: copy;
+        }
+        .b {
+            /*border: 3px solid red;*/
+            grid-area: image;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /*justify-content: flex-start;*/
+            padding-left: 40px;
+            @include max-mixin(700px) {
+                padding-left: 0;
+            }
+        }
+        .c {
+            grid-area: heading;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        @include max-mixin(400px) {
+            // padding-left: 10px;
+            // padding-right: 10px;
+            // margin-left: 10px;
+            // margin-right: 10px;
+            img {
+                max-width: 100px;
+            }
+        }
+    }
+}

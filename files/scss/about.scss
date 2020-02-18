@@ -1,0 +1,140 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 22, 2018, 9:24:44 PM
+    Author     : Norm
+*/
+
+@import "common";
+/*
+  var myWidth = 0, myHeight = 0;
+  if( typeof( window.innerWidth ) == 'number' ) {
+    myWidth = window.innerWidth; myHeight = window.innerHeight;
+  } else if( document.documentElement && ( document.documentElement.clientWidth ||document.documentElement.clientHeight ) ) {
+    myWidth = document.documentElement.clientWidth; myHeight = document.documentElement.clientHeight;
+  } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+    myWidth = document.body.clientWidth; myHeight = document.body.clientHeight;
+  }
+*/
+
+.show-debug {
+    /*display: inline;*/
+    display: none;
+}
+
+.page-title {
+    text-align: center;
+    @include font1;
+}
+
+.quote {
+    @include font7;
+    text-align: center;
+}
+
+.main {
+    width: 90%;
+    margin: 0 auto;
+
+    .box {
+        /*border: 3px solid blue;*/
+        .title {
+            @include font2;
+            text-align: center;
+            font-weight: bold;
+            padding-bottom: 25px;
+        }
+        .row-copy {
+            /*width: 100%;*/
+            @include font7;
+            padding-bottom: 10px;
+        }
+        .row-copyi {
+            @include font11;
+            padding-bottom: 10px;
+        }
+        .row-copyi-sig {
+            @include font11;
+            padding-bottom: 10px;
+            text-align: right;
+        }
+        .rowL-heading {
+            //font-size: 32px;
+            font-weight: bold;
+        }
+        .rowL-copy {
+            @include font7;
+            font-size: 16px;
+        }
+        .signature {
+            .signature-block {
+                @include font11;
+            }
+        }
+
+        @include max-mixin(800px) {
+            grid-template-columns: 1fr;
+            grid-auto-columns: minmax(300px, 300px);
+            justify-items: start;
+            width: 90vw;
+        }
+
+        img {
+            @include max-mixin(800px) {
+                grid-template-columns: 1fr;
+                grid-auto-columns: minmax(300px, 300px);
+                justify-items: start;
+                width: 90vw;
+            }
+
+        }
+    }
+
+    .block1 {
+        /*border: 3px solid red;*/
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        @include max-mixin(800px) {
+            grid-template-columns: 1fr;
+            grid-auto-columns: minmax(300px, 300px);
+            justify-items: start;
+            width: 80vw;
+        }
+        padding-bottom: 50px;
+        grid-column-gap: 50px;
+        grid-auto-columns: minmax(300px, 400px);
+    }
+    .block3 {
+        /*border: 3px solid red;*/
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        @include max-mixin(800px) {
+            grid-template-columns: 1fr;
+            grid-auto-columns: minmax(300px, 300px);
+            justify-items: start;
+            width: 300px;
+        }
+        padding-bottom: 50px;
+        grid-column-gap: 50px;
+    }
+    .block4 {
+        /*border: 3px solid red;*/
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        @include max-mixin(800px) {
+            grid-template-columns: 1fr;
+        }
+        padding-bottom: 50px;
+        grid-column-gap: 50px;
+        .o {
+            display: flex;
+            justify-content: flex-end;
+            @include max-mixin(800px) {
+                justify-content: center;
+            }
+        }
+    }
+}
