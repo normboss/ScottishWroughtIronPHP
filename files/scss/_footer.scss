@@ -163,6 +163,13 @@ align-items: center;*/
                 align-items: center;
             }
         }
+        .b1 {
+            grid-area: b;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: flex-end;
+        }
         .c {
             grid-area: c;
             @include font9;
