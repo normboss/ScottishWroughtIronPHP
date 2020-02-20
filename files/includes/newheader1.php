@@ -6,11 +6,12 @@
             <!-- *************************************************************************** -->
             <!-- the banner and header image -->
             <div class="banner">
-                <div class="banner-block">
+                <!-- <div class="banner-block"> -->
                     Scottish Lion
-                    <span class="logo-inline"><img src="../images/lion_50_trans.png"></span>
+                    <!-- <div class="logo-inline"><img src="../images/lion_50_trans.png"></div> -->
+                    <img class="logo-inline" src="../images/lion_50_trans.png">
                     Wrought Iron
-                </div>
+                <!-- </div> -->
             </div>
 
             <a name="top"></a>

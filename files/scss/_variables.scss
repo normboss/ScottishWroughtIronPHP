@@ -43,7 +43,7 @@ $fontUsePercent: true;
         font-size: 38px;
     }
     @include min-mixin(901px) {
-        font-size: 48px;
+        font-size: 36px;
     }
     color: #000000;
     font-weight: bold;
@@ -54,11 +54,6 @@ $fontUsePercent: true;
     /* Headlines */
     font-family: "IM Fell English SC", serif;
     font-size: 32px;
-    /*  @if $fontUsePercent == true {
-    font-size: calc(16px + (32 - 16) * ((1200px - 300px) / (1200 - 300)));
-  } @else {
-    font-size: 32px;
-  }*/
     color: #000000;
     font-weight: bold;
 }
@@ -262,7 +257,7 @@ body {
 }
 
 body {
-    font-size: calc(16px + (24 - 14) * ((100vw - 300px) / (1200 - 300)));
+    // font-size: calc(16px + (24 - 14) * ((100vw - 300px) / (1200 - 300)));
 }
 
 //Grey navigation box #D9D98D4

@@ -9,7 +9,6 @@ and open the template in the editor.
 */
 @import url("https://fonts.googleapis.com/css?family=Major+Mono+Display|Open+Sans:400,400i,600,700,800");
 
-
 .back-to-top {
     text-align: right;
 }
@@ -28,46 +27,50 @@ and open the template in the editor.
     font-style: italic;
 }
 
-
 .footer {
-    border: 3px solid red;
+    // border: 3px solid red;
     margin-top: 25px;
+
     .footer-block {
+        // height: 400px;
         padding-top: 15px;
         padding-bottom: 15px;
         display: grid;
         @include min-mixin(400px) {
-            display: grid;
+            // display: grid;
         }
         width: 100%;
-        /*height: 300px;*/
+        padding-left: 10%;
+        padding-right: 10%;
+        @include max-mixin(850px) {
+            padding-left: 10px;
+            padding-right: 10px;
+            }
         background-color: #ededed;
         // grid-template: 60px 100px 30px 150px 30px / 1fr 1.5fr 1fr;
-        grid-template:  1fr 1fr 1fr;
+        // grid-template: 1fr 1fr 1fr;
         justify-content: center;
 
+        margin: 0 auto;
+        grid-template: 40px 30px 75px 30px / 1fr 2fr 1fr;
+        // grid-template: 50px 30px 75px / 1fr 2fr 1fr;
+        // grid-template: 1fr 1.5fr 1fr;
+        // grid-template-areas: "a a a" "aa aa aa" "b c d" "e f g";
+        grid-template-areas: "a a a" "aa aa aa" "b c d" "f f f";
+        row-gap: 10px;
 
-        @include min-mixin(500px) {
-            margin: 0 auto;
-            grid-template: 70px 30px 150px 30px / 1fr 2.5fr 1fr;
-            // grid-template: 1fr 1.5fr 1fr;
-            grid-template-areas: "a a a" "aa aa aa" "b c d" "e f g";
-        }
-        @include max-mixin(650px) {
-            grid-template: 30px 50px 50px 75px 100px / 1fr 1.5fr 1fr;
-            grid-template-areas: "h h h" "a a a" "aa aa aa" "b c d" "e f g";
-        }
         @include max-mixin(500px) {
-            grid-template: 50px 30px 75px 70px 30px 30px / 1fr 1fr 1fr 1fr;
-            grid-template-areas: "a a a a" "aa aa aa aa" "c c c c" "b b d d" "e e g g" "f f f f";
+            grid-template: 30px 30px 65px 40px 30px 30px / 1fr 1fr;
+            grid-template-areas: "a a" "aa aa" "b  d" "c c" "c c" "f f";
         }
 
         .block-id-letter {
             display: none;
         }
         .box {
-            border: solid 3px blue;
+            // border: solid 3px blue;
         }
+
         .h {
             /*border: 3px solid red;*/
             grid-area: h;
@@ -92,7 +95,7 @@ and open the template in the editor.
             display: flex;
             justify-content: center;
 
-            .wide-footer {
+            // .wide-footer {
                 // border: 3px solid blue;
                 padding-left: 5px;
                 padding-right: 5px;
@@ -101,50 +104,23 @@ and open the template in the editor.
                 h1 {
                     @include font1;
                     font-size: 20px;
-                    @include max-mixin(649px) {
-                        // @include font2;
-                        display: none;
-                    }
                     @include max-mixin(450px) {
                         // display: none;
-                        font-size: 16px;
+                        font-size: 18px;
                     }
                 }
-            }
-            .narrow-footer {
-                h1 {
-                    display: none;
-                    @include font1;
-                    @include max-mixin(650px) {
-                        /*border: 3px solid blue;*/
-                        display: inherit;
-                        text-align: center;
-                    }
-                }
-            }
-
-            .image-big {
-                // border: 2px solid black;
-                // height: 60px;
-                // display: inherit;
-                @include max-mixin(650px) {
-                    display: none;
-                }
-                img {
-                    @include max-mixin(500px) {
-                        display: none;
-                    }
-                }
-            }
+            // }
+            
         }
         .aa {
             // border: 3px solid red;
-            width: 60%;
-            padding-bottom: 10px;
-            margin-bottom: 10px;
+            // width: 60%;
+            // padding-bottom: 10px;
+            // margin-bottom: 10px;
             grid-area: aa;
             margin: 0 auto;
             text-align: center;
+            align-self: center;
             /*padding-top: 20px;*/
             @include font9;
             font-size: 14px;
@@ -170,48 +146,54 @@ and open the template in the editor.
             //     }
             // }
         }
-//         .b {
-//             grid-area: b;
-//             @include font9;
-//             /*      display: flex;
-// flex-direction: column;
-// justify-content: center;
-// align-items: center;*/
-//             text-align: center;
-//             h3 {
-//                 line-height: 0.75;
-//             }
-//             .map {
-//                 display: flex;
-//                 flex-direction: column;
-//                 justify-content: center;
-//                 align-items: center;
-//             }
-//         }
+        //         .b {
+        //             grid-area: b;
+        //             @include font9;
+        //             /*      display: flex;
+        // flex-direction: column;
+        // justify-content: center;
+        // align-items: center;*/
+        //             text-align: center;
+        //             h3 {
+        //                 line-height: 0.75;
+        //             }
+        //             .map {
+        //                 display: flex;
+        //                 flex-direction: column;
+        //                 justify-content: center;
+        //                 align-items: center;
+        //             }
+        //         }
         .b1 {
             grid-area: b;
             display: flex;
             flex-direction: row;
             justify-content: space-around;
-            align-items: flex-end;
+            align-items: center;
+            // height: 100px;
         }
         .c {
-            border: 3px solid red;
+            // border: 3px solid red;
             grid-area: c;
             @include font9;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            .detail-block {
-                .details {
-                    .name-address {
-                        @include font15;
+            // height: 100px;
+            margin: 0 auto;
+            @include max-mixin(500px) {
+                // flex-direction: row;
+                // height: 100px;
+            }
+            .details {
+                display: flex;
+                flex-direction: column;
+                justify-content: left;
+                // align-items: center;
+                .name-address {
+                    margin-right: 5px;
+                    @include font15;
 
-                        @include max-mixin(450px) {
-                            font-size: 12px;
-                        }
-                    }
+                    // @include max-mixin(450px) {
+                    //     font-size: 12px;
+                    // }
                 }
             }
         }
@@ -220,13 +202,14 @@ and open the template in the editor.
             display: flex;
             flex-direction: row;
             justify-content: space-around;
-            align-items: flex-end;
+            align-items: center;
             .facebook {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
             }
+            // height: 100px;
         }
 
         .e {
@@ -246,7 +229,7 @@ and open the template in the editor.
             font-size: 14px;
 
             a {
-                border: 3px solid red;
+                // border: 3px solid red;
                 text-decoration: none;
                 color: inherit;
             }
@@ -264,15 +247,19 @@ and open the template in the editor.
 
         .f {
             // border: 2px solid red;
-            padding-top: 10px;
-            padding-bottom: 50px;
+            // padding-top: 10px;
+            // padding-bottom: 50px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             color: #957a2b;
             font-size: 16px;
+            height: 100px;
+            padding-bottom: 50px;
+
             a {
+                // border: 3px solid red;
                 text-decoration: none;
                 color: #957a2b;
             }

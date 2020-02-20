@@ -11,10 +11,6 @@ and open the template in the editor.
 $mainWidth: 100%;
 
 
-#header_id {
-    // position: fixed;
-}
-
 
 #header-image {
     z-index: 5;
@@ -42,45 +38,77 @@ header {
         /*border: 3px solid red;*/
         background-color: $footerBackgroundColor;
         width: $mainWidth;
-        width: 100vw;
+        width: 100%;
         font-family: $mainFont;
         color: black;
         font-weight: bold;
-        // display: flex;
+        display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        // padding-top: 5px;
-        // position: relative;
-        // top: -7px;
-        // margin-top: -8px;
+        height: 50px;
+        font-size: 36px;
 
-        .banner-block {
+        // .banner-block {
             text-align: center;
             // border: 3px solid red;
             height: 60px;
-            @include font1;
-
-            @include max-mixin(500px) {
-                font-size: 32px;
+            // @include font1;
+            // font-family: "IM Fell English SC", serif;
+            @include max-mixin(620px) {
+                font-size: 22px;
+                height: 40px;
+                .logo-inline {
+                    height: 30px;
+                }
+            }
+            // @include min-max-mixin(620px, 901px) {
+            //     font-size: 28px;
+            //     height: 30px;
+            // }
+            // @include min-mixin(901px) {
+            //     font-size: 36px;
+            //     height: 60px;
+            // }
+            @include max-mixin(550px) {
+                font-size: 22px;
+                height: 35px;
+                padding-bottom: 5px;
+                padding-top: 5px;
+            }
+            @include max-mixin(350px) {
+                font-size: 18px;
             }
 
+            color: #000000;
+            font-weight: bold;
+        
+
+            // @include max-mixin(500px) {
+            //     font-size: 32px;
+            // }
+
             .logo-inline {
+                padding-left: 20px;
+                padding-right: 20px;
+
                 @include max-mixin(450px) {
                     display: none;
                 }
             }
-        }
+        // }
 
-        .banner-block-small {
-            @include min-mixin(325px) {
-                display: none;
-            }
-            @include max-mixin(325px) {
-                display: inherit;
-                font-size: 24px;
-            }
-        }
+        // .banner-block-small {
+        //     @include min-mixin(325px) {
+        //         display: none;
+        //     }
+        //     @include max-mixin(325px) {
+        //         display: inherit;
+        //         font-size: 24px;
+        //     }
+        // }
+        // font-size: 32px;
+        // margin: 0 auto;
     }
 
     #main-menu {
@@ -90,12 +118,6 @@ header {
 
     nav {
         z-index: 25;
-        // position: relative;
-        // top: -7px;
-
-        /*border: 3px solid red;*/
-        /*    position: relative;
-        top: 47px;*/
         display: flex;
         @include max-mixin(450px) {
             display: none;
@@ -104,17 +126,18 @@ header {
         justify-content: space-around;
         align-content: flex-start;
         width: $mainWidth;
-        height: 30px;
-        // padding-top: 15px;
+        // height: 20px;
         .shopping-cart {
-            /*border: 3px solid red;*/
+            // border: 3px solid red;
             position: relative;
             top: -10px;
         }
     }
 
     nav a {
-        float: left;
+        // border: 3px solid red;
+        // padding-bottom: 5px;
+        // float: left;
         color: black;
         text-align: center;
         text-decoration: none;
@@ -122,6 +145,9 @@ header {
         @include max-mixin(400px) {
             font-size: 16px;
         }
+    }
+
+    .navbar {
     }
 
     nav a:hover,
@@ -196,6 +222,8 @@ header {
     }
 
     .navbar-mobile {
+        // border: 2px solid red;
+        height: 40px;
         display: grid;
         @include min-mixin(450px) {
             display: none;
@@ -207,6 +235,13 @@ header {
         grid-template-rows: 50px;
         /*padding-top: 8px;*/
         background-color: $navigationBoxGrey;
+        @include max-mixin(350px) {
+            height: 30px;
+            img {
+                height: 35px;
+            }
+            padding-bottom: 5px;
+        }
 
         a:hover,
         .dropdown:hover .dropbtn {
