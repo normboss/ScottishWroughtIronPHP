@@ -65,10 +65,10 @@
     $pagename = $_SESSION['pagename'];
     //        echo "<br>".$pagename."<br>";
     echo "<script>";
-    if ($pagename == "index") {
+    if ($pagename == "home") {
         echo 'document.getElementById("header-image").style.display = "block"';
-    } else {
-        echo 'document.getElementById("header-image").style.display = "none"';
+    // } else {
+    //     echo 'document.getElementById("header-image").style.display = "none"';
     }
     echo "</script>";
 

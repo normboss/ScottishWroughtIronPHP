@@ -37,12 +37,12 @@ and open the template in the editor.
 
 </head>
 
-<body onload="fixWidth()">
+<body">
 
     <div id="fb-root"></div>
     <div id="new-header"></div>
     <?php
-    require 'newheader.php'
+    require 'newheader1.php'
     ?>
 
     <!-- *********************************************** -->

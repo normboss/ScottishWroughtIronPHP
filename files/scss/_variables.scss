@@ -13,6 +13,11 @@ and open the template in the editor.
     box-sizing: border-box;
 }
 
+%border {
+    border: 3px solid red;
+}
+
+
 @import url("https://fonts.googleapis.com/css?family=IM+Fell+English+SC|Italianno|Roboto:300,300i,400,500,700");
 /*
 font-family: 'IM Fell English SC', serif;
@@ -339,7 +344,7 @@ $purple230FD2: #230fd2;
 
 .heading {
     text-align: center;
-    @include font2;
+    // @include font2;
 }
 
 .sub-heading {

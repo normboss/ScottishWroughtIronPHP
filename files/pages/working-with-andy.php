@@ -1,7 +1,7 @@
 <?php
 if (!session_id())
     session_start();
-$_SESSION['pagename'] = "gatesRailings";
+$_SESSION['pagename'] = "working-with-andy";
 ?>
 <!DOCTYPE html>
 <!--
@@ -12,21 +12,17 @@ and open the template in the editor.
 <html>
     <head>
     <?php
-    require '../includes/globalSiteTag.html';
+    require '../includes/seo-stuff.php';
     ?>
 
-        <title>Our Process - Scottish Wrought Iron</title>
         <meta charset="UTF-8">
         <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
         <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC" rel="stylesheet">
         <link href="../css/style.css" media="screen" rel="stylesheet" type="text/css">
         <link rel="icon" href="../images/favicon.png">
-        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-        <script>
-        </script> 
 
     </head>
-    <body onload="fixWidth()">
+    <body">
 
         <div id="fb-root"></div>
         <div id="new-header"></div>
@@ -51,10 +47,11 @@ and open the template in the editor.
             <div class="box cc">
                 <div class="wide-paragraph-left">
                     <div class="process">
+                        <!-- <ul style="margin: 0 auto; width: 50%;"> -->
                         <ul>
                             <li class="contact-andy"><a href="contact.html" target="_blank">Contact Andy with your ideas.</a> </li>
                             <li>Andy comes to your site and works with you to develop a plan.</li>
-                            <li>Job estimate and payment agreement - deposit of half down with balance due upon completion.</li>
+                            <li>Job estimate and payment agreement - deposit of half down with balance due&nbsp;upon&nbsp;completion.</li>
                             <li>Andy fabricates the railing or gate in his shop.</li>
                             <li>Installation of your custom railing.</li>
                         </ul>

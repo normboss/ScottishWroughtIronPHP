@@ -1,7 +1,7 @@
 <?php
 if (!session_id())
     session_start();
-$_SESSION['pagename'] = "plateHangers";
+$_SESSION['pagename'] = "plate-holders";
 ?>
 <!DOCTYPE html>
 <!--
@@ -13,24 +13,20 @@ and open the template in the editor.
 
 <head>
 <?php
-    require '../includes/globalSiteTag.html';
+    require '../includes/seo-stuff.php';
     ?>
 
-    <title>Plate Holders - Scottish Wrought Iron</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i" rel="stylesheet">
-    <link href="../css/plateHangers.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../css/plate-holders.css" media="screen" rel="stylesheet" type="text/css">
     <link rel="icon" href="../images/favicon.png">
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <script>
-    </script>
 
 </head>
 
-<body onload="fixWidth()">
+<body">
 
     <div id="fb-root"></div>
     <div id="new-header"></div>
@@ -563,7 +559,7 @@ and open the template in the editor.
             <div class="box buy-it buy-it6">
                 <!-- <div class="spacer30"></div> -->
                 <div class="block6-info">
-                    Three Tier Plate Stand $125. Plus $25. Shipping
+                    Three Tier Plate Stand $250. Plus $50. Shipping
                 </div>
                 <br>
                 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">

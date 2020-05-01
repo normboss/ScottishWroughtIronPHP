@@ -13,13 +13,13 @@ print <<<END
     <div class="dropdown-content">
         <a href="gates.php"><span class="dropdown-item">Gates</span></a>
         <a href="railings.php"><span class="dropdown-item">Railings</span></a>
-        <a href="gardenArt.php"><span class="dropdown-item">Garden Art</span></a>
-        <a href="plateHangers.php"><span class="dropdown-item">Plate Hangers</span></a>
-        <a href="curtainhw.php"><span class="dropdown-item">Curtain Hardware</span></a>
-        <a href="signs.php"><span class="dropdown-item">Signs / Brackets</span></a>
-        <a href="newwork.php"><span class="dropdown-item">Latest Work</span></a>
+        <a href="garden-art.php"><span class="dropdown-item">Garden Art</span></a>
+        <a href="plate-holders.php"><span class="dropdown-item">Plate Holders</span></a>
+        <a href="curtain-hardware.php"><span class="dropdown-item">Curtain Hardware</span></a>
+        <a href="signs-and-brackets.php"><span class="dropdown-item">Signs & Brackets</span></a>
+        <a href="latest-work.php"><span class="dropdown-item">Latest Work</span></a>
         <a href="commissions.php"><span class="dropdown-item">Commissions</span></a>
-        <a href="process.php"><span class="dropdown-item">Working with Andy</span></a>
+        <a href="working-with-andy.php"><span class="dropdown-item">Working with Andy</span></a>
         <a href="https://www.etsy.com/shop/scottishlion"><span class="dropdown-item">Shop Etsy</span></a>
         <a href="terms.php"><span class="dropdown-item">Terms</span></a>
     </div>

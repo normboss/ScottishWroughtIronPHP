@@ -46,7 +46,7 @@ and open the template in the editor.
 
 </head>
 
-<body onload="fixWidth()">
+<body">
 
     <div id="fb-root"></div>
 
@@ -84,7 +84,7 @@ and open the template in the editor.
     <div class="index-container">
 
         <div class="box">
-            <a href="curtainhw.php">
+            <a href="curtain-hardware.php">
                 <div class="text">Hand Forged Hardware</div>
                 <img src="../images/curtain_rods400.jpg" alt="4 curtain rods with different ends. Spiral, scroll, basket and ball.">
             </a>
@@ -102,19 +102,19 @@ and open the template in the editor.
             </a>
         </div>
         <div class="box">
-            <a href="plateHangers.php">
+            <a href="plate-holders.php">
                 <div class="text">Plate and Bowl Holders</div>
                 <img src="../images/2plate_hanger.png" alt="An assortment of plate and bowl holders.">
             </a>
         </div>
         <div class="box">
-            <a href="signs.php">
+            <a href="signs-and-brackets.php">
                 <div class="text">Signs and Brackets</div>
                 <img src="../images/sign_cofee.jpg" alt="A weathervane sign with steaming coffee cup.">
             </a>
         </div>
         <div class="box">
-            <a href="gardenArt.php">
+            <a href="garden-art.php">
                 <div class="text">Gallery of Original Art</div>
                 <img src="../images/hen_house_conflict.jpg" alt="A pair of squabbling roosters.">
             </a>
@@ -140,10 +140,10 @@ and open the template in the editor.
             </a>
         </div>
         <div class="box">
-            <a href="newwork.php">
+            <a href="latest-work.php">
                 <div class="text">New Work Available</div>
             </a>
-            <a href="newwork.php">
+            <a href="latest-work.php">
                 <img src="../images/dear_spinner.png" "Spinner with antlers and glass on stone pillar.">
             </a>
         </div>

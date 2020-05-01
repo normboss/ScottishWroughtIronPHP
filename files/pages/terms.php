@@ -11,23 +11,20 @@ and open the template in the editor.
 <html>
   <head>
   <?php
-    require '../includes/globalSiteTag.html';
+    require '../includes/seo-stuff.php';
     ?>
 
-    <title>Terms - Scottish Wrought Iron</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
 
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i" rel="stylesheet">
     <link href="../css/terms.css" media="screen" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
     <link rel="icon" href="../images/favicon.png">
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     
   </head>
-  <body onload="fixWidth()">
+  <body">
 
     <main>
       

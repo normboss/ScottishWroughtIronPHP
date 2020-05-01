@@ -1,7 +1,7 @@
 <?php
 if (!session_id())
     session_start();
-$_SESSION['pagename'] = "index";
+$_SESSION['pagename'] = "home";
 ?>
 <!DOCTYPE html>
 <!--
@@ -13,17 +13,11 @@ and open the template in the editor.
 
 <head>
     <?php
-    require '../includes/globalSiteTag.html';
+        require '../includes/seo-stuff.php'
     ?>
 
-    <title>Scottish Wrought Iron</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="mantle hooks, SLB-sculptures, Maine sculptures, garden sculptures, Maine Artist,Scottish wrought
-              Iron, Scottish smith, iron paper towel holder, shelf brackets, swag holders, curtain hardware, iron hardware, Ark, Noah&#39;s Ark,
-              plateholders, Metal Artist, sculptor, metal sculptor, weaver, wool blankets, jaggerspun wool, handmade cloth, cotton
-              cloth, swag curtains, curtains, bedspreads, blankets, textiles, Maine artist, Maine crafter, wrought iron, custom iron, fireplace
-              screen, fireplace, Washington Artist, Orcas Island, Round Pond, Round Pond Maine, Metal Artist, steel, forged steel, sculpture">
 
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i" rel="stylesheet">
@@ -32,11 +26,9 @@ and open the template in the editor.
     <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
     <link rel="icon" href="../images/favicon.png">
 
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-
 </head>
 
-<!-- <body onload="fixWidth()"> -->
+<!-- <body"> -->
 <body>
 
     <div id="fb-root"></div>
@@ -62,7 +54,7 @@ and open the template in the editor.
     <div class="index-container">
 
         <div class="box">
-            <a href="curtainhw.php">
+            <a href="curtain-hardware.php">
                 <img src="../images/curtain_rods400.jpg" alt="4 curtain rods with different ends. Spiral, scroll, basket and ball.">
                 <div class="text">Hand Forged Hardware</div>
             </a>
@@ -80,19 +72,19 @@ and open the template in the editor.
             </a>
         </div>
         <div class="box">
-            <a href="plateHangers.php">
+            <a href="plate-holders.php">
                 <img src="../images/2plate_hanger.png" alt="An assortment of plate and bowl holders.">
                 <div class="text">Plate and Bowl Holders</div>
             </a>
         </div>
         <div class="box">
-            <a href="newwork.php">
+            <a href="latest-work.php">
                 <img src="../images/dear_spinner.png" "Spinner with antlers and glass on stone pillar.">
                 <div class="text">New Work Available</div>
             </a>
         </div>
         <div class="box">
-            <a href="signs.php">
+            <a href="signs-and-brackets.php">
                 <img src="../images/sign_cofee.jpg" alt="A weathervane sign with steaming coffee cup.">
                 <div class="text">Signs and Brackets</div>
             </a>
@@ -104,7 +96,7 @@ and open the template in the editor.
             </a>
         </div>
         <div class="box">
-            <a href="gardenArt.php">
+            <a href="garden-art.php">
                 <img src="../images/display_gardens.png" alt="A pair of squabbling roosters.">
                 <div class="text">Garden Art</div>
             </a>

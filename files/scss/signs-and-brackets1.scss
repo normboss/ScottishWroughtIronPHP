@@ -1,0 +1,105 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 11, 2018, 8:08:38 AM
+    Author     : Norm
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 10, 2018, 11:41:16 AM
+    Author     : Norm
+*/
+
+@import "common";
+
+body {
+}
+
+.title-block {
+    // border: 3px solid red;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .title {
+        /*border: 3px solid red;*/
+        width: 100%;
+        text-align: center;
+        @include font1;
+        @include max-mixin(700px) {
+            @include font2;
+        }
+    }
+    .copy {
+        /*border: 3px solid red;*/
+        width: 80%;
+        padding-left: 45px;
+        grid-area: c;
+        display: flex;
+        @include max-mixin(700px) {
+            display: block;
+        }
+        flex-direction: column;
+
+        @include font7;
+        .brand {
+            /*border: 3px solid red;*/
+            display: inline;
+            @include font4;
+        }
+        @include max-mixin(700px) {
+            @include font15;
+            .brand {
+                /*border: 3px solid red;*/
+                display: inline;
+                @include font3;
+            }
+        }
+    }
+}
+
+.main {
+    // border: 3px solid red;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    row-gap: 5px;
+    column-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    @include max-mixin(600px) {
+        grid-template-columns: 1fr 1fr ;
+
+    }
+
+
+    .box {
+        img {
+            width: 25vw;
+            @include max-mixin(600px) {
+                width: 35vw;
+            }
+        }
+    }
+}
+
+.end-msg {
+    text-align: center;
+    @include font1;
+    font-size: 20px;
+    a {
+        @include font1;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+}
+ 

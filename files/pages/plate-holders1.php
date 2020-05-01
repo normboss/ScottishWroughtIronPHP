@@ -1,7 +1,7 @@
 <?php
 if (!session_id())
     session_start();
-$_SESSION['pagename'] = "plateHangers";
+$_SESSION['pagename'] = "plate-holders";
 ?>
 <!DOCTYPE html>
 <!--
@@ -22,7 +22,7 @@ and open the template in the editor.
 
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i" rel="stylesheet">
-    <link href="./css/plateHangers.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="./css/plate-holders.css" media="screen" rel="stylesheet" type="text/css">
     <link rel="icon" href="../images/favicon.png">
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script>
@@ -34,7 +34,7 @@ and open the template in the editor.
 
 </head>
 
-<body onload="fixWidth()">
+<body">
 
     <div id="fb-root"></div>
     <div id="new-header"></div>

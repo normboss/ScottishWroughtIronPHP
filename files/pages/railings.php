@@ -1,7 +1,7 @@
 <?php
 if (!session_id())
     session_start();
-$_SESSION['pagename'] = "gatesRailings";
+$_SESSION['pagename'] = "railings";
 ?>
 <!DOCTYPE html>
 <!--
@@ -13,22 +13,18 @@ and open the template in the editor.
 
 <head>
 <?php
-    require '../includes/globalSiteTag.html';
+    require '../includes/seo-stuff.php';
     ?>
 
-    <title>Railings - Scottish Wrought Iron</title>
     <meta charset="UTF-8">
     <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC" rel="stylesheet">
     <link href="../css/style.css" media="screen" rel="stylesheet" type="text/css">
     <link rel="icon" href="../images/favicon.png">
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <script>
-    </script>
 
 </head>
 
-<body onload="fixWidth()">
+<body">
 
     <div id="fb-root"></div>
     <div id="new-header"></div>
