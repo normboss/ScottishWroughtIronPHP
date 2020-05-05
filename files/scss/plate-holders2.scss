@@ -10,14 +10,31 @@ and open the template in the editor.
 
 @import "common";
 
-
 .hardware-container {
+    // border: 3px solid red;
     max-width: 1200px;
     margin: 0 auto;
     // padding-left: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    .sticky {
+        padding-top: 100px;
+    }
+
+    // .heading {
+
+    // }
+    .item-name {
+        @include font14;
+        font-weight: bold;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .item-copy {
+        @include font7;
+        width: 70%;
+    }
 
     /*  .heading {
         @include font2;
@@ -29,6 +46,174 @@ and open the template in the editor.
         @include font1;
         text-align: center;
         width: 90%;
+    }
+
+    #block1 {
+        // border: 3px solid red;
+        padding-top: 20px;
+        background-color: #ededed;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @include max-mixin(500px) {
+            width: 100%;
+        }
+        margin: 0 auto;
+        #block1-image {
+            width: 70vw;
+            max-width: 800px;
+            min-width: 275px;
+        }
+
+        .use-columns {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            @include max-mixin(500px) {
+                flex-direction: column;
+            }
+
+            .models {
+                // border: 3px solid red;
+                width: 20%;
+                min-width: 10vw;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                @include max-mixin(500px) {
+                    flex-direction: row;
+                    min-width: 0;
+                    width: 100%;
+                }
+
+                .model-block {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    img {
+                        // border: 3px solid blue;
+                        width: 100px;
+                        height: 65px;
+                    }
+                }
+            }
+
+            .buy-it {
+                // border: 3px solid red;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                // align-items: center;
+                // text-align: center;
+                width: 70%;
+                @include max-mixin(500px) {
+                    flex-direction: row;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    #block2 {
+        // border: 3px solid red;
+        padding-top: 20px;
+        background-color: #ededed;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @include max-mixin(500px) {
+            width: 100%;
+        }
+        margin: 0 auto;
+
+        #use-columns2 {
+            // border: 3px solid red;
+            width: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            @include max-mixin(500px) {
+                flex-direction: column;
+            }
+
+            #block2-image {
+                // border: 3px solid red;
+                // width: 70vw;
+                width: 60%;
+                @include max-mixin(500px) {
+                    width: 100%;
+                }
+                max-width: 400px;
+                min-width: 200px;
+                height: auto;
+            }
+
+            #column2-block2 {
+                display: flex;
+                flex-direction: column;
+                @include max-mixin(500px) {
+                    width: 100%;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+                padding-left: 10px;
+                // width: 100%;
+
+                .models {
+                    // border: 3px solid red;
+                    width: 100%;
+                    height: 100px;
+                    // min-width: 10vw;
+                    display: flex;
+                    // flex-direction: column;
+                    // align-items: center;
+                    justify-content: center;
+                    margin-top: 25px;
+                    margin-bottom: 25px;
+                    @include max-mixin(750px) {
+                        flex-direction: column;
+                        min-width: 0;
+                        width: 100%;
+                        height: auto;
+                    }
+
+                    .model-block {
+                        // border: 3px solid red;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        img {
+                            // border: 3px solid red;
+                            width: 100px;
+                            height: 65px;
+                        }
+                    }
+                }
+
+                .buy-it {
+                    // border: 3px solid red;
+                    // display: flex;
+                    // flex-direction: column;
+                    justify-content: center;
+                    // align-items: center;
+                    // text-align: center;
+                    width: 100%;
+                    @include max-mixin(500px) {
+                        align-self: center;
+                        flex-direction: row;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        margin-top: 25px;
+        padding-bottom: 20px;
     }
 
     .plate-holders,
@@ -88,7 +273,6 @@ and open the template in the editor.
             .item-name {
                 @include font14;
             }
-            
 
             .paragraph {
                 @include font7;
@@ -357,11 +541,10 @@ and open the template in the editor.
             width: auto;
             text-align: center;
             justify-self: center;
-            
+
             .block6-info {
                 font-size: 18px;
             }
-
 
             @include max-mixin(500px) {
                 grid-row: 7 / span 1;
@@ -387,9 +570,8 @@ and open the template in the editor.
         .buy-it6 {
             grid-row: 8 / span 1;
             grid-column: 1 / span 4;
-
         }
-}
+    }
 
     /******************************************
       bowl-holders

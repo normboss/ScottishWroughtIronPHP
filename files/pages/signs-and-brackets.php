@@ -1,5 +1,5 @@
 <?php
-if(!session_id()) session_start();
+if (!session_id()) session_start();
 $_SESSION['pagename'] = "signs-and-brackets";
 ?>
 <!DOCTYPE html>
@@ -9,8 +9,9 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-  <head>
-  <?php
+
+<head>
+    <?php
     require '../includes/seo-stuff.php';
     ?>
 
@@ -22,74 +23,60 @@ and open the template in the editor.
     <link href="../css/signs-and-brackets.css" media="screen" rel="stylesheet" type="text/css">
     <link rel="icon" href="../images/favicon.png">
     <script>
-    </script> 
+    </script>
 
 
-  </head>
-  <body">
+</head>
+<body">
 
 
     <div id="fb-root"></div>
     <div id="new-header"></div>
-<?php
-  require '../includes/newheader1.php'
-?>
+    <?php
+    require '../includes/newheader1.php'
+    ?>
+    <main>
+        <br>
+        <div class="title-block">
+            <div class="heading box">
+                <!--Signs <span class="title-small">and </span> Sign Brackets-->
+                <!--<div class="title-small">-->
+                Signs and Sign Brackets
+                <!--</div>-->
+            </div>
+            <div class="copy box">
+                Eye catching and durable metal work created and
+                installed by Andy Leck.
+            </div>
+        </div>
+        <br>
 
-<!--    <div id="banner-upper"></div>
-    <div id="banner-lower"></div>
-    <div id="main-menu" class="home"></div>-->
-    
-    <br>
-    
-    <div class="title-block">
-      <div class="heading box">
-        <!--Signs <span class="title-small">and </span> Sign Brackets-->
-        <!--<div class="title-small">-->
-        Signs and Sign Brackets
-        <!--</div>-->
-      </div>
-<!--      <div class="title-small box">
-        Signs and Brackets
-      </div>-->
-      <div class="copy box">
-        Eye catching and durable metal work created and
-installed by Andy Leck.
-      </div>
-<!--      <div class="logo box">
-        <img src="../images/logo_transparent_100.jpg">
-      </div>
-      <div class="logo-small box">
-        <img src="../images/logo_transparent_50.jpg">
-      </div>-->
-    </div>
-    <br>
-    
-    <main class="main">
-      <div class="box a">
-        <!--A-->
-        <img src="../images/sign_cofee.jpg" alt="Weather vane sign for North Cottage coffee shop.">
-      </div>
-      <div class="box b">
-        <!--B-->
-        <img src="../images/oles_weld2.jpg" alt="Dragon sign for Oles Welding.">
-      </div> 
-      <div class="box c">
-        <!--C-->
-        <img src="../images/sign_southeby.jpg" alt="Hanging sign for Sotheby's Realty.">
-      </div>
-      <div class="box d">
-        <!--D-->
-        <img src="../images/sign_thompson.jpg" alt="Thompson House sign.">
-      </div>
-      <div class="box e">
-        <!--E-->
-        <img src="../images/sign_substance.jpg" alt="Women of Substance sign.">
-      </div>
-      <div class="box f">
-        <!--F-->
-        <img src="../images/sign_vet.jpg" alt="Damariscotta Veterinary Clinic sign.">
-      </div>
-<!--      <div class="box g">G
+        <div class="main">
+            <div class="box a">
+                <!--A-->
+                <img src="../images/sign_cofee.jpg" alt="Weather vane sign for North Cottage coffee shop.">
+            </div>
+            <div class="box b">
+                <!--B-->
+                <img src="../images/oles_weld2.jpg" alt="Dragon sign for Oles Welding.">
+            </div>
+            <div class="box c">
+                <!--C-->
+                <img src="../images/sign_southeby.jpg" alt="Hanging sign for Sotheby's Realty.">
+            </div>
+            <div class="box d">
+                <!--D-->
+                <img src="../images/sign_thompson.jpg" alt="Thompson House sign.">
+            </div>
+            <div class="box e">
+                <!--E-->
+                <img src="../images/sign_substance.jpg" alt="Women of Substance sign.">
+            </div>
+            <div class="box f">
+                <!--F-->
+                <img src="../images/sign_vet.jpg" alt="Damariscotta Veterinary Clinic sign.">
+            </div>
+            <!--      <div class="box g">G
       </div>
       <div class="box h">H
       </div>
@@ -112,20 +99,22 @@ installed by Andy Leck.
       <div class="box x">X</div>
       <div class="box y">Y</div>
       <div class="box z">Z</div>-->
-    </main>  
-    
-    <br><br>
-    <div class="end-msg">
-      <a href="contact.html">
-        <h2>Contact Andy for  unique signs, brackets and installation.</h2>
-      </a>
-    </div>
+        </div>
+
+        <br><br>
+        <div class="end-msg">
+            <a href="contact.html">
+                <h2>Contact Andy for unique signs, brackets and installation.</h2>
+            </a>
+        </div>
+    </main>
 
     <div id="footer">
     </div>
     <?php
-        require '../includes/footer.html'
-        ?>
+    require '../includes/footer.html'
+    ?>
 
-  </body>
+    </body>
+
 </html>

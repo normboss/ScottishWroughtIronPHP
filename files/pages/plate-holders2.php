@@ -21,7 +21,7 @@ and open the template in the editor.
 
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i" rel="stylesheet">
-    <link href="../css/plate-holders.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../css/plate-holders2.css" media="screen" rel="stylesheet" type="text/css">
     <link rel="icon" href="../images/favicon.png">
 
 </head>
@@ -34,8 +34,7 @@ and open the template in the editor.
     require '../includes/newheader1.php';
     ?>
 
-    <br>
-    <div class="hardware-container">
+    <main class="hardware-container">
 
         <div class="small-sub-heading">
             Custom Made
@@ -49,104 +48,96 @@ and open the template in the editor.
         <!--****************************************
             plate-holders - block 1
             *****************************************-->
-        <div class="plate-holders">
-            <div class="box heading">
+        <div id="block1" class="plate-holders1">
+
+            <!-- <div class="heading">
                 <div class="item-name">Hand Forged Table Top Plate Holders</div>
                 <br>
-                <div class="box copy1">
+                <div class="copy1">
                     <div class="line2" style="font-weight: normal;">
                         Choose one of three styles and display your plate on a table or shelf.
                         Your choice of black or oil rubbed bronze finish in one of the three styles shown below.
                     </div>
                 </div>
-                <div class="copy1">
-                    <!-- <div class="paragraph">Choose one of three styles and
-                    </div>
-                    <div class="paragraph">display your plate on a table or shelf.
-                    </div> -->
-                    <!-- <div class="paragraph">
-                        Sizes small, medium or large.
-                    </div>
-                    <div class="item-name">
-                        $35 small $37 medium and $39 large
-                    </div>
-                    <div class="paragraph">plus shipping</div> -->
-                </div>
+            </div> -->
+
+            <div class="item-name">Hand Forged Table Top Plate&nbsp;Holders</div>
+            <div class="item-copy">
+                Choose one of three styles and display your plate on a table or shelf.
+                Your choice of black or oil rubbed bronze finish in one of the three styles shown below.
             </div>
 
-            <div class="box picture">
-                <!--PLATES-->
-                <img src="../images/plate_holders_wp_left.jpg" alt="">
-            </div>
 
-            <div class="box models">
-                <div class="box heart">
-                    <div class="box">Heart</div>
-                    <img src="../images/style_heart.jpg" alt="">
-                </div>
-                <div class="box ram">
-                    <div class="box">Ram</div>
-                    <img src="../images/style_ram.jpg" alt="">
-                </div>
-                <div class="box scroll">
-                    <div class="box">Scroll</div>
-                    <img src="../images/style_scroll.jpg" alt="">
-                </div>
-            </div>
-            <div class="box buy-it">
-                <!--CART-->
-                <br>
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                    <input type="hidden" name="cmd" value="_s-xclick">
-                    <input type="hidden" name="hosted_button_id" value="Z8U3SV2R85MKU">
+            <img id="block1-image" src="../images/plate_holders_wp_left.jpg" alt="">
 
-                    <table>
-                        <tr>
-                        </tr>
+            <div class="use-columns">
+                <div class="models">
+                    <div class="model-block">
+                        <img src="../images/style_heart.jpg" alt="">
+                        Heart
+                    </div>
+                    <div class="model-block">
+                        <img src="../images/style_ram.jpg" alt="">
+                        Ram
+                    </div>
+                    <div class="model-block">
+                        <img src="../images/style_scroll.jpg" alt="">
+                        Scroll
+                    </div>
+                </div>
+                <div class="buy-it">
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="Z8U3SV2R85MKU">
 
-                        <tr>
-                            <td>
-                                <input type="hidden" name="on0" value="Sizes:">Sizes:
-                            </td>
-                            <td>
-                                <select name="os0">
-                                    <option value="Small">Small (4 inch) $35.00 USD</option>
-                                    <option value="Medium">Medium (8 inch) $37.00 USD</option>
-                                    <option value="Large">Large (9 inch) $39.00 USD</option>
-                                </select>
-                            </td>
-                        </tr>
-                        <tr>
-                        <tr class="spacer20">
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="hidden" name="on1" value="Style:">Style:
-                            </td>
-                            <td>
-                                <select name="os1">
-                                    <option value="Heart">Heart </option>
-                                    <option value="Ram Double Scroll">Ram Double Scroll </option>
-                                    <option value="Infinity Scroll">Infinity Scroll </option>
-                                </select>
-                            </td>
-                        </tr>
-                        <tr class="spacer20">
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">
-                                <div class="button1">
-                                    <input type="hidden" name="currency_code" value="USD">
-                                    <input type="image" src="../images/add_2_cart2.png" border="0" name="submit" alt="Add to Cart" <?php echo $buttonAltStyle; ?>>
-                                    <img alt="Add to Cart" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
-                    <br>
-                </form>
+                        <table>
+                            <tr>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <input type="hidden" name="on0" value="Sizes:">Sizes:
+                                </td>
+                                <td>
+                                    <select name="os0">
+                                        <option value="Small">Small (4 inch) $35.00 USD</option>
+                                        <option value="Medium">Medium (8 inch) $37.00 USD</option>
+                                        <option value="Large">Large (9 inch) $39.00 USD</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                            <tr class="spacer20">
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="hidden" name="on1" value="Style:">Style:
+                                </td>
+                                <td>
+                                    <select name="os1">
+                                        <option value="Heart">Heart </option>
+                                        <option value="Ram Double Scroll">Ram Double Scroll </option>
+                                        <option value="Infinity Scroll">Infinity Scroll </option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr class="spacer20">
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <div class="button1">
+                                        <input type="hidden" name="currency_code" value="USD">
+                                        <input type="image" src="../images/add_2_cart2.png" border="0" name="submit" alt="Add to Cart" <?php echo $buttonAltStyle; ?>>
+                                        <img alt="Add to Cart" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+                    </form>
+                </div>
             </div>
         </div>
 
@@ -156,99 +147,82 @@ and open the template in the editor.
         <!--****************************************
             one-plate-hanger - block 2
             *****************************************-->
-        <div class="plate-hangers">
+        <div id="block2" class="plate-holders1">
 
-            <div class="box heading">
-                <div class="item-name">Custom Forged Single Wall Plate Holder</div>
-                <div class="item-name item-name0">Custom made to fit your plates!</div>
+            <div class="item-name">Custom Forged Single Wall Plate Holder</div>
+            <div class="item-name">Custom made to fit your plates!</div>
+            <div class="item-copy">
+                Display a plate or shallow bowl beautifully.
+                Your choice of black or oil rubbed bronze
+                finish in one of the four styles shown below.
+                Actual size plate listed in&nbsp;drop&nbsp;down&nbsp;list.
             </div>
             <br>
-            <div class="box copy1">
-                <div class="line2">
-                    Display a plate or shallow bowl beautifully.
-                    Your choice of black or oil rubbed bronze
-                    finish in one of the four styles shown below.
-                    Actual size plate listed in&nbsp;drop&nbsp;down&nbsp;list.
-                </div>
-                <br>
-                <!-- <div class="item-name">
+            <!-- <div class="item-name">
                     Single Wall Plate Holder $50.
                     Extra Large Plate Holder $60. Plus 10% shipping
                 </div> -->
-                <br>
-                <div>Plus $18 shipping</div>
-            </div>
-
-            <div class="box picture">
-                <!--1PLATE-->
-                <a href="1plateholder.html">
-                    <img src="../images/plate_holder.jpg" alt="">
-                </a>
-            </div>
-
-            <?php require '../includes/models.php'; ?>
-
-            <div class="box copy2">
-                <!-- <div class="paragraph">
-                    Custom Holders are made to fit your plates
-                    <div class="red-words">at no extra charge!</div>
-                    (up&nbsp;to&nbsp;20&nbsp;inches).
-                </div> -->
-            </div>
-
-            <div class="box buy-it">
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                    <input type="hidden" name="cmd" value="_s-xclick">
-                    <input type="hidden" name="hosted_button_id" value="FFPV2JS6C55KE">
-                    <table>
-                        <tr>
-                            <td><input type="hidden" name="on0" value="Plate Size">Plate Size</td>
-                        </tr>
-                        <tr>
-                            <td><select name="os0">
-                                    <option value="12 Inch">12 Inch $50.00 USD</option>
-                                    <option value="14 inch">14 inch $50.00 USD</option>
-                                    <option value="16 inch">16 inch $50.00 USD</option>
-                                    <option value="18 inch">18 inch $50.00 USD</option>
-                                    <option value="20 inch">20 inch $60.00 USD</option>
-                                </select> </td>
-                        </tr>
-                        <tr>
-                            <td><input type="hidden" name="on1" value="Style">Style</td>
-                        </tr>
-                        <tr>
-                            <td><select name="os1">
-                                    <option value="Heart">Heart </option>
-                                    <option value="Ram">Ram </option>
-                                    <option value="Scroll">Scroll </option>
-                                    <option value="Spade">Spade </option>
-                                </select> </td>
-                        </tr>
-                        <tr>
-                            <td><input type="hidden" name="on2" value="Color">Color</td>
-                        </tr>
-                        <tr>
-                            <td><select name="os2">
-                                    <option value="black">black </option>
-                                    <option value="oil rubbed bronze">oil rubbed bronze </option>
-                                </select> </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="spacer20"></div>
-                            </td>
-                        </tr>
-                    </table>
-                    <input type="hidden" name="currency_code" value="USD">
-                    <input type="image" src="../images/add_2_cart2.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                </form>
-
-            </div>
+            <br>
+            <div>Plus $18 shipping</div>
 
 
-            <div class="box k">
-                <!--K-->
+
+            <div id="use-columns2">
+                <img id="block2-image" src="../images/plate_holder.jpg" alt="">
+
+                <div id="column2-block2">
+
+                    <?php require '../includes/models1.php'; ?>
+
+                    <div class="box buy-it">
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="FFPV2JS6C55KE">
+                            <table>
+                                <tr>
+                                    <td><input type="hidden" name="on0" value="Plate Size">Plate Size</td>
+                                </tr>
+                                <tr>
+                                    <td><select name="os0">
+                                            <option value="12 Inch">12 Inch $50.00 USD</option>
+                                            <option value="14 inch">14 inch $50.00 USD</option>
+                                            <option value="16 inch">16 inch $50.00 USD</option>
+                                            <option value="18 inch">18 inch $50.00 USD</option>
+                                            <option value="20 inch">20 inch $60.00 USD</option>
+                                        </select> </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="hidden" name="on1" value="Style">Style</td>
+                                </tr>
+                                <tr>
+                                    <td><select name="os1">
+                                            <option value="Heart">Heart </option>
+                                            <option value="Ram">Ram </option>
+                                            <option value="Scroll">Scroll </option>
+                                            <option value="Spade">Spade </option>
+                                        </select> </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="hidden" name="on2" value="Color">Color</td>
+                                </tr>
+                                <tr>
+                                    <td><select name="os2">
+                                            <option value="black">black </option>
+                                            <option value="oil rubbed bronze">oil rubbed bronze </option>
+                                        </select> </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="spacer20"></div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <input type="hidden" name="currency_code" value="USD">
+                            <input type="image" src="../images/add_2_cart2.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -577,7 +551,7 @@ and open the template in the editor.
 
         </div>
         <!--</div>-->
-    </div> <!-- hw-block3 -->
+    </main> <!-- hw-block3 -->
 
     </div>
 

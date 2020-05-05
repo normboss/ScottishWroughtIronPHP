@@ -33,22 +33,6 @@
         
 
     </header>
-    <script>
-        var header = document.getElementById("header-id");
-        var sticky = header.offsetTop;
-        // header.style.position = "static";
-        window.onscroll = function() {
-            scrollFunction()
-        };
-
-        function scrollFunction() {
-            if (window.pageYOffset > sticky) {
-                header.classList.add("sticky");
-            } else {
-                header.classList.remove("sticky");
-            }
-        }
-    </script>
 
     <script>
         // window.addEventListener("resize", function(event) {
@@ -74,3 +58,5 @@
 
     $buttonAltStyle = 'style="font-weight: bold; font-size: 20px; border: 0px solid black; padding: 0px;"';
     ?>
+
+    <div id="page-start"></div>

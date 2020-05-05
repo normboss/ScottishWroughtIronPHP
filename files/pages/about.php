@@ -35,16 +35,16 @@ and open the template in the editor.
 
     <!--************************************************-->
     <!--<div class="page-title">About</div>-->
-    <br>
-    <div class="quote">
-        <div class="row-copyi">"When love and skill work together expect a masterpiece." </div>
-        <div class="row-copy">John Ruskin 1819 - 1900 </div>
-    </div>
-    <br>
     <!-- *************************************************
       M A I N
     ******************************************************-->
-    <div class="main">
+    <main class="main">
+        <br>
+        <div class="quote">
+            <div class="row-copyi">"When love and skill work together expect a masterpiece." </div>
+            <div class="row-copy">John Ruskin 1819 - 1900 </div>
+        </div>
+        <br>
 
         <div class="heading title">
             <!-- <div class="title"><span class="block-id-letter">A</span> -->
@@ -203,7 +203,7 @@ and open the template in the editor.
                 Shown is a crab with movable claws made from recycled steel.
             </div>
         </div>
-    </div>
+    </main>
 
     <!-- <div id="footer">
     </div> -->

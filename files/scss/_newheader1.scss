@@ -10,15 +10,13 @@ and open the template in the editor.
 
 $mainWidth: 100%;
 
-
-
 #header-image {
     z-index: 5;
     /*border: 3px solid blue;*/
     height: 500px;
     width: $mainWidth;
     background-image: url("../images/header_index.jpg");
-    
+
     @include max-mixin(650px) {
         background-image: url("../images/header2_m.jpg");
         height: 250px;
@@ -50,52 +48,51 @@ header {
         font-size: 36px;
 
         // .banner-block {
-            text-align: center;
-            // border: 3px solid red;
-            height: 60px;
-            // @include font1;
-            // font-family: "IM Fell English SC", serif;
-            @include max-mixin(620px) {
-                font-size: 22px;
-                height: 40px;
-                .logo-inline {
-                    height: 30px;
-                }
-            }
-            // @include min-max-mixin(620px, 901px) {
-            //     font-size: 28px;
-            //     height: 30px;
-            // }
-            // @include min-mixin(901px) {
-            //     font-size: 36px;
-            //     height: 60px;
-            // }
-            @include max-mixin(550px) {
-                font-size: 22px;
-                height: 35px;
-                padding-bottom: 5px;
-                padding-top: 5px;
-            }
-            @include max-mixin(350px) {
-                font-size: 18px;
-            }
-
-            color: #000000;
-            font-weight: bold;
-        
-
-            // @include max-mixin(500px) {
-            //     font-size: 32px;
-            // }
-
+        text-align: center;
+        // border: 3px solid red;
+        height: 60px;
+        // @include font1;
+        // font-family: "IM Fell English SC", serif;
+        @include max-mixin(620px) {
+            font-size: 22px;
+            height: 40px;
             .logo-inline {
-                padding-left: 20px;
-                padding-right: 20px;
-
-                @include max-mixin(450px) {
-                    display: none;
-                }
+                height: 30px;
             }
+        }
+        // @include min-max-mixin(620px, 901px) {
+        //     font-size: 28px;
+        //     height: 30px;
+        // }
+        // @include min-mixin(901px) {
+        //     font-size: 36px;
+        //     height: 60px;
+        // }
+        @include max-mixin(550px) {
+            font-size: 22px;
+            height: 35px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
+        @include max-mixin(350px) {
+            font-size: 18px;
+        }
+
+        color: #000000;
+        font-weight: bold;
+
+        // @include max-mixin(500px) {
+        //     font-size: 32px;
+        // }
+
+        .logo-inline {
+            padding-left: 20px;
+            padding-right: 20px;
+
+            @include max-mixin(450px) {
+                display: none;
+            }
+        }
         // }
 
         // .banner-block-small {
@@ -266,8 +263,8 @@ header {
             }
         }
     }
-
 }
+
 .sticky {
     position: fixed;
     // top: 7px;
@@ -275,3 +272,10 @@ header {
     width: 100%;
     z-index: 20;
 }
+
+
+.sticky + .hardware-container {
+    // padding-top: 200px;
+}
+
+

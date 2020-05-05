@@ -125,3 +125,27 @@
     </div>
 
 </div>
+
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+
+<script>
+    // header.style.position = "static";
+    var header = document.getElementById("header-id");
+    var sticky = header.offsetTop;
+    window.onscroll = function() {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        var Yoffset = window.pageYOffset;
+        if (Yoffset > sticky) {
+            header.classList.add("sticky");
+            // document.querySelector(".hardware-container").style.paddingTop = "60px";
+            document.querySelector("main").style.paddingTop = "70px";
+        } else {
+            header.classList.remove("sticky");
+            // document.querySelector(".hardware-container").style.paddingTop = "0px";
+            document.querySelector("main").style.paddingTop = "0px";
+        }
+    }
+</script>
