@@ -30,6 +30,9 @@ and open the template in the editor.
         font-weight: bold;
         padding-bottom: 10px;
         text-align: center;
+        .red-words {
+            color: red;
+        }
     }
     .item-name-small {
         // border: 3px solid red;
@@ -42,6 +45,9 @@ and open the template in the editor.
         width: 100%;
         margin: 0 auto;
         font-size: 18px;
+        .red-words {
+            color: red;
+        }
     }
     .item-copy {
         // border: 3px solid red;
@@ -50,6 +56,9 @@ and open the template in the editor.
         @include max-mixin(700px) {
             width: 90%;
             font-size: 18px;
+        }
+        .red-words {
+            color: red;
         }
     }
 
@@ -243,7 +252,7 @@ and open the template in the editor.
                 }
             }
         }
-        margin-top: 25px;
+        margin-top: 20px;
         padding-bottom: 20px;
         margin-bottom: 10px;
     }
@@ -422,7 +431,7 @@ and open the template in the editor.
                     flex-direction: column;
                     justify-content: space-evenly;
                     align-items: center;
-    
+
                     .models1 {
                         // border: 3px solid blue;
                         width: 100%;
@@ -438,7 +447,7 @@ and open the template in the editor.
                             display: flex;
                             flex-direction: column;
                             align-items: center;
-    
+
                             img {
                                 // border: 3px solid green;
                                 min-width: 0;
@@ -462,7 +471,7 @@ and open the template in the editor.
                 }
             }
         }
-        // margin-top: 25px;
+        margin-top: 15px;
         padding-bottom: 20px;
         margin-bottom: 10px;
     }
@@ -508,11 +517,12 @@ and open the template in the editor.
                 justify-content: space-around;
                 img {
                     // width: 50%;
+                    // margin-top: 10px;
                 }
                 @include max-mixin(850px) {
                     width: 100%;
                 }
-                }
+            }
 
             #block2-image {
                 // border: 3px solid red;
@@ -550,7 +560,7 @@ and open the template in the editor.
                 }
             }
         }
-        margin-top: 15px;
+        margin-top: 20px;
         padding-bottom: 20px;
         margin-bottom: 10px;
     }
@@ -589,6 +599,7 @@ and open the template in the editor.
             .red-words {
                 @include font17;
                 font-weight: bold;
+                color: red;
             }
             .item-name {
                 @include font14;
@@ -623,6 +634,7 @@ and open the template in the editor.
                 @include font7;
                 .red-words {
                     @include font17;
+                    color: red;
                 }
                 // font-size: 14px;
                 // color: red;

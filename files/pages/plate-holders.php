@@ -226,11 +226,11 @@ and open the template in the editor.
         <div id="block3" class="plate-holders1 block2">
             <br><br>
             <div class="item-name">Hand Forged Double Wall Plate Holder</div>
-            <div class="item-name">Custom Holders made to fit your plates
-                <span class="red-words">at no extra charge!</span> (up to 18 inches).
-            </div>
 
             <div class="item-copy">
+                <div class="item-name">Custom Holders made to fit your plates
+                    <span class="red-words" style="color: red;">at&nbsp;no&nbsp;extra&nbsp;charge!</span> (up to 18 inches).
+                </div>
                 Wonderful way to feature special pieces.
                 Supports up to 14 inch plates, pie plates
                 or shallow bowls.
@@ -326,7 +326,7 @@ and open the template in the editor.
 
                 <div id="column4-block2">
                     <div class="item-name item-copy">Custom Holders made to fit your plates
-                        <span class="red-words">at no extra&nbsp;charge!</span> (up to 18 inches).
+                        <span class="red-words">at&nbsp;no&nbsp;extra&nbsp;charge!</span> (up to 18 inches).
                     </div>
 
                     <div class="item-copy">
@@ -420,7 +420,6 @@ and open the template in the editor.
                 </div>
             </div>
         </div>
-        <br><br><br>
 
         <!--****************************************
             bowl-holders - block 5
@@ -432,7 +431,7 @@ and open the template in the editor.
             <div class="item-copy">
                 Both our single and double wall bowl
                 holders are custom forged to fit your
-                bowls at no extra charge (if under 18 inch diameter).
+                bowls at <span class="red-words">no extra charge</span> (if under 18 inch diameter).
                 Scrolls hold the bowl at a slight angle.
                 Your choice of either black or oil rubbed bronze finish.
             </div>
@@ -442,7 +441,7 @@ and open the template in the editor.
                     <img src="../images/bowl_holder2a.jpg" alt="">
                     <img src="../images/2_bowl_holder3.jpg" alt=""">
                 </div>
-                <div id="column5-block2">
+                <div id=" column5-block2">
 
                     <div class="box buy-it">
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -491,9 +490,6 @@ and open the template in the editor.
                 </div>
             </div>
         </div>
-        <br><br><br>
-        <div class="spacer30"></div>
-
 
         <!--****************************************
             bowl-holders - block 6
@@ -507,7 +503,7 @@ and open the template in the editor.
                 Hand riveted shelves can be custom sized to fit your needs.
             </div>
 
-            <div class="use-columns2a">
+            <div class="use-columns2a" style="margin-top: 10px;">
                 <img src="../images/3_tier_stand.png" alt="" style="width: 40%;">
                 <img src="../images/2_tier_stand_plates.png" alt="" style="width: 40%;">
             </div>
