@@ -143,9 +143,6 @@ and open the template in the editor.
             </div>
         </div>
 
-        <br><br><br>
-        <div class="spacer30"></div>
-
         <!--****************************************
             one-plate-hanger - block 2
             *****************************************-->
@@ -222,9 +219,6 @@ and open the template in the editor.
             </div>
 
         </div>
-        <div class="spacer30"></div>
-
-        <br><br><br>
 
         <!--****************************************
             two-plate-hanger - block 3
@@ -314,9 +308,6 @@ and open the template in the editor.
 
             </div>
         </div>
-        <div class="spacer30"></div>
-
-        <br><br><br>
 
         <!--****************************************
             five-plate-hanger - block 4
@@ -331,11 +322,11 @@ and open the template in the editor.
             </div> Shipped in two pieces</div> -->
 
             <div id="use-columns4">
-                <img src="../images/5_plate_holder.jpg" alt="">
+                <img src="../images/5_plate_holder1.jpg" alt="">
 
                 <div id="column4-block2">
-                    <div class="item-name">Custom Holders made to fit your plates
-                        <span class="red-words">at no extra charge!</span> (up to 18 inches).
+                    <div class="item-name item-copy">Custom Holders made to fit your plates
+                        <span class="red-words">at no extra&nbsp;charge!</span> (up to 18 inches).
                     </div>
 
                     <div class="item-copy">

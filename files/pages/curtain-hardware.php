@@ -478,7 +478,7 @@ and open the template in the editor.
         <div class="spacer30 box"></div>
 
 
-        < class="star-shelf-bracket">
+        <div class="star-shelf-bracket">
 
             <div class="box c">
                 <div class="copy">
