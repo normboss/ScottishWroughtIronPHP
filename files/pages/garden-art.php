@@ -14,8 +14,10 @@ and open the template in the editor.
 
 <head>
     <?php
-    require '../includes/seo-stuff.php';
+    require '../includes/globalSiteTag.html';
     ?>
+    <title>Scottish Lion Wrought Iron | Garden Art</title>
+    <meta name="description" content="Shop for one of a kind garden sundials, rock and metal spinners, metal sculpture & outdoor wall hangings.">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

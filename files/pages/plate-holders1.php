@@ -15,8 +15,9 @@ and open the template in the editor.
 <?php
     require './includes/globalSiteTag.html';
     ?>
+    <title></title>
+    <meta name="description" content="">
 
-    <title>Plate Holders</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -24,13 +25,6 @@ and open the template in the editor.
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i" rel="stylesheet">
     <link href="./css/plate-holders.css" media="screen" rel="stylesheet" type="text/css">
     <link rel="icon" href="../images/favicon.png">
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <script>
-        // $(function () {
-        //     //        $("#new-header").load("newheader.php");
-        //     $("#footer").load("footer.html");
-        // });
-    </script>
 
 </head>
 

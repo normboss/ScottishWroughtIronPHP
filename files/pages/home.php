@@ -13,8 +13,11 @@ and open the template in the editor.
 
 <head>
     <?php
-        require '../includes/seo-stuff.php'
+            require '../includes/globalSiteTag.html';
     ?>
+
+    <title>Scottish Lion Wrought Iron | Custom forge</title>
+    <meta name="description" content="Shop gates,railings,hardware, sign brackets & garden art hand forged by Andy Leck">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

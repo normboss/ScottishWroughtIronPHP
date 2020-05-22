@@ -12,8 +12,10 @@ and open the template in the editor.
 
 <head>
     <?php
-    require '../includes/seo-stuff.php';
+    require '../includes/globalSiteTag.html';
     ?>
+    <title>About Scottish Lion Wrought Iron | About Andy Leck</title>
+    <meta name="description" content="What motivates Andy in the ancient craft of the forge and about his creative family.">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

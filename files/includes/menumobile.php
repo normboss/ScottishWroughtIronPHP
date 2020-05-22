@@ -18,8 +18,8 @@ print <<<END
     <div class="dropdown-content">
 
         <a href="home.php">Home</a>
-        <a href="gates.php">Gates</a>
-        <a href="railings.php">Railings</a>
+        <a href="wrought-iron-gates.php">Gates</a>
+        <a href="custom-hand-rails.php">Railings</a>
         <a href="garden-art.php">Garden Art</a>
         <a href="plate-holders.php">Plate Hangers</a>
         <a href="curtain-hardware.php">Curtain Hardware</a>

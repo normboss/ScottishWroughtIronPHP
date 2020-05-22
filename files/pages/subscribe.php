@@ -7,9 +7,10 @@ and open the template in the editor.
 <html>
   <head>
   <?php
-    require '../includes/seo-stuff.php';
+    require '../includes/globalSiteTag.html';
     ?>
-
+    <title>Scottish Lion Wrought Iron | Subscibe to Newsletter</title>
+    <meta name="description" content="Shop gates,railings,hardware, sign brackets & garden art hand forged by Andy Leck">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../images/favicon.png">

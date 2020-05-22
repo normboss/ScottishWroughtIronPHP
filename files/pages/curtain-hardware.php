@@ -12,8 +12,10 @@ and open the template in the editor.
 
 <head>
     <?php
-    require '../includes/seo-stuff.php';
+    require '../includes/globalSiteTag.html';
     ?>
+    <title>Scottish Lion Wrought Iron | Curtain Hardware</title>
+    <meta name="description" content="Shop styles of classic curtain rods with matching rod brackets and iron curtain rings.">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,7 +32,7 @@ and open the template in the editor.
     <div id="fb-root"></div>
     <div id="new-header"></div>
     <?php
-    require '../includes/newheader1.php'
+    require '../includes/newheader1.php';
     ?>
 
     <!--

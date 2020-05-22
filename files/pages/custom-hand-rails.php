@@ -13,11 +13,13 @@ and open the template in the editor.
 
 <head>
     <?php
-    require '../includes/seo-stuff.php';
+    require '../includes/globalSiteTag.html';
     ?>
+    <title>Scottish Lion Wrought Iron | Custom Hand Rails</title>
+    <meta name="description" content="Sampling of handrails designed, fabricated and installed by Andy Leck.">
 
     <meta charset="UTF-8">
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC" rel="stylesheet">
     <link href="../css/style.css" media="screen" rel="stylesheet" type="text/css">
     <link rel="icon" href="../images/favicon.png">

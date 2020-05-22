@@ -15,25 +15,14 @@ and open the template in the editor.
 <?php
     require './includes/globalSiteTag.html';
     ?>
-
-    <title>Gates</title>
+    <title></title>
+    <meta name="description" content="">
+    
     <meta charset="UTF-8">
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC" rel="stylesheet">
     <link href="./css/style.css" media="screen" rel="stylesheet" type="text/css">
     <link rel="icon" href="../images/favicon.png">
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <script>
-        //      $(function () {
-        //        $("#new-header").load("newheader.php");
-        //        $("#footer").load("footer.html");
-        //      });
-
-        $(document).ready(function() {
-            //        $("#new-header").load("newheader.php");
-            //        $("#footer").load("footer.html");
-        });
-    </script>
 
 </head>
 

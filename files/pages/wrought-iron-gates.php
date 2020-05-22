@@ -13,10 +13,13 @@ and open the template in the editor.
 
 <head>
     <?php
-    require '../includes/seo-stuff.php';
+    require '../includes/globalSiteTag.html';
     ?>
+    <title>Scottish Lion Wrought Iron | Gates</title>
+    <meta name="description" content="Be inspired by the variety of styles from formal victorian to contemporary designs using reclaimed metal.">
 
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC" rel="stylesheet">
     <link href="../css/style.css" media="screen" rel="stylesheet" type="text/css">
     <link rel="icon" href="../images/favicon.png">

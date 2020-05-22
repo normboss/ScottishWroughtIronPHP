@@ -13,8 +13,10 @@ and open the template in the editor.
 
 <head>
     <?php
-    require '../includes/seo-stuff.php';
+    require '../includes/globalSiteTag.html';
     ?>
+    <title>Scottish Lion Wrought Iron | Plate Holders & Hangers</title>
+    <meta name="description" content="Shop options to beautifully display plates and bowls. Custom sizes!">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

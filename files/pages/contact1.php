@@ -15,13 +15,12 @@ and open the template in the editor.
     <?php
     require '../includes/globalSiteTag.html';
     ?>
-    <title>Scottish Lion Wrought Iron | Contact Andy</title>
-    <meta name="description" content="Get in touch with Andy to discuss custom projects or ask a question.
-He is always happy to talk with clients.">
+    <title></title>
+    <meta name="description" content="">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../css/contact.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../css/contact1.css" media="screen" rel="stylesheet" type="text/css">
     <link rel="icon" href="../images/favicon.png">
 
 </head>
@@ -37,20 +36,26 @@ He is always happy to talk with clients.">
         <br><br>
         <div class="contact-container">
 
-            <div class="box image">
+            <div class="top-row">
                 <img src="../images/andy_face1.jpg">
+
+                <div class="heading-section">
+                    <div class="box title">
+                        Contact Andy
+                    </div>
+                    <!-- <div class="logo-image1">
+                    </div> -->
+                    <img src="../images/lion_150_trans.png">
+
+                    <div class="box copy">
+                        Andy is always happy to answer questions
+                        about his work and discuss custom projects.
+                    </div>
+                </div>
             </div>
 
-            <div class="box title">
-                Contact Andy
-            </div>
+            <div class="middle-section">
 
-            <div class="box copy">
-                Andy is always happy to answer questions
-                about his work and discuss custom projects.
-            </div>
-
-            <div class="box form-container">
                 <form method="post" class="contactform" action="https://www1.domain.com/scripts/formemail.bml" name="contactform">
 
                     <!--A hidden tag. This tag means it cannot be seen by your customers and tells the 
@@ -139,12 +144,8 @@ He is always happy to talk with clients.">
 
             </div>
 
-            <div class="box logo">
-                <!--<img src="../images/logo_100_trans.png">-->
-                <img src="../images/lion_150_trans.png">
-            </div>
 
-            <div class="box terms">
+            <div class="terms">
                 <div class="title">
                     Terms
                 </div>

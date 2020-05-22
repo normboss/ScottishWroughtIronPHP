@@ -12,9 +12,10 @@ and open the template in the editor.
 
 <head>
     <?php
-    require '../includes/seo-stuff.php';
+    require '../includes/globalSiteTag.html';
     ?>
-
+    <title>Scottish Lion Wrought Iron | Signs and Sign Brackets</title>
+    <meta name="description" content="Gallery of durable metal signs created and installed by Andy Leck">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
