@@ -16,7 +16,7 @@ body {
 }
 
 .contact-container {
-    border: 3px solid red;
+    // border: 3px solid red;
     max-width: 1200px;
     margin: 0 auto;
     width: 80%;
@@ -31,7 +31,7 @@ body {
     grid-gap: 25px;
 
     .box {
-        border: 3px solid red;
+        // border: 3px solid red;
         width: 100%;
         img {
             min-width: 200px;
@@ -64,7 +64,8 @@ body {
 
     .form-container {
         form {
-            border: 3px solid red;
+            // border: 3px solid red;
+            width: 100%;
         }
 
         @include max-mixin(600px) {
@@ -141,6 +142,7 @@ body {
             // border: solid 1px #435299;
             // border-radius: 5px;
         }
+        
     }
     .logo {
         display: flex;
@@ -149,9 +151,9 @@ body {
         }
         flex-direction: column;
         img {
-            width: 100%;
+            width: 50%;
         }
-        justify-content: flex-end;
+        justify-content: center; //flex-end;
         grid-column: 3 / span 2;
         grid-row: 3 / span 1;
     }
