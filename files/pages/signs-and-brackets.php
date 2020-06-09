@@ -21,7 +21,8 @@ and open the template in the editor.
 
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i" rel="stylesheet">
-    <link href="../css/signs-and-brackets.css" media="screen" rel="stylesheet" type="text/css">
+    <!-- <link href="../css/signs-and-brackets.css" media="screen" rel="stylesheet" type="text/css"> -->
+    <link href="../css/style.css" media="screen" rel="stylesheet" type="text/css">
     <link rel="icon" href="../images/favicon.png">
     <script>
     </script>
@@ -38,18 +39,17 @@ and open the template in the editor.
     ?>
     <main>
         <br>
-        <div class="title-block">
-            <div class="heading box">
-                <!--Signs <span class="title-small">and </span> Sign Brackets-->
-                <!--<div class="title-small">-->
-                Signs and Sign Brackets
-                <!--</div>-->
-            </div>
-            <div class="copy box">
-                Eye catching and durable metal work created and
-                installed by Andy Leck.
+        <div class="heading">
+            Signs and Sign Brackets<br><br>
+            <div class="box cc">
+                <div class="wide-paragraph">
+                    Eye catching and durable metal work created and
+                    installed by Andy Leck.
+                </div>
             </div>
         </div>
+
+
         <br>
 
         <div class="main">
@@ -102,13 +102,13 @@ and open the template in the editor.
       <div class="box z">Z</div>-->
         </div>
 
-        <br><br>
-        <div class="end-msg">
-            <a href="contact.html">
-                <h2>Contact Andy for unique signs, brackets and installation.</h2>
-            </a>
-        </div>
     </main>
+    <br><br>
+    <div class="end-msg">
+        <a href="contact.html">
+            Contact Andy for unique signs, brackets and installation.
+        </a>
+    </div>
 
     <div id="footer">
     </div>

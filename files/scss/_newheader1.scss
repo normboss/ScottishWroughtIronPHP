@@ -153,9 +153,11 @@ header {
         @include font3;
     }
 
+    
     .dropdown-content {
         display: none;
         width: 33%;
+        width: 250px;
         position: absolute;
         background-color: #f9f9f9;
         /*min-width: 100px;*/
@@ -260,6 +262,7 @@ header {
         .dropdown {
             .dropdown-content {
                 width: 100%;
+                width: 250px;
             }
         }
     }

@@ -14,7 +14,7 @@ and open the template in the editor.
     <?php
     require '../includes/globalSiteTag.html';
     ?>
-        <title></title>
+    <title></title>
     <meta name="description" content="">
 
     <meta charset="UTF-8">
@@ -51,6 +51,25 @@ and open the template in the editor.
             M A I N
          ***********************************************-->
         <div class="main">
+
+            <div class="box">
+                <img src="../images/bird-cage5.jpg" alt="">
+                <div class="image-text">Extra heavy rods for elegant drapery.</div>
+            </div>
+            <div class="box">
+                <img class="short-image" src="../images/marquetry_table.png" alt="">
+                <div class="image-text">Custom base supports marquetry table.</div>
+            </div>
+            <div class="box">
+                <img src="../images/glass_table_frame.png" alt="">
+                <div class="image-text">Base for a glass top table.</div>
+            </div>
+            <div class="box">
+                <img src="../images/glass_table.png" alt="">
+                <div class="image-text">One of a kind table with copper gallery.</div>
+            </div>
+
+
 
             <div class="box c">
                 <img src="../images/pot_rack_copper.jpg" alt="">

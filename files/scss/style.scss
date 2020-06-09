@@ -112,7 +112,7 @@ text-align: center;
     }
 
     .box {
-        /*border: 3px solid red;*/
+        // border: 3px solid red;
         width: 100%;
         img {
             /*height: 100%;*/
@@ -130,12 +130,13 @@ text-align: center;
             }
             justify-items: center;
         }
+        
         .text {
             /*border: 0px solid red;*/
             /*font-size: 19px;*/
         }
         .image-text {
-            /*border: 3px solid blue;*/
+            // border: 3px solid blue;
             font-size: 19px;
             /*margin-top: -25px;*/
             /*max-width: 35vw;*/
@@ -174,4 +175,14 @@ text-align: center;
     //           transform: scale(2, 2);
     //       }
     //   }
+}
+.end-msg {
+    text-align: center;
+    @include font1;
+    font-size: 16px;
+    a {
+        @include font1;
+        text-decoration: none;
+        font-size: 16px;
+    }
 }

@@ -34,6 +34,7 @@ He is always happy to talk with clients.">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script>
         function onSubmit(token) {
+            pretty();
             document.getElementById("contact-form").submit();
         }
     </script>
@@ -71,7 +72,7 @@ He is always happy to talk with clients.">
                 ?>
 
                 <!-- <form action="send-form-email.php" class="contactform" method="post" name="contactform"> -->
-                <form id="contact-form" action="misc.php" class="contactform" method="post" name="contactform">
+                <form id="contact-form" action="thankyou.html" class="contactform" method="post" name="contactform">
                     <label for="name">Your Name *</label>
                     <input maxlength="50" name="name" size="30" type="text">
                     <input type="hidden" name="token" value="<?php echo $newToken; ?>">
@@ -119,6 +120,14 @@ He is always happy to talk with clients.">
     <?php
     require '../includes/footer.html'
     ?>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+        function pretty() {
+            $("#contact-form").attr("action", "misc.php");
+        }
+    </script>
 
     </body>
 

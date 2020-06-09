@@ -76,10 +76,8 @@ body {
     column-gap: 5px;
     grid-template-columns: 1fr 1fr 1fr;
     @include max-mixin(600px) {
-        grid-template-columns: 1fr 1fr ;
-
+        grid-template-columns: 1fr 1fr;
     }
-
 
     .box {
         img {
@@ -100,6 +98,4 @@ body {
         text-decoration: none;
         font-size: 20px;
     }
-
 }
- 

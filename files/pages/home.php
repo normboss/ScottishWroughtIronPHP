@@ -63,13 +63,13 @@ and open the template in the editor.
             </a>
         </div>
         <div class="box">
-            <a href="gates.php">
+            <a href="wrought-iron-gates.php">
                 <img src="../images/gate_cranes.jpg" alt="Gate with birds and fish over-looking a pond.">
                 <div class="text">Custom Gates</div>
             </a>
         </div>
         <div class="box">
-            <a href="railings.php">
+            <a href="custom-hand-rails.php">
                 <img src="../images/railing_pink_curve.jpg" alt="Railing over stone wall.">
                 <div class="text">Custom Railings</div>
             </a>

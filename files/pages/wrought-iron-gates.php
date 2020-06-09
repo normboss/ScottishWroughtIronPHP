@@ -62,6 +62,24 @@ and open the template in the editor.
              ***********************************************-->
         <div class="main">
 
+            <div class="box">
+                <img src="../images/gate-install.png" alt="">
+                <div class="image-text">Andy installing a fancy patio gate .</div>
+            </div>
+            <div class="box">
+                <img src="../images/bath2nd_gate_install.png" alt="">
+                <div class="image-text">A second gate seen from the lower garden.</div>
+            </div>
+            <div class="box">
+                <img src="../images/gate_shadow.png" alt="">
+                <div class="image-text">Patterns cast a lovely shadow on the patio.</div>
+            </div>
+            <div class="box">
+                <img src="../images/window_gate.jpg" alt="">
+                <div class="image-text">Decorative safety gate for a window.</div>
+            </div>
+
+
             <div class="box b"><span class="block-id-image">B</span>
                 <img src="../images/gate_cranes.jpg" alt="Decorative gate with birds and fish.">
                 <div class="image-text">Gate alive with birds, animals and fish cut from reclaimed metal</div>

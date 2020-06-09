@@ -11,8 +11,8 @@ print <<<END
 <div class="dropdown">
     <span class="menu-item"><a href="home.php">Gallery</a></span>
     <div class="dropdown-content">
-        <a href="wrought-iron-gates.php"><span class="dropdown-item">Gates</span></a>
-        <a href="custom-hand-rails.php"><span class="dropdown-item">Railings</span></a>
+        <a href="wrought-iron-gates.php"><span class="dropdown-item">Wrought Iron Gates</span></a>
+        <a href="custom-hand-rails.php"><span class="dropdown-item">Custom Hand Railings</span></a>
         <a href="garden-art.php"><span class="dropdown-item">Garden Art</span></a>
         <a href="plate-holders.php"><span class="dropdown-item">Plate Holders</span></a>
         <a href="curtain-hardware.php"><span class="dropdown-item">Curtain Hardware</span></a>
