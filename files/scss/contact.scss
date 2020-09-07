@@ -13,6 +13,8 @@ and open the template in the editor.
 @import "common";
 
 body {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .contact-container {

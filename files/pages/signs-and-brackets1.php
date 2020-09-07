@@ -85,7 +85,7 @@ installed by Andy Leck.
     <div id="footer">
     </div>
     <?php
-        require '../includes/footer.html'
+        require '../includes/footer.php'
         ?>
 
   </body>

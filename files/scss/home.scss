@@ -8,15 +8,32 @@ and open the template in the editor.
     Author     : Norm
 */
 
-
 @import url("https://fonts.googleapis.com/css?family=Major+Mono+Display|Open+Sans:400,400i,600,700,800");
-@import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap");
 
 @import "common";
 
+body {
+    overflow: hidden;
+    overflow-y: visible;
+}
+
+#header-image {
+    position: relative;
+    overflow: hidden;
+    img {
+        width: 20%;
+        min-width: 150px;
+        position: absolute;
+        left: 100%;
+        transform: translateX(-110%);
+        top: 30px;
+    }
+}
 
 .index-container {
     // border: 3px solid red;
+    // overflow: hidden;
     width: 50%;
     margin: 0 auto;
     grid-gap: 20px;
@@ -58,9 +75,9 @@ and open the template in the editor.
             height: auto;
         }
         .text {
-            font-family: 'Patrick Hand', cursive;
+            font-family: "Patrick Hand", cursive;
             font-size: 20px;
-            color: #000000
+            color: #000000;
         }
         &:hover {
             @include min-mixin(700px) {
@@ -148,4 +165,48 @@ and open the template in the editor.
 
 .garden-col {
     box-sizing: border-box;
+}
+
+.bottom-block {
+    // outline: 3px solid red;
+    margin: 0 auto;
+    max-width: 1000px;
+    overflow: hidden;
+    width: 80%;
+    height: 165px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    @include max-mixin(550px) {
+        flex-direction: column;
+        justify-content: start;
+        height: auto;
+    }
+
+    .bottom-text1 {
+        // outline: 3px solid red;
+        width: 100%;
+        padding-top: 15px;
+        text-align: center;
+        font: normal normal normal 14px/16px Roboto;
+        letter-spacing: 0px;
+        opacity: 1;
+    }
+    .bottom-image {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        img {
+            // outline: 3px solid red;
+            width: 165px;
+            // height: 165px;
+        }
+    }
+    .bottom-link {
+        width: 100%;
+        padding-top: 15px;
+        // outline: 3px solid red;
+        text-align: center;
+    }
 }

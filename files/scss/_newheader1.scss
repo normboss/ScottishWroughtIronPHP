@@ -11,11 +11,13 @@ and open the template in the editor.
 $mainWidth: 100%;
 
 #header-image {
+    overflow: hidden;
     z-index: 5;
     /*border: 3px solid blue;*/
     height: 500px;
     width: $mainWidth;
     background-image: url("../images/header_index.jpg");
+    margin: 0 auto;
 
     @include max-mixin(650px) {
         background-image: url("../images/header2_m.jpg");
@@ -23,6 +25,8 @@ $mainWidth: 100%;
     }
     background-size: cover;
     z-index: 1;
+    overflow: hidden;
+    max-width: 1200px;
 }
 
 header {
@@ -30,6 +34,8 @@ header {
     // display: flex;
     flex-direction: column;
     width: $mainWidth;
+    overflow: hidden;
+    margin: 0 auto;
 
     .banner {
         z-index: 10;
@@ -272,6 +278,7 @@ header {
     position: fixed;
     // top: 7px;
     // left: 0;
+    max-width: 1200px;
     width: 100%;
     z-index: 20;
 }

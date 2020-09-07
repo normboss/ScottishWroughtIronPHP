@@ -1,0 +1,119 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 11, 2018, 10:50:08 PM
+    Author     : Norm
+*/
+@import url("https://fonts.googleapis.com/css?family=Major+Mono+Display|Open+Sans:400,400i,600,700,800");
+
+.back-to-top {
+    text-align: right;
+}
+
+%font-credit-brand {
+    font-family: "Major Mono Display", monospace;
+    font-weight: 800;
+}
+
+%font-credit-name {
+    font-family: "Open Sans", sans-serif;
+}
+
+%font-credit-tagline {
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+}
+
+.footer2 {
+    border: 3px solid red;
+    margin-top: 25px;
+    margin-bottom: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .footer-block {
+        outline: 3px solid green;
+        background-color: #ededed;
+        margin: 0 auto;
+        text-align: center;
+        height: 400px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .heading {
+            font-family: "IM Fell English SC", serif;
+            font-size: 25px;
+            color: #000000;
+            display: flex;
+            flex-direction: row;
+            h1 {
+                margin-right: 5px;
+                margin-left: 10px;
+            }
+            img {
+                width: 59px;
+            }
+        }
+
+        .sub-heading {
+            // top: 1690px;
+            // left: 444px;
+            // width: 364px;
+            // height: 26px;
+            text-align: center;
+            font: normal normal medium 20px/26px Roboto;
+            font-size: 26px;
+            letter-spacing: 0px;
+            color: #000000;
+            opacity: 1;
+        }
+    }
+
+    .middle-stuff {
+        outline: 3px solid red;
+        padding-top: 15px;
+        height: 165px;
+        max-width: 1000px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .left-side {
+            outline: 3px solid red;
+            width: 100%;
+            display: flex;
+        }
+
+        .right-side {
+            outline: 3px solid red;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            &-upper {
+                outline: 3px solid red;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                .facebook {
+                    margin-right: 10px;
+                    margin-top: 15px;
+                }
+            }
+            &-lower {
+                outline: 3px solid red;
+                padding-top: 15px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+        }
+
+    }
+}

@@ -164,7 +164,7 @@ and open the template in the editor.
 
     <!--<div id="footer"></div>-->
     <?php
-    require '../includes/footer.html'
+    require '../includes/footer.php'
     ?>
 
 

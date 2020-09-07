@@ -20,7 +20,8 @@ and open the template in the editor.
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC" rel="stylesheet">
-    <link href="../css/commissions.css" media="screen" rel="stylesheet" type="text/css">
+    <!-- <link href="../css/commissions.css" media="screen" rel="stylesheet" type="text/css"> -->
+    <link href="../css/style.css" media="screen" rel="stylesheet" type="text/css">
     <link rel="icon" href="../images/favicon.png">
 
 </head>
@@ -52,21 +53,22 @@ and open the template in the editor.
          ***********************************************-->
         <div class="main">
 
+        
             <div class="box">
-                <img src="../images/bird-cage5.jpg" alt="">
-                <div class="image-text">Extra heavy rods for elegant drapery.</div>
+                <img src="../images/wall_ark.png" alt="">
+                <div class="image-text">Andy in a client’s home with his creative Noah’s Ark wall sculpture.</div>
             </div>
             <div class="box">
-                <img class="short-image" src="../images/marquetry_table.png" alt="">
-                <div class="image-text">Custom base supports marquetry table.</div>
+                <img class="short-image" src="../images/fire-pit-with-fire.png" alt="">
+                <div class="image-text">A crackling fire in a custom firepit on a client’s patio.</div>
             </div>
             <div class="box">
-                <img src="../images/glass_table_frame.png" alt="">
-                <div class="image-text">Base for a glass top table.</div>
+                <img src="../images/sink_rail.png" alt="">
+                <div class="image-text">Custom towel bar in a client’s bath.</div>
             </div>
             <div class="box">
-                <img src="../images/glass_table.png" alt="">
-                <div class="image-text">One of a kind table with copper gallery.</div>
+                <img src="../images/curtain_rods.png" alt="">
+                <div class="image-text">Specially fabricated rods for drapes.</div>
             </div>
 
 
@@ -179,7 +181,7 @@ and open the template in the editor.
     <br>
     <!-- <div id="footer"></div> -->
     <?php
-    require '../includes/footer.html'
+    require '../includes/footer.php'
     ?>
 
 

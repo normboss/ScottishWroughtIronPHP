@@ -21,6 +21,11 @@ and open the template in the editor.
   }
 */
 
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .show-debug {
     /*display: inline;*/
     display: none;
@@ -92,7 +97,7 @@ and open the template in the editor.
         grid-template-columns: 1fr;
         grid-auto-columns: minmax(300px, 300px);
         justify-items: start;
-        width: 90vw;
+        width: 100%; //90vw;
     }
 
     img {
@@ -114,7 +119,7 @@ and open the template in the editor.
         // border: 3px solid red;
         // width: 1200px;
         height: auto;
-        max-width: 1400px;
+        max-width: 1200px;
         overflow: hidden;
 
         img {

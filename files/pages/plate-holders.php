@@ -533,7 +533,7 @@ and open the template in the editor.
 
     <div id="footer">
     </div>
-    <?php require '../includes/footer.html' ?>
+    <?php require '../includes/footer.php' ?>
     </body>
 
 </html>

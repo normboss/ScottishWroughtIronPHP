@@ -1,4 +1,4 @@
-<div id="footer" class="footer">
+<div id="footer2" class="footer2">
     <!-- <div class="back-to-top">
             <a href="#top">
                 <img src="../images/backToTop.png" alt="Top">
@@ -7,66 +7,52 @@
 
 
     <div class="footer-block">
-        <!-- <div class="box h"><span class="block-id-letter">H</span>
+
+        <div class="heading">
+
+            <h1>Scottish Lion</h1>
             <img src="../images/lion_50_trans.png" alt="">
-        </div> -->
 
-        <div class="box a"><span class="block-id-letter">A</span>
-
-            <!-- <div class="wide-footer"> -->
-                <h1>Scottish Lion Wrought Iron</h1>
-            </div>
-
-        <!-- </div> -->
-
-        <div class="box aa"><span class="block-id-letter">AA</span>
-            <p>Custom Gates, Railings, Garden&nbsp;Art&nbsp;and&nbsp;Hardware</p>
+            <h1>Wrought Iron</h1>
+        </div>
+        <div class="sub-heading">
+            <p>Custom Gates, Garden&nbsp;Art&nbsp;and&nbsp;Hardware</p>
         </div>
 
-        <div class="box b1"><span class="block-id-letter">B</span>
-            <!-- <a href="https://www.maps.ie/create-google-map/"></a>
-                <div class="map">
-                    <iframe width="120" height="80"
-                        src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=43.9932053,-69.53366699999998&amp;q=587%20Bristol%20Rd%20Bristol%2C%20ME%2004539+(Maine%20Village%20Weaver)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
-                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-                    </iframe>
-                </div>
-                <h3>Visit</h3> -->
+        <div class="middle-stuff">
+
 
             <div class="visit">
+                <div class="map">
+                    <iframe width="120" height="80" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=43.9932053,-69.53366699999998&amp;q=587%20Bristol%20Rd%20Bristol%2C%20ME%2004539+(Maine%20Village%20Weaver)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                    </iframe>
+                </div>
+                <h3>Visit</h3>
+            </div>
+
+            <!-- <div class="visit">
                 <a href="map.php" target="_blank">
                     <h5>Visit</h5>
                 </a>
-            </div>
+            </div> -->
 
             <div class="contact">
-                <div class="map">
-                    <iframe src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=43.9932053,-69.53366699999998&amp;q=587%20Bristol%20Rd%20Bristol%2C%20ME%2004539+(Maine%20Village%20Weaver)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/create-google-map/">Create Google Map</a></iframe>
+                <div class="address">
+                    <div class="details">
+                        <div class="name-address">Andrew Leck</div>
+                        <div class="name-address">587 Bristol Road</div>
+                        <div class="name-address">Bristol, Maine</div>
+                        <div class="name-address">207- 563-5788</div>
+                    </div>
                 </div>
-    
-                <a href="contact.php" target="_blank">
+            </div>
+
+            <div>
                     <h5>Contact</h5>
-                </a>
             </div>
 
         </div>
 
-        <div class="box c"><span class="block-id-letter">C</span>
-            <!--<br><br>-->
-            <div class="details">
-                <div class="name-address">Andrew Leck</div>
-                <div class="name-address">587 Bristol Road</div>
-                <div class="name-address">Bristol, Maine</div>
-                <div class="name-address">207- 563-5788</div>
-            </div>
-            <!-- <ul class="details">
-                <li class="name-address">Andrew Leck</li>
-                <li class="name-address">587 Bristol Road</li>
-                <li class="name-address">Bristol, Maine</li>
-                <li class="name-address">207- 563-5788</li>
-            </ul> -->
-
-    </div>
 
         <div class="box d"><span class="block-id-letter">D</span>
             <!-- <div class="contact">
@@ -110,15 +96,11 @@
         <!-- <a href="https://www.AlchemyWebDesigns.com">Alchemy Web Designs</a> -->
         <!-- </div> -->
 
-        <div class="box f">
+        <div class="bottom-logo">
             <a href="https://www.alchemywebdesigns.com">
                 <div>
                     <span class="credit-brand footer-box">Alchemy</span><span class="credit-name"> Web
                         Designs</span>
-                </div>
-
-                <div class="credit-tagline footer-box">
-                    Making magic on the web
                 </div>
             </a>
 

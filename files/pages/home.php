@@ -40,7 +40,9 @@ and open the template in the editor.
         require '../includes/newheader1.php'
         ?>
     </div>
-    <div id="header-image"></div>
+    <div id="header-image">
+        <img src="../images/OctoberCraft.png" alt="">
+    </div>
 
 
     <div class="sayings">
@@ -94,7 +96,7 @@ and open the template in the editor.
         </div>
         <div class="box">
             <a href="commissions.php">
-                <img src="../images/tree_life_andy.jpg" alt="Tall trellis with repeating geopmetrical patterns.">
+                <img src="../images/fire-pit-with-fire.png" alt="Metal fire pit with fire burning.">
                 <div class="text">Commissions</div>
             </a>
         </div>
@@ -130,14 +132,24 @@ and open the template in the editor.
         </div>
     </div>
     <br>
-    <div class="bottom-text">
-        <a href="subscribe.php">Subscribe</a> to see the current inventory or visit the showroom and&nbsp;display&nbsp;gardens.
+    <div class="bottom-block">
+        <div class="bottom-text1">
+            <a href="subscribe.php">Subscribe</a> to see the current inventory or visit the showroom and&nbsp;display&nbsp;gardens.
+        </div>
+        <div class="bottom-image">
+            <a href="https://teespring.com/stores/scottish-lion-wrought-iron?page=1" target="_blank">
+            <img src="../images/Sweatshirt.png" alt="">
+            </a>
+        </div>
+        <div class="bottom-link">
+            <a href="https://teespring.com/stores/scottish-lion-wrought-iron?page=1" target="_blank">Scottish Lion Tees and Hoodies!</a>
+        </div>
     </div>
 
     <!-- <div id="footer">
     </div> -->
     <?php
-    require '../includes/footer.html'
+    require '../includes/footer.php';
     ?>
 
 </body>

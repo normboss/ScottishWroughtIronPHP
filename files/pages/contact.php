@@ -73,13 +73,18 @@ He is always happy to talk with clients.">
 
                 <!-- <form action="send-form-email.php" class="contactform" method="post" name="contactform"> -->
                 <form id="contact-form" action="thankyou.html" class="contactform" method="post" name="contactform">
+
                     <label for="name">Your Name *</label>
                     <input maxlength="50" name="name" size="30" type="text">
+
                     <input type="hidden" name="token" value="<?php echo $newToken; ?>">
+
                     <label for="email">Email Address *</label>
                     <input maxlength="80" name="email" size="30" type="text">
+
                     <label for="message">Comments *</label>
                     <textarea cols="30" maxlength="1000" name="message" rows="5"></textarea> * = required<br>
+                    
                     <!-- <input class="submit" type="submit" value="Submit »"> -->
                     <button class="g-recaptcha submit" data-sitekey="6Ld82v0UAAAAAIUG_P-YM0zTf9eoRCGEC3WTcf8N" data-callback='onSubmit'>Submit</button><br>
                 </form>
@@ -88,7 +93,7 @@ He is always happy to talk with clients.">
 
             <div class="box logo">
                 <!--<img src="../images/logo_100_trans.png">-->
-                <img src="../images/lion_150_trans.png">
+                <img src="../images/logo_red_transparent.png">
             </div>
 
             <div class="box terms">
@@ -118,7 +123,7 @@ He is always happy to talk with clients.">
         </div>
     </main>
     <?php
-    require '../includes/footer.html'
+    require '../includes/footer.php'
     ?>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

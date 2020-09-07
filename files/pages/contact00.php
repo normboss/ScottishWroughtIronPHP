@@ -187,7 +187,7 @@ He is always happy to talk with clients.">
         </div>
     </main>
     <?php
-    require '../includes/footer.html'
+    require '../includes/footer.php'
     ?>
 
     </body>

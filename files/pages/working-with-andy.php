@@ -81,7 +81,7 @@ and open the template in the editor.
     </main>
 
     <?php
-    require '../includes/footer.html'
+    require '../includes/footer.php'
     ?>
 
 

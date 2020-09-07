@@ -20,7 +20,8 @@ and open the template in the editor.
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC" rel="stylesheet">
-    <link href="../css/latest-work.css" media="screen" rel="stylesheet" type="text/css">
+    <!-- <link href="../css/latest-work.css" media="screen" rel="stylesheet" type="text/css"> -->
+    <link href="../css/style.css" media="screen" rel="stylesheet" type="text/css">
     <link rel="icon" href="../images/favicon.png">
 
 </head>
@@ -77,7 +78,7 @@ and open the template in the editor.
 
     <div id="footer"></div>
     <?php
-    require '../includes/footer.html'
+    require '../includes/footer.php'
     ?>
 
 

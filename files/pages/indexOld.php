@@ -36,11 +36,11 @@ and open the template in the editor.
     <script>
         $(function() {
             //        $("#new-header").load("newheader.php");
-            // $("#footer").load("footer.html");
+            // $("#footer").load("footer.php");
         });
         // $(document).ready(function () {
         //     //        $("#new-header").load("newheader.php");
-        //     $("#footer").load("footer.html");
+        //     $("#footer").load("footer.php");
         // });
     </script>
 
@@ -156,7 +156,7 @@ and open the template in the editor.
     <!-- <div id="footer">
     </div> -->
     <?php
-        require 'footer.html'
+        require 'footer.php'
         ?>
 
 </body>

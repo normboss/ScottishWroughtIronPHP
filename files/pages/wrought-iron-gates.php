@@ -142,7 +142,7 @@ and open the template in the editor.
         </div>
     </main>
     <?php
-    require '../includes/footer.html'
+    require '../includes/footer.php'
     ?>
 
     </body>

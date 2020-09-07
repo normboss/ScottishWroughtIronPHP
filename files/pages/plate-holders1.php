@@ -550,7 +550,7 @@ and open the template in the editor.
 
     <div id="footer">
     </div>
-    <?php require 'footer.html' ?>
+    <?php require 'footer.php' ?>
 </body>
 
 </html>
