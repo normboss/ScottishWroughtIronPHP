@@ -58,24 +58,30 @@ and open the template in the editor.
                 <img src="../images/wall_ark.png" alt="">
                 <div class="image-text">Andy in a client’s home with his creative Noah’s Ark wall sculpture.</div>
             </div>
+
             <div class="box">
                 <img class="short-image" src="../images/fire-pit-with-fire.png" alt="">
                 <div class="image-text">A crackling fire in a custom firepit on a client’s patio.</div>
             </div>
+
             <div class="box">
                 <img src="../images/sink_rail.png" alt="">
                 <div class="image-text">Custom towel bar in a client’s bath.</div>
             </div>
+
             <div class="box">
                 <img src="../images/curtain_rods.png" alt="">
                 <div class="image-text">Specially fabricated rods for drapes.</div>
             </div>
 
-
-
             <div class="box c">
                 <img src="../images/pot_rack_copper.jpg" alt="">
                 <div class="image-text">Custom pot rack mounted to butcher block displays a colleciton of copper pots</div>
+            </div>
+
+            <div class="box c">
+                <img src="../images/arch_doorway.png" alt="">
+                <div class="image-text">Newly installed arch over doorway</div>
             </div>
 
             <div class="box e"><span class="block-id-image">E</span>
@@ -83,9 +89,9 @@ and open the template in the editor.
                 <div class="image-text">Custom gate features wrapped rocks and sliding gate closure</div>
             </div>
 
-            <div class="box b"><span class="block-id-image">B</span>
-                <img src="../images/pot_rack_copper3.jpg" alt="">
-                <div class="image-text">The same custom rack offers sturdy overhead storage with style.</div>
+            <div class="box h"><span class="block-id-image">H</span>
+                <img src="../images/spinner_fish.jpg" alt="">
+                <div class="image-text">A granite post supports a sculpture with fish that spin around a metal globe.</div>
             </div>
 
             <div class="box f"><span class="block-id-image">F</span>
@@ -93,9 +99,9 @@ and open the template in the editor.
                 <div class="image-text">Custom brackets support an ox bow above a window.</div>
             </div>
 
-            <div class="box h"><span class="block-id-image">H</span>
-                <img src="../images/spinner_fish.jpg" alt="">
-                <div class="image-text">A granite post supports a sculpture with fish that spin around a metal globe.</div>
+            <div class="box b"><span class="block-id-image">B</span>
+                <img src="../images/pot_rack_copper3.jpg" alt="">
+                <div class="image-text">The same custom rack offers sturdy overhead storage with style.</div>
             </div>
 
             <div class="box i"><span class="block-id-image">I</span>

@@ -9,8 +9,10 @@ and open the template in the editor.
 */
 @import "common";
 
+
 .hardware-container {
     // border: 3px solid red;
+    margin-top: px;
     max-width: 1200px;
     margin: 0 auto;
     // padding-left: 100px;
@@ -18,9 +20,10 @@ and open the template in the editor.
     display: flex;
     flex-direction: column;
     align-items: center;
-    .sticky {
-        padding-top: 100px;
-    }
+    // .sticky {
+    //     padding-top: 100px;
+    // }
+    padding-top: 25px;
 
     // .heading {
 
@@ -939,4 +942,6 @@ and open the template in the editor.
     .bowl-holders {
         display: block;
     }
+    // padding-top: 20px;
+
 }

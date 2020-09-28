@@ -75,7 +75,7 @@
 
         <div class="bottom-logo">
             <a href="https://www.alchemywebdesigns.com">
-                <span class="credit-brand">Alchemy</span><span class="credit-name"> Web Designs</span>
+                <span class="credit-brand">alchemY</span><span class="credit-name"> Web Designs</span>
             </a>
 
         </div>
@@ -98,12 +98,10 @@
         var Yoffset = window.pageYOffset;
         if (Yoffset > sticky) {
             header.classList.add("sticky");
-            // document.querySelector(".hardware-container").style.paddingTop = "60px";
             document.querySelector("main").style.paddingTop = "90px";
         } else {
             header.classList.remove("sticky");
-            // document.querySelector(".hardware-container").style.paddingTop = "0px";
-            document.querySelector("main").style.paddingTop = "20px";
+            document.querySelector("main").style.paddingTop = "0px";
         }
     }
 </script>

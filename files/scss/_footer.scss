@@ -27,6 +27,14 @@ and open the template in the editor.
     font-style: italic;
 }
 
+a {
+    text-decoration: none;
+
+    h5, h3 {
+        color: black;
+    }
+}
+
 .footer2 {
     // border: 3px solid red;
     overflow: hidden;
@@ -250,10 +258,15 @@ and open the template in the editor.
 
     .bottom-logo {
         a {
+            text-decoration: none;
             .credit-brand {
                 font: normal normal normal 20px/22px Major Mono Display;
                 letter-spacing: 0px;
                 color: #000000;
+                font-weight: bold;
+            }
+            .credit-name {
+                color: black;
                 font-weight: bold;
             }
         }
